@@ -1,0 +1,100 @@
+# Runs the REAL scraper (Scrapling driving an actual headless Chromium via
+# Playwright) — this is the piece that genuinely cannot run inside a Vercel
+# serverless function (no browser binary, ~60s execution ceiling, no
+# persistent process). See DEPLOY_GUIDE.md, "Why GitHub Actions", for the
+# full reasoning.
+#
+# Two ways this runs:
+#   1. Scheduled, once a day, full 325-route basket (~a few hours — this is
+#      the number the index is normally built from).
+#   2. workflow_dispatch, triggered either manually from the Actions tab OR
+#      by the dashboard's "Run live scrape" button (via the GitHub REST API
+#      — see airfare-dashboard/app/api/rescrape/route.ts), quick top-20
+#      basket by default (~a few minutes) so an on-demand click gets a
+#      timely result instead of waiting hours.
+name: Scrape airfares and update index
+
+on:
+  schedule:
+    # 03:00 UTC = 08:30 IST — off-peak for both this job and the sites it
+    # scrapes. Cron minute deliberately not :00 (avoids the exact top of
+    # the hour, when a large fraction of ALL scheduled GitHub Actions across
+    # every repo fire at once and queueing gets slower).
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "quick (top 20 routes, minutes) or full (all 325, hours)"
+        type: choice
+        options: [quick, full]
+        default: quick
+      top:
+        description: "Route count override (leave blank to use mode's default)"
+        required: false
+        default: ""
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360  # 6h ceiling comfortably covers a full 325-route run at the default 4s inter-request delay
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Resolve run parameters
+        id: params
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            echo "mode=full" >> "$GITHUB_OUTPUT"
+            echo "top=325" >> "$GITHUB_OUTPUT"
+          else
+            MODE="${{ inputs.mode }}"
+            TOP="${{ inputs.top }}"
+            if [ -z "$TOP" ]; then
+              if [ "$MODE" = "full" ]; then TOP=325; else TOP=20; fi
+            fi
+            echo "mode=$MODE" >> "$GITHUB_OUTPUT"
+            echo "top=$TOP" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Install Python dependencies
+        working-directory: etl-python/scraper
+        run: pip install -r requirements.txt
+
+      - name: Install Scrapling's browser (Chromium via Playwright)
+        working-directory: etl-python/scraper
+        run: |
+          scrapling install
+          # Belt-and-suspenders: scrapling install runs this internally, but
+          # ubuntu-latest sometimes needs the --with-deps system libraries
+          # explicitly on a fresh runner image.
+          python -m playwright install --with-deps chromium
+
+      - name: Run the pipeline (scrape -> normalize -> anomaly_filter -> index_engine -> Supabase)
+        working-directory: etl-python
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: |
+          python -m scraper.run_pipeline \
+            --target google_flights \
+            --top ${{ steps.params.outputs.top }} \
+            --mode ${{ steps.params.outputs.mode }} \
+            --push-supabase
+
+      - name: Upload debug artifacts (only kept when something's worth looking at)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: scrape-debug-${{ github.run_id }}
+          path: |
+            etl-python/debug_*.html
+            etl-python/debug_*.json
+            etl-python/debug_*.raw.txt
+            etl-python/pipeline_out.json
+            etl-python/scrape_report.json
+          if-no-files-found: ignore
+          retention-days: 7

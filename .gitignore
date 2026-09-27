@@ -1,0 +1,13 @@
+node_modules
+.next
+.env
+.env.local
+.vercel
+*.log
+__pycache__/
+*.pyc
+etl-python/pipeline_out.json
+etl-python/debug_*
+etl-python/scrape_report.json
+venv/
+.venv/

@@ -1,0 +1,3258 @@
+{
+  "methodology": "Gravity model placeholder (weight ~ mass_i * mass_j / distance_ij). Replace AIRPORTS traffic-mass column with DGCA published domestic sector-wise passenger traffic the moment it's available, then re-run this script \u2014 every consumer (route_weights.py, the TS scrapers, the dashboard) re-derives from this one file.",
+  "generated_by": "shared/generate_routes.py",
+  "airport_count": 26,
+  "route_count": 325,
+  "routes": [
+    {
+      "route_id": "AMD-BBI",
+      "origin": "AMD",
+      "destination": "BBI",
+      "origin_name": "Ahmedabad",
+      "destination_name": "Bhubaneswar",
+      "distance_km": 1397.7,
+      "base_fare": 7054.97,
+      "weight": 0.0009076832018993046
+    },
+    {
+      "route_id": "AMD-COK",
+      "origin": "AMD",
+      "destination": "COK",
+      "origin_name": "Ahmedabad",
+      "destination_name": "Kochi",
+      "distance_km": 1491.9,
+      "base_fare": 7379.25,
+      "weight": 0.0015306630639058893
+    },
+    {
+      "route_id": "AMD-GAU",
+      "origin": "AMD",
+      "destination": "GAU",
+      "origin_name": "Ahmedabad",
+      "destination_name": "Guwahati",
+      "distance_km": 1943.7,
+      "base_fare": 9489.64,
+      "weight": 0.0007832802819450574
+    },
+    {
+      "route_id": "AMD-GOI",
+      "origin": "AMD",
+      "destination": "GOI",
+      "origin_name": "Ahmedabad",
+      "destination_name": "Goa",
+      "distance_km": 865.0,
+      "base_fare": 5378.29,
+      "weight": 0.0029335311552242194
+    },
+    {
+      "route_id": "AMD-IDR",
+      "origin": "AMD",
+      "destination": "IDR",
+      "origin_name": "Ahmedabad",
+      "destination_name": "Indore",
+      "distance_km": 326.7,
+      "base_fare": 3421.07,
+      "weight": 0.0017973070232320649
+    },
+    {
+      "route_id": "AMD-IXB",
+      "origin": "AMD",
+      "destination": "IXB",
+      "origin_name": "Ahmedabad",
+      "destination_name": "Bagdogra",
+      "distance_km": 1631.8,
+      "base_fare": 7949.34,
+      "weight": 0.00038873970994939195
+    },
+    {
+      "route_id": "AMD-IXC",
+      "origin": "AMD",
+      "destination": "IXC",
+      "origin_name": "Ahmedabad",
+      "destination_name": "Chandigarh",
+      "distance_km": 939.5,
+      "base_fare": 5433.23,
+      "weight": 0.001755410877688611
+    },
+    {
+      "route_id": "AMD-IXM",
+      "origin": "AMD",
+      "destination": "IXM",
+      "origin_name": "Ahmedabad",
+      "destination_name": "Madurai",
+      "distance_km": 1582.8,
+      "base_fare": 8136.01,
+      "weight": 0.0004007734945841163
+    },
+    {
+      "route_id": "AMD-IXR",
+      "origin": "AMD",
+      "destination": "IXR",
+      "origin_name": "Ahmedabad",
+      "destination_name": "Ranchi",
+      "distance_km": 1296.5,
+      "base_fare": 6646.28,
+      "weight": 0.000587107416029752
+    },
+    {
+      "route_id": "AMD-JAI",
+      "origin": "AMD",
+      "destination": "JAI",
+      "origin_name": "Ahmedabad",
+      "destination_name": "Jaipur",
+      "distance_km": 525.5,
+      "base_fare": 4247.37,
+      "weight": 0.003171718276291879
+    },
+    {
+      "route_id": "AMD-LKO",
+      "origin": "AMD",
+      "destination": "LKO",
+      "origin_name": "Ahmedabad",
+      "destination_name": "Lucknow",
+      "distance_km": 927.4,
+      "base_fare": 5421.88,
+      "weight": 0.00191520749095655
+    },
+    {
+      "route_id": "AMD-NAG",
+      "origin": "AMD",
+      "destination": "NAG",
+      "origin_name": "Ahmedabad",
+      "destination_name": "Nagpur",
+      "distance_km": 696.5,
+      "base_fare": 4590.27,
+      "weight": 0.001639317661670482
+    },
+    {
+      "route_id": "AMD-PAT",
+      "origin": "AMD",
+      "destination": "PAT",
+      "origin_name": "Ahmedabad",
+      "destination_name": "Patna",
+      "distance_km": 1291.7,
+      "base_fare": 6889.44,
+      "weight": 0.001080364777193997
+    },
+    {
+      "route_id": "AMD-RPR",
+      "origin": "AMD",
+      "destination": "RPR",
+      "origin_name": "Ahmedabad",
+      "destination_name": "Raipur",
+      "distance_km": 961.0,
+      "base_fare": 5494.16,
+      "weight": 0.0007921146784750917
+    },
+    {
+      "route_id": "AMD-SXR",
+      "origin": "AMD",
+      "destination": "SXR",
+      "origin_name": "Ahmedabad",
+      "destination_name": "Srinagar",
+      "distance_km": 1230.9,
+      "base_fare": 6554.82,
+      "weight": 0.0007214910250747959
+    },
+    {
+      "route_id": "AMD-TRV",
+      "origin": "AMD",
+      "destination": "TRV",
+      "origin_name": "Ahmedabad",
+      "destination_name": "Thiruvananthapuram",
+      "distance_km": 1686.0,
+      "base_fare": 8411.58,
+      "weight": 0.0006772284050690935
+    },
+    {
+      "route_id": "AMD-VNS",
+      "origin": "AMD",
+      "destination": "VNS",
+      "origin_name": "Ahmedabad",
+      "destination_name": "Varanasi",
+      "distance_km": 1069.3,
+      "base_fare": 6002.31,
+      "weight": 0.000949206008951944
+    },
+    {
+      "route_id": "AMD-VTZ",
+      "origin": "AMD",
+      "destination": "VTZ",
+      "origin_name": "Ahmedabad",
+      "destination_name": "Visakhapatnam",
+      "distance_km": 1253.5,
+      "base_fare": 6906.57,
+      "weight": 0.0007085068895768891
+    },
+    {
+      "route_id": "BBI-IDR",
+      "origin": "BBI",
+      "destination": "IDR",
+      "origin_name": "Bhubaneswar",
+      "destination_name": "Indore",
+      "distance_km": 1072.1,
+      "base_fare": 6146.48,
+      "weight": 0.00040233557341547784
+    },
+    {
+      "route_id": "BBI-IXB",
+      "origin": "BBI",
+      "destination": "IXB",
+      "origin_name": "Bhubaneswar",
+      "destination_name": "Bagdogra",
+      "distance_km": 760.1,
+      "base_fare": 5074.81,
+      "weight": 0.00033381801008392615
+    },
+    {
+      "route_id": "BBI-IXM",
+      "origin": "BBI",
+      "destination": "IXM",
+      "origin_name": "Bhubaneswar",
+      "destination_name": "Madurai",
+      "distance_km": 1423.2,
+      "base_fare": 7614.25,
+      "weight": 0.00017828405764675726
+    },
+    {
+      "route_id": "BBI-IXR",
+      "origin": "BBI",
+      "destination": "IXR",
+      "origin_name": "Bhubaneswar",
+      "destination_name": "Ranchi",
+      "distance_km": 345.2,
+      "base_fare": 3375.78,
+      "weight": 0.0005074749242067007
+    },
+    {
+      "route_id": "BBI-NAG",
+      "origin": "BBI",
+      "destination": "NAG",
+      "origin_name": "Bhubaneswar",
+      "destination_name": "Nagpur",
+      "distance_km": 710.6,
+      "base_fare": 4759.11,
+      "weight": 0.0006427144960288275
+    },
+    {
+      "route_id": "BBI-RPR",
+      "origin": "BBI",
+      "destination": "RPR",
+      "origin_name": "Bhubaneswar",
+      "destination_name": "Raipur",
+      "distance_km": 436.8,
+      "base_fare": 3682.57,
+      "weight": 0.0005074749242067007
+    },
+    {
+      "route_id": "BBI-SXR",
+      "origin": "BBI",
+      "destination": "SXR",
+      "origin_name": "Bhubaneswar",
+      "destination_name": "Srinagar",
+      "distance_km": 1875.8,
+      "base_fare": 8612.62,
+      "weight": 0.00018937175521188473
+    },
+    {
+      "route_id": "BBI-TRV",
+      "origin": "BBI",
+      "destination": "TRV",
+      "origin_name": "Bhubaneswar",
+      "destination_name": "Thiruvananthapuram",
+      "distance_km": 1620.3,
+      "base_fare": 7989.3,
+      "weight": 0.00028188239356997664
+    },
+    {
+      "route_id": "BBI-VNS",
+      "origin": "BBI",
+      "destination": "VNS",
+      "origin_name": "Bhubaneswar",
+      "destination_name": "Varanasi",
+      "distance_km": 653.6,
+      "base_fare": 4450.89,
+      "weight": 0.0006211646779674337
+    },
+    {
+      "route_id": "BBI-VTZ",
+      "origin": "BBI",
+      "destination": "VTZ",
+      "origin_name": "Bhubaneswar",
+      "destination_name": "Visakhapatnam",
+      "distance_km": 391.2,
+      "base_fare": 3525.39,
+      "weight": 0.0005920540782411507
+    },
+    {
+      "route_id": "BLR-AMD",
+      "origin": "BLR",
+      "destination": "AMD",
+      "origin_name": "Bengaluru",
+      "destination_name": "Ahmedabad",
+      "distance_km": 1221.8,
+      "base_fare": 6831.63,
+      "weight": 0.008306936403011592
+    },
+    {
+      "route_id": "BLR-BBI",
+      "origin": "BLR",
+      "destination": "BBI",
+      "origin_name": "Bengaluru",
+      "destination_name": "Bhubaneswar",
+      "distance_km": 1165.6,
+      "base_fare": 6208.91,
+      "weight": 0.0034831165158412977
+    },
+    {
+      "route_id": "BLR-CCU",
+      "origin": "BLR",
+      "destination": "CCU",
+      "origin_name": "Bengaluru",
+      "destination_name": "Kolkata",
+      "distance_km": 1546.7,
+      "base_fare": 7732.37,
+      "weight": 0.010499096309604227
+    },
+    {
+      "route_id": "BLR-COK",
+      "origin": "BLR",
+      "destination": "COK",
+      "origin_name": "Bengaluru",
+      "destination_name": "Kochi",
+      "distance_km": 367.4,
+      "base_fare": 3566.51,
+      "weight": 0.012179398180960815
+    },
+    {
+      "route_id": "BLR-GAU",
+      "origin": "BLR",
+      "destination": "GAU",
+      "origin_name": "Bengaluru",
+      "destination_name": "Guwahati",
+      "distance_km": 2039.3,
+      "base_fare": 9643.41,
+      "weight": 0.002388973283101422
+    },
+    {
+      "route_id": "BLR-GOI",
+      "origin": "BLR",
+      "destination": "GOI",
+      "origin_name": "Bengaluru",
+      "destination_name": "Goa",
+      "distance_km": 482.9,
+      "base_fare": 4017.42,
+      "weight": 0.013532664645512017
+    },
+    {
+      "route_id": "BLR-HYD",
+      "origin": "BLR",
+      "destination": "HYD",
+      "origin_name": "Bengaluru",
+      "destination_name": "Hyderabad",
+      "distance_km": 456.0,
+      "base_fare": 3730.47,
+      "weight": 0.03721482777515805
+    },
+    {
+      "route_id": "BLR-IDR",
+      "origin": "BLR",
+      "destination": "IDR",
+      "origin_name": "Bengaluru",
+      "destination_name": "Indore",
+      "distance_km": 1077.9,
+      "base_fare": 6016.03,
+      "weight": 0.003201565424046282
+    },
+    {
+      "route_id": "BLR-IXB",
+      "origin": "BLR",
+      "destination": "IXB",
+      "origin_name": "Bengaluru",
+      "destination_name": "Bagdogra",
+      "distance_km": 1863.3,
+      "base_fare": 9067.44,
+      "weight": 0.0010894163172875987
+    },
+    {
+      "route_id": "BLR-IXC",
+      "origin": "BLR",
+      "destination": "IXC",
+      "origin_name": "Bengaluru",
+      "destination_name": "Chandigarh",
+      "distance_km": 1945.4,
+      "base_fare": 9440.68,
+      "weight": 0.002712978173401137
+    },
+    {
+      "route_id": "BLR-IXM",
+      "origin": "BLR",
+      "destination": "IXM",
+      "origin_name": "Bengaluru",
+      "destination_name": "Madurai",
+      "distance_km": 376.5,
+      "base_fare": 3520.34,
+      "weight": 0.0033831661613780042
+    },
+    {
+      "route_id": "BLR-IXR",
+      "origin": "BLR",
+      "destination": "IXR",
+      "origin_name": "Bengaluru",
+      "destination_name": "Ranchi",
+      "distance_km": 1381.8,
+      "base_fare": 7330.52,
+      "weight": 0.0017628125835217855
+    },
+    {
+      "route_id": "BLR-JAI",
+      "origin": "BLR",
+      "destination": "JAI",
+      "origin_name": "Bengaluru",
+      "destination_name": "Jaipur",
+      "distance_km": 1527.9,
+      "base_fare": 7933.23,
+      "weight": 0.003985779969071334
+    },
+    {
+      "route_id": "BLR-LKO",
+      "origin": "BLR",
+      "destination": "LKO",
+      "origin_name": "Bengaluru",
+      "destination_name": "Lucknow",
+      "distance_km": 1544.0,
+      "base_fare": 7924.12,
+      "weight": 0.0036811749157482326
+    },
+    {
+      "route_id": "BLR-MAA",
+      "origin": "BLR",
+      "destination": "MAA",
+      "origin_name": "Bengaluru",
+      "destination_name": "Chennai",
+      "distance_km": 267.8,
+      "base_fare": 3057.69,
+      "weight": 0.03044849545240204
+    },
+    {
+      "route_id": "BLR-NAG",
+      "origin": "BLR",
+      "destination": "NAG",
+      "origin_name": "Bengaluru",
+      "destination_name": "Nagpur",
+      "distance_km": 889.2,
+      "base_fare": 5467.57,
+      "weight": 0.004109331188532847
+    },
+    {
+      "route_id": "BLR-PAT",
+      "origin": "BLR",
+      "destination": "PAT",
+      "origin_name": "Bengaluru",
+      "destination_name": "Patna",
+      "distance_km": 1579.5,
+      "base_fare": 8198.72,
+      "weight": 0.002827319985682044
+    },
+    {
+      "route_id": "BLR-PNQ",
+      "origin": "BLR",
+      "destination": "PNQ",
+      "origin_name": "Bengaluru",
+      "destination_name": "Pune",
+      "distance_km": 722.6,
+      "base_fare": 4807.06,
+      "weight": 0.015730577167933454
+    },
+    {
+      "route_id": "BLR-RPR",
+      "origin": "BLR",
+      "destination": "RPR",
+      "origin_name": "Bengaluru",
+      "destination_name": "Raipur",
+      "distance_km": 985.3,
+      "base_fare": 5754.71,
+      "weight": 0.0024723406608679168
+    },
+    {
+      "route_id": "BLR-SXR",
+      "origin": "BLR",
+      "destination": "SXR",
+      "origin_name": "Bengaluru",
+      "destination_name": "Srinagar",
+      "distance_km": 2330.4,
+      "base_fare": 10504.02,
+      "weight": 0.0012194489253324137
+    },
+    {
+      "route_id": "BLR-TRV",
+      "origin": "BLR",
+      "destination": "TRV",
+      "origin_name": "Bengaluru",
+      "destination_name": "Thiruvananthapuram",
+      "distance_km": 531.5,
+      "base_fare": 4120.36,
+      "weight": 0.0060896990904804075
+    },
+    {
+      "route_id": "BLR-VNS",
+      "origin": "BLR",
+      "destination": "VNS",
+      "origin_name": "Bengaluru",
+      "destination_name": "Varanasi",
+      "distance_km": 1465.3,
+      "base_fare": 7182.54,
+      "weight": 0.0022164355949343194
+    },
+    {
+      "route_id": "BLR-VTZ",
+      "origin": "BLR",
+      "destination": "VTZ",
+      "origin_name": "Bengaluru",
+      "destination_name": "Visakhapatnam",
+      "distance_km": 776.1,
+      "base_fare": 5017.21,
+      "weight": 0.003661829102730254
+    },
+    {
+      "route_id": "BOM-AMD",
+      "origin": "BOM",
+      "destination": "AMD",
+      "origin_name": "Mumbai",
+      "destination_name": "Ahmedabad",
+      "distance_km": 444.2,
+      "base_fare": 3718.87,
+      "weight": 0.019030309657751272
+    },
+    {
+      "route_id": "BOM-BBI",
+      "origin": "BOM",
+      "destination": "BBI",
+      "origin_name": "Mumbai",
+      "destination_name": "Bhubaneswar",
+      "distance_km": 1361.7,
+      "base_fare": 6862.54,
+      "weight": 0.003354138295601827
+    },
+    {
+      "route_id": "BOM-BLR",
+      "origin": "BOM",
+      "destination": "BLR",
+      "origin_name": "Mumbai",
+      "destination_name": "Bengaluru",
+      "distance_km": 834.1,
+      "base_fare": 5317.29,
+      "weight": 0.043805134780288024
+    },
+    {
+      "route_id": "BOM-CCU",
+      "origin": "BOM",
+      "destination": "CCU",
+      "origin_name": "Mumbai",
+      "destination_name": "Kolkata",
+      "distance_km": 1665.5,
+      "base_fare": 8214.76,
+      "weight": 0.010969204860781852
+    },
+    {
+      "route_id": "BOM-COK",
+      "origin": "BOM",
+      "destination": "COK",
+      "origin_name": "Mumbai",
+      "destination_name": "Kochi",
+      "distance_km": 1063.8,
+      "base_fare": 5821.01,
+      "weight": 0.00772795685349833
+    },
+    {
+      "route_id": "BOM-GAU",
+      "origin": "BOM",
+      "destination": "GAU",
+      "origin_name": "Mumbai",
+      "destination_name": "Guwahati",
+      "distance_km": 2071.1,
+      "base_fare": 9437.01,
+      "weight": 0.002646330036694717
+    },
+    {
+      "route_id": "BOM-GOI",
+      "origin": "BOM",
+      "destination": "GOI",
+      "origin_name": "Mumbai",
+      "destination_name": "Goa",
+      "distance_km": 424.8,
+      "base_fare": 3623.96,
+      "weight": 0.01522424772620102
+    },
+    {
+      "route_id": "BOM-HYD",
+      "origin": "BOM",
+      "destination": "HYD",
+      "origin_name": "Mumbai",
+      "destination_name": "Hyderabad",
+      "distance_km": 622.4,
+      "base_fare": 4448.82,
+      "weight": 0.0403567500253711
+    },
+    {
+      "route_id": "BOM-IDR",
+      "origin": "BOM",
+      "destination": "IDR",
+      "origin_name": "Mumbai",
+      "destination_name": "Indore",
+      "distance_km": 506.0,
+      "base_fare": 4140.54,
+      "weight": 0.006470305283635433
+    },
+    {
+      "route_id": "BOM-IXB",
+      "origin": "BOM",
+      "destination": "IXB",
+      "origin_name": "Mumbai",
+      "destination_name": "Bagdogra",
+      "distance_km": 1792.6,
+      "base_fare": 8604.69,
+      "weight": 0.0012739434741147768
+    },
+    {
+      "route_id": "BOM-IXC",
+      "origin": "BOM",
+      "destination": "IXC",
+      "origin_name": "Mumbai",
+      "destination_name": "Chandigarh",
+      "distance_km": 1347.2,
+      "base_fare": 6821.36,
+      "weight": 0.0044073085089504456
+    },
+    {
+      "route_id": "BOM-IXM",
+      "origin": "BOM",
+      "destination": "IXM",
+      "origin_name": "Mumbai",
+      "destination_name": "Madurai",
+      "distance_km": 1172.4,
+      "base_fare": 6607.15,
+      "weight": 0.0019477723309453926
+    },
+    {
+      "route_id": "BOM-IXR",
+      "origin": "BOM",
+      "destination": "IXR",
+      "origin_name": "Mumbai",
+      "destination_name": "Ranchi",
+      "distance_km": 1373.2,
+      "base_fare": 6971.09,
+      "weight": 0.0019956086047927
+    },
+    {
+      "route_id": "BOM-JAI",
+      "origin": "BOM",
+      "destination": "JAI",
+      "origin_name": "Mumbai",
+      "destination_name": "Jaipur",
+      "distance_km": 911.3,
+      "base_fare": 5468.72,
+      "weight": 0.00751750145127498
+    },
+    {
+      "route_id": "BOM-LKO",
+      "origin": "BOM",
+      "destination": "LKO",
+      "origin_name": "Mumbai",
+      "destination_name": "Lucknow",
+      "distance_km": 1183.6,
+      "base_fare": 6243.15,
+      "weight": 0.005402394619753177
+    },
+    {
+      "route_id": "BOM-MAA",
+      "origin": "BOM",
+      "destination": "MAA",
+      "origin_name": "Mumbai",
+      "destination_name": "Chennai",
+      "distance_km": 1033.2,
+      "base_fare": 6136.91,
+      "weight": 0.019891740540076638
+    },
+    {
+      "route_id": "BOM-NAG",
+      "origin": "BOM",
+      "destination": "NAG",
+      "origin_name": "Mumbai",
+      "destination_name": "Nagpur",
+      "distance_km": 682.6,
+      "base_fare": 4706.73,
+      "weight": 0.006021965930020177
+    },
+    {
+      "route_id": "BOM-PAT",
+      "origin": "BOM",
+      "destination": "PAT",
+      "origin_name": "Mumbai",
+      "destination_name": "Patna",
+      "distance_km": 1448.8,
+      "base_fare": 7193.23,
+      "weight": 0.003467718558885833
+    },
+    {
+      "route_id": "BOM-PNQ",
+      "origin": "BOM",
+      "destination": "PNQ",
+      "origin_name": "Mumbai",
+      "destination_name": "Pune",
+      "distance_km": 124.2,
+      "base_fare": 2718.38,
+      "weight": 0.021313946816681428
+    },
+    {
+      "route_id": "BOM-RPR",
+      "origin": "BOM",
+      "destination": "RPR",
+      "origin_name": "Mumbai",
+      "destination_name": "Raipur",
+      "distance_km": 954.7,
+      "base_fare": 5812.49,
+      "weight": 0.002870393247906834
+    },
+    {
+      "route_id": "BOM-SXR",
+      "origin": "BOM",
+      "destination": "SXR",
+      "origin_name": "Mumbai",
+      "destination_name": "Srinagar",
+      "distance_km": 1667.3,
+      "base_fare": 8242.33,
+      "weight": 0.001917482267621336
+    },
+    {
+      "route_id": "BOM-TRV",
+      "origin": "BOM",
+      "destination": "TRV",
+      "origin_name": "Mumbai",
+      "destination_name": "Thiruvananthapuram",
+      "distance_km": 1257.7,
+      "base_fare": 6669.02,
+      "weight": 0.0032682910894483255
+    },
+    {
+      "route_id": "BOM-VNS",
+      "origin": "BOM",
+      "destination": "VNS",
+      "origin_name": "Mumbai",
+      "destination_name": "Varanasi",
+      "distance_km": 1247.3,
+      "base_fare": 6481.3,
+      "weight": 0.0029294186747773573
+    },
+    {
+      "route_id": "BOM-VTZ",
+      "origin": "BOM",
+      "destination": "VTZ",
+      "origin_name": "Mumbai",
+      "destination_name": "Visakhapatnam",
+      "distance_km": 1103.0,
+      "base_fare": 6135.11,
+      "weight": 0.0028984231146710546
+    },
+    {
+      "route_id": "CCU-AMD",
+      "origin": "CCU",
+      "destination": "AMD",
+      "origin_name": "Kolkata",
+      "destination_name": "Ahmedabad",
+      "distance_km": 1619.9,
+      "base_fare": 8299.78,
+      "weight": 0.0031326732304561566
+    },
+    {
+      "route_id": "CCU-BBI",
+      "origin": "CCU",
+      "destination": "BBI",
+      "origin_name": "Kolkata",
+      "destination_name": "Bhubaneswar",
+      "distance_km": 381.9,
+      "base_fare": 3715.9,
+      "weight": 0.0033831661613780042
+    },
+    {
+      "route_id": "CCU-COK",
+      "origin": "CCU",
+      "destination": "COK",
+      "origin_name": "Kolkata",
+      "destination_name": "Kochi",
+      "distance_km": 1890.7,
+      "base_fare": 8744.07,
+      "weight": 0.0019325271895164115
+    },
+    {
+      "route_id": "CCU-GAU",
+      "origin": "CCU",
+      "destination": "GAU",
+      "origin_name": "Kolkata",
+      "destination_name": "Guwahati",
+      "distance_km": 498.3,
+      "base_fare": 3908.51,
+      "weight": 0.004059799393653606
+    },
+    {
+      "route_id": "CCU-GOI",
+      "origin": "CCU",
+      "destination": "GOI",
+      "origin_name": "Kolkata",
+      "destination_name": "Goa",
+      "distance_km": 1734.7,
+      "base_fare": 8402.84,
+      "weight": 0.002340351422394956
+    },
+    {
+      "route_id": "CCU-IDR",
+      "origin": "CCU",
+      "destination": "IDR",
+      "origin_name": "Kolkata",
+      "destination_name": "Indore",
+      "distance_km": 1296.9,
+      "base_fare": 6726.17,
+      "weight": 0.0013303689114596577
+    },
+    {
+      "route_id": "CCU-IXB",
+      "origin": "CCU",
+      "destination": "IXB",
+      "origin_name": "Kolkata",
+      "destination_name": "Bagdogra",
+      "distance_km": 447.9,
+      "base_fare": 3678.06,
+      "weight": 0.0016915830806890021
+    },
+    {
+      "route_id": "CCU-IXC",
+      "origin": "CCU",
+      "destination": "IXC",
+      "origin_name": "Kolkata",
+      "destination_name": "Chandigarh",
+      "distance_km": 1460.2,
+      "base_fare": 7580.81,
+      "weight": 0.001807145871153122
+    },
+    {
+      "route_id": "CCU-IXM",
+      "origin": "CCU",
+      "destination": "IXM",
+      "origin_name": "Kolkata",
+      "destination_name": "Madurai",
+      "distance_km": 1802.0,
+      "base_fare": 8991.56,
+      "weight": 0.0005632420030674351
+    },
+    {
+      "route_id": "CCU-IXR",
+      "origin": "CCU",
+      "destination": "IXR",
+      "origin_name": "Kolkata",
+      "destination_name": "Ranchi",
+      "distance_km": 328.2,
+      "base_fare": 3380.46,
+      "weight": 0.002029899696826803
+    },
+    {
+      "route_id": "CCU-JAI",
+      "origin": "CCU",
+      "destination": "JAI",
+      "origin_name": "Kolkata",
+      "destination_name": "Jaipur",
+      "distance_km": 1356.7,
+      "base_fare": 6911.95,
+      "weight": 0.002244287030765206
+    },
+    {
+      "route_id": "CCU-LKO",
+      "origin": "CCU",
+      "destination": "LKO",
+      "origin_name": "Kolkata",
+      "destination_name": "Lucknow",
+      "distance_km": 889.2,
+      "base_fare": 5452.02,
+      "weight": 0.0031959540549071634
+    },
+    {
+      "route_id": "CCU-NAG",
+      "origin": "CCU",
+      "destination": "NAG",
+      "origin_name": "Kolkata",
+      "destination_name": "Nagpur",
+      "distance_km": 985.2,
+      "base_fare": 5755.23,
+      "weight": 0.0018543942934810406
+    },
+    {
+      "route_id": "CCU-PAT",
+      "origin": "CCU",
+      "destination": "PAT",
+      "origin_name": "Kolkata",
+      "destination_name": "Patna",
+      "distance_km": 472.0,
+      "base_fare": 3876.75,
+      "weight": 0.0037214827775158043
+    },
+    {
+      "route_id": "CCU-PNQ",
+      "origin": "CCU",
+      "destination": "PNQ",
+      "origin_name": "Kolkata",
+      "destination_name": "Pune",
+      "distance_km": 1577.3,
+      "base_fare": 8162.76,
+      "weight": 0.003603438880383712
+    },
+    {
+      "route_id": "CCU-RPR",
+      "origin": "CCU",
+      "destination": "RPR",
+      "origin_name": "Kolkata",
+      "destination_name": "Raipur",
+      "distance_km": 711.0,
+      "base_fare": 4850.88,
+      "weight": 0.001712885081683961
+    },
+    {
+      "route_id": "CCU-SXR",
+      "origin": "CCU",
+      "destination": "SXR",
+      "origin_name": "Kolkata",
+      "destination_name": "Srinagar",
+      "distance_km": 1834.7,
+      "base_fare": 8846.52,
+      "weight": 0.0007744740557708076
+    },
+    {
+      "route_id": "CCU-TRV",
+      "origin": "CCU",
+      "destination": "TRV",
+      "origin_name": "Kolkata",
+      "destination_name": "Thiruvananthapuram",
+      "distance_km": 1999.5,
+      "base_fare": 9117.73,
+      "weight": 0.0009136837827771156
+    },
+    {
+      "route_id": "CCU-VNS",
+      "origin": "CCU",
+      "destination": "VNS",
+      "origin_name": "Kolkata",
+      "destination_name": "Varanasi",
+      "distance_km": 646.9,
+      "base_fare": 4475.85,
+      "weight": 0.0025102255253551193
+    },
+    {
+      "route_id": "CCU-VTZ",
+      "origin": "CCU",
+      "destination": "VTZ",
+      "origin_name": "Kolkata",
+      "destination_name": "Visakhapatnam",
+      "distance_km": 773.1,
+      "base_fare": 5088.44,
+      "weight": 0.0018379323363934047
+    },
+    {
+      "route_id": "COK-BBI",
+      "origin": "COK",
+      "destination": "BBI",
+      "origin_name": "Kochi",
+      "destination_name": "Bhubaneswar",
+      "distance_km": 1508.9,
+      "base_fare": 7781.74,
+      "weight": 0.0006053660408611579
+    },
+    {
+      "route_id": "COK-GAU",
+      "origin": "COK",
+      "destination": "GAU",
+      "origin_name": "Kochi",
+      "destination_name": "Guwahati",
+      "distance_km": 2387.1,
+      "base_fare": 11087.79,
+      "weight": 0.0004591963365109839
+    },
+    {
+      "route_id": "COK-IDR",
+      "origin": "COK",
+      "destination": "IDR",
+      "origin_name": "Kochi",
+      "destination_name": "Indore",
+      "distance_km": 1399.2,
+      "base_fare": 7426.15,
+      "weight": 0.0005549311414699154
+    },
+    {
+      "route_id": "COK-IXB",
+      "origin": "COK",
+      "destination": "IXB",
+      "origin_name": "Kochi",
+      "destination_name": "Bagdogra",
+      "distance_km": 2224.0,
+      "base_fare": 10497.75,
+      "weight": 0.00020536494898501493
+    },
+    {
+      "route_id": "COK-IXC",
+      "origin": "COK",
+      "destination": "IXC",
+      "origin_name": "Kochi",
+      "destination_name": "Chandigarh",
+      "distance_km": 2282.2,
+      "base_fare": 10551.53,
+      "weight": 0.0005203190407444884
+    },
+    {
+      "route_id": "COK-IXM",
+      "origin": "COK",
+      "destination": "IXM",
+      "origin_name": "Kochi",
+      "destination_name": "Madurai",
+      "distance_km": 188.6,
+      "base_fare": 2952.91,
+      "weight": 0.0007612123863100509
+    },
+    {
+      "route_id": "COK-IXR",
+      "origin": "COK",
+      "destination": "IXR",
+      "origin_name": "Kochi",
+      "destination_name": "Ranchi",
+      "distance_km": 1743.3,
+      "base_fare": 8808.3,
+      "weight": 0.00031439018346182397
+    },
+    {
+      "route_id": "COK-JAI",
+      "origin": "COK",
+      "destination": "JAI",
+      "origin_name": "Kochi",
+      "destination_name": "Jaipur",
+      "distance_km": 1854.9,
+      "base_fare": 8680.23,
+      "weight": 0.0007386837850886343
+    },
+    {
+      "route_id": "COK-LKO",
+      "origin": "COK",
+      "destination": "LKO",
+      "origin_name": "Kochi",
+      "destination_name": "Lucknow",
+      "distance_km": 1905.9,
+      "base_fare": 9273.93,
+      "weight": 0.0006709792366588606
+    },
+    {
+      "route_id": "COK-NAG",
+      "origin": "COK",
+      "destination": "NAG",
+      "origin_name": "Kochi",
+      "destination_name": "Nagpur",
+      "distance_km": 1248.9,
+      "base_fare": 6433.17,
+      "weight": 0.0006582557543846183
+    },
+    {
+      "route_id": "COK-PAT",
+      "origin": "COK",
+      "destination": "PAT",
+      "origin_name": "Kochi",
+      "destination_name": "Patna",
+      "distance_km": 1945.6,
+      "base_fare": 8878.38,
+      "weight": 0.0005164423269602005
+    },
+    {
+      "route_id": "COK-RPR",
+      "origin": "COK",
+      "destination": "RPR",
+      "origin_name": "Kochi",
+      "destination_name": "Raipur",
+      "distance_km": 1352.4,
+      "base_fare": 6897.49,
+      "weight": 0.0004052535080543234
+    },
+    {
+      "route_id": "COK-SXR",
+      "origin": "COK",
+      "destination": "SXR",
+      "origin_name": "Kochi",
+      "destination_name": "Srinagar",
+      "distance_km": 2655.5,
+      "base_fare": 11840.43,
+      "weight": 0.00024078753354540925
+    },
+    {
+      "route_id": "COK-TRV",
+      "origin": "COK",
+      "destination": "TRV",
+      "origin_name": "Kochi",
+      "destination_name": "Thiruvananthapuram",
+      "distance_km": 194.2,
+      "base_fare": 2999.96,
+      "weight": 0.0013701822953580919
+    },
+    {
+      "route_id": "COK-VNS",
+      "origin": "COK",
+      "destination": "VNS",
+      "origin_name": "Kochi",
+      "destination_name": "Varanasi",
+      "distance_km": 1832.5,
+      "base_fare": 8527.08,
+      "weight": 0.00039877139824312123
+    },
+    {
+      "route_id": "COK-VTZ",
+      "origin": "COK",
+      "destination": "VTZ",
+      "origin_name": "Kochi",
+      "destination_name": "Visakhapatnam",
+      "distance_km": 1117.8,
+      "base_fare": 6347.75,
+      "weight": 0.0005720179211449885
+    },
+    {
+      "route_id": "DEL-AMD",
+      "origin": "DEL",
+      "destination": "AMD",
+      "origin_name": "Delhi",
+      "destination_name": "Ahmedabad",
+      "distance_km": 755.4,
+      "base_fare": 4884.43,
+      "weight": 0.016794359425206556
+    },
+    {
+      "route_id": "DEL-BBI",
+      "origin": "DEL",
+      "destination": "BBI",
+      "origin_name": "Delhi",
+      "destination_name": "Bhubaneswar",
+      "distance_km": 1277.1,
+      "base_fare": 6639.47,
+      "weight": 0.003973567977369662
+    },
+    {
+      "route_id": "DEL-BLR",
+      "origin": "DEL",
+      "destination": "BLR",
+      "origin_name": "Delhi",
+      "destination_name": "Bengaluru",
+      "distance_km": 1708.8,
+      "base_fare": 8552.03,
+      "weight": 0.02375809017043356
+    },
+    {
+      "route_id": "DEL-BOM",
+      "origin": "DEL",
+      "destination": "BOM",
+      "origin_name": "Delhi",
+      "destination_name": "Mumbai",
+      "distance_km": 1137.1,
+      "base_fare": 6400.0,
+      "weight": 0.040167483950031495
+    },
+    {
+      "route_id": "DEL-CCU",
+      "origin": "DEL",
+      "destination": "CCU",
+      "origin_name": "Delhi",
+      "destination_name": "Kolkata",
+      "distance_km": 1312.4,
+      "base_fare": 6740.78,
+      "weight": 0.015466829067940412
+    },
+    {
+      "route_id": "DEL-COK",
+      "origin": "DEL",
+      "destination": "COK",
+      "origin_name": "Delhi",
+      "destination_name": "Kochi",
+      "distance_km": 2047.7,
+      "base_fare": 9406.51,
+      "weight": 0.004460777075770862
+    },
+    {
+      "route_id": "DEL-GAU",
+      "origin": "DEL",
+      "destination": "GAU",
+      "origin_name": "Delhi",
+      "destination_name": "Guwahati",
+      "distance_km": 1455.7,
+      "base_fare": 7216.32,
+      "weight": 0.004183452137371807
+    },
+    {
+      "route_id": "DEL-GOI",
+      "origin": "DEL",
+      "destination": "GOI",
+      "origin_name": "Delhi",
+      "destination_name": "Goa",
+      "distance_km": 1503.1,
+      "base_fare": 7373.13,
+      "weight": 0.006752549069665502
+    },
+    {
+      "route_id": "DEL-HYD",
+      "origin": "DEL",
+      "destination": "HYD",
+      "origin_name": "Delhi",
+      "destination_name": "Hyderabad",
+      "distance_km": 1265.6,
+      "base_fare": 6979.9,
+      "weight": 0.022053996012465722
+    },
+    {
+      "route_id": "DEL-IDR",
+      "origin": "DEL",
+      "destination": "IDR",
+      "origin_name": "Delhi",
+      "destination_name": "Indore",
+      "distance_km": 661.7,
+      "base_fare": 4596.27,
+      "weight": 0.0065191180218146195
+    },
+    {
+      "route_id": "DEL-IXB",
+      "origin": "DEL",
+      "destination": "IXB",
+      "origin_name": "Delhi",
+      "destination_name": "Bagdogra",
+      "distance_km": 1125.3,
+      "base_fare": 6367.19,
+      "weight": 0.0022548357070813012
+    },
+    {
+      "route_id": "DEL-IXC",
+      "origin": "DEL",
+      "destination": "IXC",
+      "origin_name": "Delhi",
+      "destination_name": "Chandigarh",
+      "distance_km": 237.4,
+      "base_fare": 2947.12,
+      "weight": 0.010995290024478513
+    },
+    {
+      "route_id": "DEL-IXM",
+      "origin": "DEL",
+      "destination": "IXM",
+      "origin_name": "Delhi",
+      "destination_name": "Madurai",
+      "distance_km": 2084.3,
+      "base_fare": 9754.29,
+      "weight": 0.0012173525141035775
+    },
+    {
+      "route_id": "DEL-IXR",
+      "origin": "DEL",
+      "destination": "IXR",
+      "origin_name": "Delhi",
+      "destination_name": "Ranchi",
+      "distance_km": 1007.3,
+      "base_fare": 5959.12,
+      "weight": 0.0030228237748428917
+    },
+    {
+      "route_id": "DEL-JAI",
+      "origin": "DEL",
+      "destination": "JAI",
+      "origin_name": "Delhi",
+      "destination_name": "Jaipur",
+      "distance_km": 230.6,
+      "base_fare": 3004.73,
+      "weight": 0.012686873105167517
+    },
+    {
+      "route_id": "DEL-LKO",
+      "origin": "DEL",
+      "destination": "LKO",
+      "origin_name": "Delhi",
+      "destination_name": "Lucknow",
+      "distance_km": 423.2,
+      "base_fare": 3622.24,
+      "weight": 0.011841081564823016
+    },
+    {
+      "route_id": "DEL-MAA",
+      "origin": "DEL",
+      "destination": "MAA",
+      "origin_name": "Delhi",
+      "destination_name": "Chennai",
+      "distance_km": 1759.4,
+      "base_fare": 8433.34,
+      "weight": 0.012979812513715015
+    },
+    {
+      "route_id": "DEL-NAG",
+      "origin": "DEL",
+      "destination": "NAG",
+      "origin_name": "Delhi",
+      "destination_name": "Nagpur",
+      "distance_km": 852.9,
+      "base_fare": 5245.91,
+      "weight": 0.005355287742872479
+    },
+    {
+      "route_id": "DEL-PAT",
+      "origin": "DEL",
+      "destination": "PAT",
+      "origin_name": "Delhi",
+      "destination_name": "Patna",
+      "distance_km": 856.6,
+      "base_fare": 5153.83,
+      "weight": 0.0065168039059691095
+    },
+    {
+      "route_id": "DEL-PNQ",
+      "origin": "DEL",
+      "destination": "PNQ",
+      "origin_name": "Delhi",
+      "destination_name": "Pune",
+      "distance_km": 1155.3,
+      "base_fare": 6517.38,
+      "weight": 0.01229954046967858
+    },
+    {
+      "route_id": "DEL-RPR",
+      "origin": "DEL",
+      "destination": "RPR",
+      "origin_name": "Delhi",
+      "destination_name": "Raipur",
+      "distance_km": 944.0,
+      "base_fare": 5643.39,
+      "weight": 0.0032254725476666356
+    },
+    {
+      "route_id": "DEL-SXR",
+      "origin": "DEL",
+      "destination": "SXR",
+      "origin_name": "Delhi",
+      "destination_name": "Srinagar",
+      "distance_km": 643.0,
+      "base_fare": 4489.56,
+      "weight": 0.005524517049023782
+    },
+    {
+      "route_id": "DEL-TRV",
+      "origin": "DEL",
+      "destination": "TRV",
+      "origin_name": "Delhi",
+      "destination_name": "Thiruvananthapuram",
+      "distance_km": 2232.2,
+      "base_fare": 10632.32,
+      "weight": 0.0020460703359274474
+    },
+    {
+      "route_id": "DEL-VNS",
+      "origin": "DEL",
+      "destination": "VNS",
+      "origin_name": "Delhi",
+      "destination_name": "Varanasi",
+      "distance_km": 666.7,
+      "base_fare": 4500.83,
+      "weight": 0.006089459575442715
+    },
+    {
+      "route_id": "DEL-VTZ",
+      "origin": "DEL",
+      "destination": "VTZ",
+      "origin_name": "Delhi",
+      "destination_name": "Visakhapatnam",
+      "distance_km": 1357.2,
+      "base_fare": 7349.88,
+      "weight": 0.002617487593193168
+    },
+    {
+      "route_id": "GAU-BBI",
+      "origin": "GAU",
+      "destination": "BBI",
+      "origin_name": "Guwahati",
+      "destination_name": "Bhubaneswar",
+      "distance_km": 878.6,
+      "base_fare": 5479.11,
+      "weight": 0.0006930966460509625
+    },
+    {
+      "route_id": "GAU-IDR",
+      "origin": "GAU",
+      "destination": "IDR",
+      "origin_name": "Guwahati",
+      "destination_name": "Indore",
+      "distance_km": 1640.7,
+      "base_fare": 8226.77,
+      "weight": 0.000315482485302862
+    },
+    {
+      "route_id": "GAU-IXB",
+      "origin": "GAU",
+      "destination": "IXB",
+      "origin_name": "Guwahati",
+      "destination_name": "Bagdogra",
+      "distance_km": 330.7,
+      "base_fare": 3363.5,
+      "weight": 0.0005074749242067007
+    },
+    {
+      "route_id": "GAU-IXM",
+      "origin": "GAU",
+      "destination": "IXM",
+      "origin_name": "Guwahati",
+      "destination_name": "Madurai",
+      "distance_km": 2300.3,
+      "base_fare": 10878.01,
+      "weight": 0.00013236855328733351
+    },
+    {
+      "route_id": "GAU-IXR",
+      "origin": "GAU",
+      "destination": "IXR",
+      "origin_name": "Guwahati",
+      "destination_name": "Ranchi",
+      "distance_km": 704.7,
+      "base_fare": 4764.99,
+      "weight": 0.0005185127504722209
+    },
+    {
+      "route_id": "GAU-NAG",
+      "origin": "GAU",
+      "destination": "NAG",
+      "origin_name": "Guwahati",
+      "destination_name": "Nagpur",
+      "distance_km": 1393.0,
+      "base_fare": 7369.55,
+      "weight": 0.0003934428718533569
+    },
+    {
+      "route_id": "GAU-PAT",
+      "origin": "GAU",
+      "destination": "PAT",
+      "origin_name": "Guwahati",
+      "destination_name": "Patna",
+      "distance_km": 652.7,
+      "base_fare": 4498.93,
+      "weight": 0.0010263202547937586
+    },
+    {
+      "route_id": "GAU-RPR",
+      "origin": "GAU",
+      "destination": "RPR",
+      "origin_name": "Guwahati",
+      "destination_name": "Raipur",
+      "distance_km": 1142.2,
+      "base_fare": 6161.42,
+      "weight": 0.0003198836261869479
+    },
+    {
+      "route_id": "GAU-SXR",
+      "origin": "GAU",
+      "destination": "SXR",
+      "origin_name": "Guwahati",
+      "destination_name": "Srinagar",
+      "distance_km": 1836.7,
+      "base_fare": 8699.24,
+      "weight": 0.00023209249744713534
+    },
+    {
+      "route_id": "GAU-TRV",
+      "origin": "GAU",
+      "destination": "TRV",
+      "origin_name": "Guwahati",
+      "destination_name": "Thiruvananthapuram",
+      "distance_km": 2497.8,
+      "base_fare": 11137.1,
+      "weight": 0.0002194247756784856
+    },
+    {
+      "route_id": "GAU-VNS",
+      "origin": "GAU",
+      "destination": "VNS",
+      "origin_name": "Guwahati",
+      "destination_name": "Varanasi",
+      "distance_km": 876.6,
+      "base_fare": 5547.65,
+      "weight": 0.0005557364962622225
+    },
+    {
+      "route_id": "GAU-VTZ",
+      "origin": "GAU",
+      "destination": "VTZ",
+      "origin_name": "Guwahati",
+      "destination_name": "Visakhapatnam",
+      "distance_km": 1269.3,
+      "base_fare": 6969.21,
+      "weight": 0.0003358319452748603
+    },
+    {
+      "route_id": "GOI-BBI",
+      "origin": "GOI",
+      "destination": "BBI",
+      "origin_name": "Goa",
+      "destination_name": "Bhubaneswar",
+      "distance_km": 1378.7,
+      "base_fare": 7417.83,
+      "weight": 0.000736157952635774
+    },
+    {
+      "route_id": "GOI-COK",
+      "origin": "GOI",
+      "destination": "COK",
+      "origin_name": "Goa",
+      "destination_name": "Kochi",
+      "distance_km": 644.7,
+      "base_fare": 4598.74,
+      "weight": 0.0028335618996814574
+    },
+    {
+      "route_id": "GOI-GAU",
+      "origin": "GOI",
+      "destination": "GAU",
+      "origin_name": "Goa",
+      "destination_name": "Guwahati",
+      "distance_km": 2193.9,
+      "base_fare": 9941.96,
+      "weight": 0.0005551517554535198
+    },
+    {
+      "route_id": "GOI-IDR",
+      "origin": "GOI",
+      "destination": "IDR",
+      "origin_name": "Goa",
+      "destination_name": "Indore",
+      "distance_km": 842.1,
+      "base_fare": 5296.22,
+      "weight": 0.0010244983336011764
+    },
+    {
+      "route_id": "GOI-IXB",
+      "origin": "GOI",
+      "destination": "IXB",
+      "origin_name": "Goa",
+      "destination_name": "Bagdogra",
+      "distance_km": 1957.2,
+      "base_fare": 8901.61,
+      "weight": 0.0002592857818030191
+    },
+    {
+      "route_id": "GOI-IXC",
+      "origin": "GOI",
+      "destination": "IXC",
+      "origin_name": "Goa",
+      "destination_name": "Chandigarh",
+      "distance_km": 1726.9,
+      "base_fare": 8217.24,
+      "weight": 0.0007640291603358318
+    },
+    {
+      "route_id": "GOI-IXM",
+      "origin": "GOI",
+      "destination": "IXM",
+      "origin_name": "Goa",
+      "destination_name": "Madurai",
+      "distance_km": 770.7,
+      "base_fare": 4903.18,
+      "weight": 0.0006584255609800336
+    },
+    {
+      "route_id": "GOI-IXR",
+      "origin": "GOI",
+      "destination": "IXR",
+      "origin_name": "Goa",
+      "destination_name": "Ranchi",
+      "distance_km": 1492.6,
+      "base_fare": 7483.01,
+      "weight": 0.0004080028172399602
+    },
+    {
+      "route_id": "GOI-JAI",
+      "origin": "GOI",
+      "destination": "JAI",
+      "origin_name": "Goa",
+      "destination_name": "Jaipur",
+      "distance_km": 1288.9,
+      "base_fare": 6977.83,
+      "weight": 0.0011812239121094161
+    },
+    {
+      "route_id": "GOI-LKO",
+      "origin": "GOI",
+      "destination": "LKO",
+      "origin_name": "Goa",
+      "destination_name": "Lucknow",
+      "distance_km": 1461.1,
+      "base_fare": 7510.82,
+      "weight": 0.0009725004261157355
+    },
+    {
+      "route_id": "GOI-NAG",
+      "origin": "GOI",
+      "destination": "NAG",
+      "origin_name": "Goa",
+      "destination_name": "Nagpur",
+      "distance_km": 840.5,
+      "base_fare": 5293.88,
+      "weight": 0.001086833278080387
+    },
+    {
+      "route_id": "GOI-PAT",
+      "origin": "GOI",
+      "destination": "PAT",
+      "origin_name": "Goa",
+      "destination_name": "Patna",
+      "distance_km": 1630.4,
+      "base_fare": 8365.52,
+      "weight": 0.0006847789770757983
+    },
+    {
+      "route_id": "GOI-RPR",
+      "origin": "GOI",
+      "destination": "RPR",
+      "origin_name": "Goa",
+      "destination_name": "Raipur",
+      "distance_km": 1054.5,
+      "base_fare": 6159.97,
+      "weight": 0.0005774844087691922
+    },
+    {
+      "route_id": "GOI-SXR",
+      "origin": "GOI",
+      "destination": "SXR",
+      "origin_name": "Goa",
+      "destination_name": "Srinagar",
+      "distance_km": 2071.1,
+      "base_fare": 9955.18,
+      "weight": 0.0003430397465958832
+    },
+    {
+      "route_id": "GOI-TRV",
+      "origin": "GOI",
+      "destination": "TRV",
+      "origin_name": "Goa",
+      "destination_name": "Thiruvananthapuram",
+      "distance_km": 837.4,
+      "base_fare": 5354.66,
+      "weight": 0.0010908570091827116
+    },
+    {
+      "route_id": "GOI-VNS",
+      "origin": "GOI",
+      "destination": "VNS",
+      "origin_name": "Goa",
+      "destination_name": "Varanasi",
+      "distance_km": 1461.5,
+      "base_fare": 7378.83,
+      "weight": 0.0005555844735197212
+    },
+    {
+      "route_id": "GOI-VTZ",
+      "origin": "GOI",
+      "destination": "VTZ",
+      "origin_name": "Goa",
+      "destination_name": "Visakhapatnam",
+      "distance_km": 1034.3,
+      "base_fare": 5816.26,
+      "weight": 0.0006869155281623723
+    },
+    {
+      "route_id": "HYD-AMD",
+      "origin": "HYD",
+      "destination": "AMD",
+      "origin_name": "Hyderabad",
+      "destination_name": "Ahmedabad",
+      "distance_km": 886.9,
+      "base_fare": 5326.43,
+      "weight": 0.007867412155748052
+    },
+    {
+      "route_id": "HYD-BBI",
+      "origin": "HYD",
+      "destination": "BBI",
+      "origin_name": "Hyderabad",
+      "destination_name": "Bhubaneswar",
+      "distance_km": 846.5,
+      "base_fare": 5389.41,
+      "weight": 0.0032972078841096773
+    },
+    {
+      "route_id": "HYD-CCU",
+      "origin": "HYD",
+      "destination": "CCU",
+      "origin_name": "Hyderabad",
+      "destination_name": "Kolkata",
+      "distance_km": 1207.2,
+      "base_fare": 6614.89,
+      "weight": 0.009248284977651027
+    },
+    {
+      "route_id": "HYD-COK",
+      "origin": "HYD",
+      "destination": "COK",
+      "origin_name": "Hyderabad",
+      "destination_name": "Kochi",
+      "distance_km": 818.0,
+      "base_fare": 5009.43,
+      "weight": 0.006141750434994566
+    },
+    {
+      "route_id": "HYD-GAU",
+      "origin": "HYD",
+      "destination": "GAU",
+      "origin_name": "Hyderabad",
+      "destination_name": "Guwahati",
+      "distance_km": 1677.4,
+      "base_fare": 8020.1,
+      "weight": 0.0019967720055939792
+    },
+    {
+      "route_id": "HYD-GOI",
+      "origin": "HYD",
+      "destination": "GOI",
+      "origin_name": "Hyderabad",
+      "destination_name": "Goa",
+      "distance_km": 532.4,
+      "base_fare": 4127.6,
+      "weight": 0.009303706943789512
+    },
+    {
+      "route_id": "HYD-IDR",
+      "origin": "HYD",
+      "destination": "IDR",
+      "origin_name": "Hyderabad",
+      "destination_name": "Indore",
+      "distance_km": 668.5,
+      "base_fare": 4555.86,
+      "weight": 0.0035490142548364485
+    },
+    {
+      "route_id": "HYD-IXB",
+      "origin": "HYD",
+      "destination": "IXB",
+      "origin_name": "Hyderabad",
+      "destination_name": "Bagdogra",
+      "distance_km": 1463.0,
+      "base_fare": 7687.82,
+      "weight": 0.000953906877526027
+    },
+    {
+      "route_id": "HYD-IXC",
+      "origin": "HYD",
+      "destination": "IXC",
+      "origin_name": "Hyderabad",
+      "destination_name": "Chandigarh",
+      "distance_km": 1502.9,
+      "base_fare": 7416.09,
+      "weight": 0.0024142740868324324
+    },
+    {
+      "route_id": "HYD-IXM",
+      "origin": "HYD",
+      "destination": "IXM",
+      "origin_name": "Hyderabad",
+      "destination_name": "Madurai",
+      "distance_km": 824.3,
+      "base_fare": 5066.82,
+      "weight": 0.0016930467091919254
+    },
+    {
+      "route_id": "HYD-IXR",
+      "origin": "HYD",
+      "destination": "IXR",
+      "origin_name": "Hyderabad",
+      "destination_name": "Ranchi",
+      "distance_km": 986.0,
+      "base_fare": 5700.6,
+      "weight": 0.001698431745915468
+    },
+    {
+      "route_id": "HYD-JAI",
+      "origin": "HYD",
+      "destination": "JAI",
+      "origin_name": "Hyderabad",
+      "destination_name": "Jaipur",
+      "distance_km": 1099.2,
+      "base_fare": 6344.29,
+      "weight": 0.0038089035153584822
+    },
+    {
+      "route_id": "HYD-LKO",
+      "origin": "HYD",
+      "destination": "LKO",
+      "origin_name": "Hyderabad",
+      "destination_name": "Lucknow",
+      "distance_km": 1088.5,
+      "base_fare": 6272.03,
+      "weight": 0.0035899805174572433
+    },
+    {
+      "route_id": "HYD-MAA",
+      "origin": "HYD",
+      "destination": "MAA",
+      "origin_name": "Hyderabad",
+      "destination_name": "Chennai",
+      "distance_km": 507.8,
+      "base_fare": 4189.17,
+      "weight": 0.020933340623526402
+    },
+    {
+      "route_id": "HYD-NAG",
+      "origin": "HYD",
+      "destination": "NAG",
+      "origin_name": "Hyderabad",
+      "destination_name": "Nagpur",
+      "distance_km": 433.2,
+      "base_fare": 3837.24,
+      "weight": 0.00418666812470528
+    },
+    {
+      "route_id": "HYD-PAT",
+      "origin": "HYD",
+      "destination": "PAT",
+      "origin_name": "Hyderabad",
+      "destination_name": "Patna",
+      "distance_km": 1155.9,
+      "base_fare": 6582.96,
+      "weight": 0.002656152630236763
+    },
+    {
+      "route_id": "HYD-PNQ",
+      "origin": "HYD",
+      "destination": "PNQ",
+      "origin_name": "Hyderabad",
+      "destination_name": "Pune",
+      "distance_km": 499.9,
+      "base_fare": 4029.06,
+      "weight": 0.013025189721305317
+    },
+    {
+      "route_id": "HYD-RPR",
+      "origin": "HYD",
+      "destination": "RPR",
+      "origin_name": "Hyderabad",
+      "destination_name": "Raipur",
+      "distance_km": 559.1,
+      "base_fare": 4134.48,
+      "weight": 0.002791112083136854
+    },
+    {
+      "route_id": "HYD-SXR",
+      "origin": "HYD",
+      "destination": "SXR",
+      "origin_name": "Hyderabad",
+      "destination_name": "Srinagar",
+      "distance_km": 1897.5,
+      "base_fare": 8842.61,
+      "weight": 0.0010296848019281158
+    },
+    {
+      "route_id": "HYD-TRV",
+      "origin": "HYD",
+      "destination": "TRV",
+      "origin_name": "Hyderabad",
+      "destination_name": "Thiruvananthapuram",
+      "distance_km": 987.5,
+      "base_fare": 5712.65,
+      "weight": 0.002543831157451893
+    },
+    {
+      "route_id": "HYD-VNS",
+      "origin": "HYD",
+      "destination": "VNS",
+      "origin_name": "Hyderabad",
+      "destination_name": "Varanasi",
+      "distance_km": 1021.7,
+      "base_fare": 6063.85,
+      "weight": 0.00218556025772713
+    },
+    {
+      "route_id": "HYD-VTZ",
+      "origin": "HYD",
+      "destination": "VTZ",
+      "origin_name": "Hyderabad",
+      "destination_name": "Visakhapatnam",
+      "distance_km": 511.4,
+      "base_fare": 4177.77,
+      "weight": 0.0032562974303263293
+    },
+    {
+      "route_id": "IDR-IXB",
+      "origin": "IDR",
+      "destination": "IXB",
+      "origin_name": "Indore",
+      "destination_name": "Bagdogra",
+      "distance_km": 1339.1,
+      "base_fare": 6989.89,
+      "weight": 0.00016105864500718035
+    },
+    {
+      "route_id": "IDR-IXM",
+      "origin": "IDR",
+      "destination": "IXM",
+      "origin_name": "Indore",
+      "destination_name": "Madurai",
+      "distance_km": 1453.6,
+      "base_fare": 7414.63,
+      "weight": 0.00014837110640940918
+    },
+    {
+      "route_id": "IDR-IXR",
+      "origin": "IDR",
+      "destination": "IXR",
+      "origin_name": "Indore",
+      "destination_name": "Ranchi",
+      "distance_km": 976.4,
+      "base_fare": 5655.19,
+      "weight": 0.00026506729169111935
+    },
+    {
+      "route_id": "IDR-RPR",
+      "origin": "IDR",
+      "destination": "RPR",
+      "origin_name": "Indore",
+      "destination_name": "Raipur",
+      "distance_km": 635.8,
+      "base_fare": 4536.13,
+      "weight": 0.0004070354772171468
+    },
+    {
+      "route_id": "IDR-SXR",
+      "origin": "IDR",
+      "destination": "SXR",
+      "origin_name": "Indore",
+      "destination_name": "Srinagar",
+      "distance_km": 1256.6,
+      "base_fare": 6928.5,
+      "weight": 0.0002402809357193855
+    },
+    {
+      "route_id": "IDR-VNS",
+      "origin": "IDR",
+      "destination": "VNS",
+      "origin_name": "Indore",
+      "destination_name": "Varanasi",
+      "distance_km": 778.0,
+      "base_fare": 4974.12,
+      "weight": 0.00044354728118107433
+    },
+    {
+      "route_id": "IDR-VTZ",
+      "origin": "IDR",
+      "destination": "VTZ",
+      "origin_name": "Indore",
+      "destination_name": "Visakhapatnam",
+      "distance_km": 953.2,
+      "base_fare": 5753.44,
+      "weight": 0.0003167861981890091
+    },
+    {
+      "route_id": "IXC-BBI",
+      "origin": "IXC",
+      "destination": "BBI",
+      "origin_name": "Chandigarh",
+      "destination_name": "Bhubaneswar",
+      "distance_km": 1470.5,
+      "base_fare": 7646.38,
+      "weight": 0.0004486258682976499
+    },
+    {
+      "route_id": "IXC-GAU",
+      "origin": "IXC",
+      "destination": "GAU",
+      "origin_name": "Chandigarh",
+      "destination_name": "Guwahati",
+      "distance_km": 1532.5,
+      "base_fare": 7824.59,
+      "weight": 0.0005165889626689223
+    },
+    {
+      "route_id": "IXC-IDR",
+      "origin": "IXC",
+      "destination": "IDR",
+      "origin_name": "Chandigarh",
+      "destination_name": "Indore",
+      "distance_km": 889.6,
+      "base_fare": 5561.15,
+      "weight": 0.0006303522130754219
+    },
+    {
+      "route_id": "IXC-IXB",
+      "origin": "IXC",
+      "destination": "IXB",
+      "origin_name": "Chandigarh",
+      "destination_name": "Bagdogra",
+      "distance_km": 1209.3,
+      "base_fare": 6498.14,
+      "weight": 0.0002727571760238785
+    },
+    {
+      "route_id": "IXC-IXM",
+      "origin": "IXC",
+      "destination": "IXM",
+      "origin_name": "Chandigarh",
+      "destination_name": "Madurai",
+      "distance_km": 2321.1,
+      "base_fare": 10494.25,
+      "weight": 0.00014211163614481531
+    },
+    {
+      "route_id": "IXC-IXR",
+      "origin": "IXC",
+      "destination": "IXR",
+      "origin_name": "Chandigarh",
+      "destination_name": "Ranchi",
+      "distance_km": 1175.8,
+      "base_fare": 6531.93,
+      "weight": 0.00033665677794899197
+    },
+    {
+      "route_id": "IXC-NAG",
+      "origin": "IXC",
+      "destination": "NAG",
+      "origin_name": "Chandigarh",
+      "destination_name": "Nagpur",
+      "distance_km": 1089.0,
+      "base_fare": 5920.97,
+      "weight": 0.0005452225194527763
+    },
+    {
+      "route_id": "IXC-PAT",
+      "origin": "IXC",
+      "destination": "PAT",
+      "origin_name": "Chandigarh",
+      "destination_name": "Patna",
+      "distance_km": 990.3,
+      "base_fare": 5775.46,
+      "weight": 0.0007328256449275375
+    },
+    {
+      "route_id": "IXC-RPR",
+      "origin": "IXC",
+      "destination": "RPR",
+      "origin_name": "Chandigarh",
+      "destination_name": "Raipur",
+      "distance_km": 1165.5,
+      "base_fare": 6494.62,
+      "weight": 0.00033962894938589
+    },
+    {
+      "route_id": "IXC-SXR",
+      "origin": "IXC",
+      "destination": "SXR",
+      "origin_name": "Chandigarh",
+      "destination_name": "Srinagar",
+      "distance_km": 414.2,
+      "base_fare": 3660.94,
+      "weight": 0.000769670301713496
+    },
+    {
+      "route_id": "IXC-TRV",
+      "origin": "IXC",
+      "destination": "TRV",
+      "origin_name": "Chandigarh",
+      "destination_name": "Thiruvananthapuram",
+      "distance_km": 2467.6,
+      "base_fare": 10928.27,
+      "weight": 0.00024061578982615404
+    },
+    {
+      "route_id": "IXC-VNS",
+      "origin": "IXC",
+      "destination": "VNS",
+      "origin_name": "Chandigarh",
+      "destination_name": "Varanasi",
+      "distance_km": 831.5,
+      "base_fare": 5026.04,
+      "weight": 0.0006347428142202203
+    },
+    {
+      "route_id": "IXC-VTZ",
+      "origin": "IXC",
+      "destination": "VTZ",
+      "origin_name": "Chandigarh",
+      "destination_name": "Visakhapatnam",
+      "distance_km": 1580.3,
+      "base_fare": 7631.39,
+      "weight": 0.0002922206952509923
+    },
+    {
+      "route_id": "IXM-IXB",
+      "origin": "IXM",
+      "destination": "IXB",
+      "origin_name": "Madurai",
+      "destination_name": "Bagdogra",
+      "distance_km": 2160.0,
+      "base_fare": 9987.32,
+      "weight": 5.873449407146669e-05
+    },
+    {
+      "route_id": "IXR-IXB",
+      "origin": "IXR",
+      "destination": "IXB",
+      "origin_name": "Ranchi",
+      "destination_name": "Bagdogra",
+      "distance_km": 481.6,
+      "base_fare": 4001.09,
+      "weight": 0.00025373746210335035
+    },
+    {
+      "route_id": "IXR-IXM",
+      "origin": "IXR",
+      "destination": "IXM",
+      "origin_name": "Ranchi",
+      "destination_name": "Madurai",
+      "distance_km": 1684.2,
+      "base_fare": 8339.63,
+      "weight": 9.039393137135396e-05
+    },
+    {
+      "route_id": "JAI-BBI",
+      "origin": "JAI",
+      "destination": "BBI",
+      "origin_name": "Jaipur",
+      "destination_name": "Bhubaneswar",
+      "distance_km": 1254.4,
+      "base_fare": 6528.56,
+      "weight": 0.0006068300524442906
+    },
+    {
+      "route_id": "JAI-GAU",
+      "origin": "JAI",
+      "destination": "GAU",
+      "origin_name": "Jaipur",
+      "destination_name": "Guwahati",
+      "distance_km": 1571.2,
+      "base_fare": 8084.54,
+      "weight": 0.0005813842160593962
+    },
+    {
+      "route_id": "JAI-IDR",
+      "origin": "JAI",
+      "destination": "IDR",
+      "origin_name": "Jaipur",
+      "destination_name": "Indore",
+      "distance_km": 456.2,
+      "base_fare": 3970.44,
+      "weight": 0.0010783842139392389
+    },
+    {
+      "route_id": "JAI-IXB",
+      "origin": "JAI",
+      "destination": "IXB",
+      "origin_name": "Jaipur",
+      "destination_name": "Bagdogra",
+      "distance_km": 1242.4,
+      "base_fare": 6428.6,
+      "weight": 0.0003063520762623502
+    },
+    {
+      "route_id": "JAI-IXC",
+      "origin": "JAI",
+      "destination": "IXC",
+      "origin_name": "Jaipur",
+      "destination_name": "Chandigarh",
+      "distance_km": 438.5,
+      "base_fare": 3700.81,
+      "weight": 0.001649293503671777
+    },
+    {
+      "route_id": "JAI-IXM",
+      "origin": "JAI",
+      "destination": "IXM",
+      "origin_name": "Jaipur",
+      "destination_name": "Madurai",
+      "distance_km": 1904.3,
+      "base_fare": 8800.5,
+      "weight": 0.0001998664203491426
+    },
+    {
+      "route_id": "JAI-IXR",
+      "origin": "JAI",
+      "destination": "IXR",
+      "origin_name": "Jaipur",
+      "destination_name": "Ranchi",
+      "distance_km": 1033.8,
+      "base_fare": 5821.56,
+      "weight": 0.00044177451308647806
+    },
+    {
+      "route_id": "JAI-LKO",
+      "origin": "JAI",
+      "destination": "LKO",
+      "origin_name": "Jaipur",
+      "destination_name": "Lucknow",
+      "distance_km": 504.0,
+      "base_fare": 4006.34,
+      "weight": 0.0017761622347234522
+    },
+    {
+      "route_id": "JAI-NAG",
+      "origin": "JAI",
+      "destination": "NAG",
+      "origin_name": "Jaipur",
+      "destination_name": "Nagpur",
+      "distance_km": 717.0,
+      "base_fare": 4795.73,
+      "weight": 0.0009554397833500286
+    },
+    {
+      "route_id": "JAI-PAT",
+      "origin": "JAI",
+      "destination": "PAT",
+      "origin_name": "Jaipur",
+      "destination_name": "Patna",
+      "distance_km": 935.3,
+      "base_fare": 5541.47,
+      "weight": 0.0008952910920461476
+    },
+    {
+      "route_id": "JAI-RPR",
+      "origin": "JAI",
+      "destination": "RPR",
+      "origin_name": "Jaipur",
+      "destination_name": "Raipur",
+      "distance_km": 869.3,
+      "base_fare": 5343.55,
+      "weight": 0.000525375293554129
+    },
+    {
+      "route_id": "JAI-SXR",
+      "origin": "JAI",
+      "destination": "SXR",
+      "origin_name": "Jaipur",
+      "destination_name": "Srinagar",
+      "distance_km": 802.7,
+      "base_fare": 5087.78,
+      "weight": 0.0006638548648764
+    },
+    {
+      "route_id": "JAI-TRV",
+      "origin": "JAI",
+      "destination": "TRV",
+      "origin_name": "Jaipur",
+      "destination_name": "Thiruvananthapuram",
+      "distance_km": 2042.9,
+      "base_fare": 9726.28,
+      "weight": 0.0003353546031058045
+    },
+    {
+      "route_id": "JAI-VNS",
+      "origin": "JAI",
+      "destination": "VNS",
+      "origin_name": "Jaipur",
+      "destination_name": "Varanasi",
+      "distance_km": 719.7,
+      "base_fare": 4680.06,
+      "weight": 0.0008461431779465133
+    },
+    {
+      "route_id": "JAI-VTZ",
+      "origin": "JAI",
+      "destination": "VTZ",
+      "origin_name": "Jaipur",
+      "destination_name": "Visakhapatnam",
+      "distance_km": 1266.6,
+      "base_fare": 6622.74,
+      "weight": 0.0004206805457153594
+    },
+    {
+      "route_id": "LKO-BBI",
+      "origin": "LKO",
+      "destination": "BBI",
+      "origin_name": "Lucknow",
+      "destination_name": "Bhubaneswar",
+      "distance_km": 881.5,
+      "base_fare": 5351.14,
+      "weight": 0.0008059345504946671
+    },
+    {
+      "route_id": "LKO-GAU",
+      "origin": "LKO",
+      "destination": "GAU",
+      "origin_name": "Lucknow",
+      "destination_name": "Guwahati",
+      "distance_km": 1067.2,
+      "base_fare": 5917.32,
+      "weight": 0.0007988546207055343
+    },
+    {
+      "route_id": "LKO-IDR",
+      "origin": "LKO",
+      "destination": "IDR",
+      "origin_name": "Lucknow",
+      "destination_name": "Indore",
+      "distance_km": 682.3,
+      "base_fare": 4759.55,
+      "weight": 0.000885104606940863
+    },
+    {
+      "route_id": "LKO-IXB",
+      "origin": "LKO",
+      "destination": "IXB",
+      "origin_name": "Lucknow",
+      "destination_name": "Bagdogra",
+      "distance_km": 738.8,
+      "base_fare": 4970.2,
+      "weight": 0.0004808106385998533
+    },
+    {
+      "route_id": "LKO-IXC",
+      "origin": "LKO",
+      "destination": "IXC",
+      "origin_name": "Lucknow",
+      "destination_name": "Chandigarh",
+      "distance_km": 590.8,
+      "base_fare": 4470.21,
+      "weight": 0.001539340603426992
+    },
+    {
+      "route_id": "LKO-IXM",
+      "origin": "LKO",
+      "destination": "IXM",
+      "origin_name": "Lucknow",
+      "destination_name": "Madurai",
+      "distance_km": 1904.9,
+      "base_fare": 8846.67,
+      "weight": 0.00018648548673953254
+    },
+    {
+      "route_id": "LKO-IXR",
+      "origin": "LKO",
+      "destination": "IXR",
+      "origin_name": "Lucknow",
+      "destination_name": "Ranchi",
+      "distance_km": 588.3,
+      "base_fare": 4203.1,
+      "weight": 0.000710464893889381
+    },
+    {
+      "route_id": "LKO-NAG",
+      "origin": "LKO",
+      "destination": "NAG",
+      "origin_name": "Lucknow",
+      "destination_name": "Nagpur",
+      "distance_km": 657.5,
+      "base_fare": 4642.03,
+      "weight": 0.0009725245796188847
+    },
+    {
+      "route_id": "LKO-PAT",
+      "origin": "LKO",
+      "destination": "PAT",
+      "origin_name": "Lucknow",
+      "destination_name": "Patna",
+      "distance_km": 438.7,
+      "base_fare": 3928.9,
+      "weight": 0.0013025189721305316
+    },
+    {
+      "route_id": "LKO-RPR",
+      "origin": "LKO",
+      "destination": "RPR",
+      "origin_name": "Lucknow",
+      "destination_name": "Raipur",
+      "distance_km": 626.5,
+      "base_fare": 4585.31,
+      "weight": 0.0006804600374442284
+    },
+    {
+      "route_id": "LKO-SXR",
+      "origin": "LKO",
+      "destination": "SXR",
+      "origin_name": "Lucknow",
+      "destination_name": "Srinagar",
+      "distance_km": 994.4,
+      "base_fare": 5757.79,
+      "weight": 0.0005001272306777825
+    },
+    {
+      "route_id": "LKO-TRV",
+      "origin": "LKO",
+      "destination": "TRV",
+      "origin_name": "Lucknow",
+      "destination_name": "Thiruvananthapuram",
+      "distance_km": 2075.1,
+      "base_fare": 9462.17,
+      "weight": 0.00030814202862135465
+    },
+    {
+      "route_id": "LKO-VNS",
+      "origin": "LKO",
+      "destination": "VNS",
+      "origin_name": "Lucknow",
+      "destination_name": "Varanasi",
+      "distance_km": 244.6,
+      "base_fare": 3008.33,
+      "weight": 0.0009472865251858412
+    },
+    {
+      "route_id": "LKO-VTZ",
+      "origin": "LKO",
+      "destination": "VTZ",
+      "origin_name": "Lucknow",
+      "destination_name": "Visakhapatnam",
+      "distance_km": 1033.4,
+      "base_fare": 6032.19,
+      "weight": 0.0004812543538713839
+    },
+    {
+      "route_id": "MAA-AMD",
+      "origin": "MAA",
+      "destination": "AMD",
+      "origin_name": "Chennai",
+      "destination_name": "Ahmedabad",
+      "distance_km": 1374.7,
+      "base_fare": 7395.51,
+      "weight": 0.004153056600498223
+    },
+    {
+      "route_id": "MAA-BBI",
+      "origin": "MAA",
+      "destination": "BBI",
+      "origin_name": "Chennai",
+      "destination_name": "Bhubaneswar",
+      "distance_km": 1005.6,
+      "base_fare": 5704.33,
+      "weight": 0.0022708078149110927
+    },
+    {
+      "route_id": "MAA-CCU",
+      "origin": "MAA",
+      "destination": "CCU",
+      "origin_name": "Chennai",
+      "destination_name": "Kolkata",
+      "distance_km": 1385.2,
+      "base_fare": 6929.98,
+      "weight": 0.006594201333376811
+    },
+    {
+      "route_id": "MAA-COK",
+      "origin": "MAA",
+      "destination": "COK",
+      "origin_name": "Chennai",
+      "destination_name": "Kochi",
+      "distance_km": 518.1,
+      "base_fare": 3982.51,
+      "weight": 0.006850911476790459
+    },
+    {
+      "route_id": "MAA-GAU",
+      "origin": "MAA",
+      "destination": "GAU",
+      "origin_name": "Chennai",
+      "destination_name": "Guwahati",
+      "distance_km": 1883.4,
+      "base_fare": 8654.03,
+      "weight": 0.0014549965766207356
+    },
+    {
+      "route_id": "MAA-GOI",
+      "origin": "MAA",
+      "destination": "GOI",
+      "origin_name": "Chennai",
+      "destination_name": "Goa",
+      "distance_km": 733.1,
+      "base_fare": 4777.16,
+      "weight": 0.006230380829965207
+    },
+    {
+      "route_id": "MAA-IDR",
+      "origin": "MAA",
+      "destination": "IDR",
+      "origin_name": "Chennai",
+      "destination_name": "Indore",
+      "distance_km": 1176.1,
+      "base_fare": 6416.33,
+      "weight": 0.0016504403838830458
+    },
+    {
+      "route_id": "MAA-IXB",
+      "origin": "MAA",
+      "destination": "IXB",
+      "origin_name": "Chennai",
+      "destination_name": "Bagdogra",
+      "distance_km": 1743.4,
+      "base_fare": 8162.17,
+      "weight": 0.000654944187485846
+    },
+    {
+      "route_id": "MAA-IXC",
+      "origin": "MAA",
+      "destination": "IXC",
+      "origin_name": "Chennai",
+      "destination_name": "Chandigarh",
+      "distance_km": 1996.3,
+      "base_fare": 9161.17,
+      "weight": 0.001487145854396568
+    },
+    {
+      "route_id": "MAA-IXM",
+      "origin": "MAA",
+      "destination": "IXM",
+      "origin_name": "Chennai",
+      "destination_name": "Madurai",
+      "distance_km": 418.0,
+      "base_fare": 3830.25,
+      "weight": 0.0019030309657751274
+    },
+    {
+      "route_id": "MAA-IXR",
+      "origin": "MAA",
+      "destination": "IXR",
+      "origin_name": "Chennai",
+      "destination_name": "Ranchi",
+      "distance_km": 1269.6,
+      "base_fare": 6894.03,
+      "weight": 0.0010791884661364626
+    },
+    {
+      "route_id": "MAA-JAI",
+      "origin": "MAA",
+      "destination": "JAI",
+      "origin_name": "Chennai",
+      "destination_name": "Jaipur",
+      "distance_km": 1603.5,
+      "base_fare": 7717.98,
+      "weight": 0.0021362485349886687
+    },
+    {
+      "route_id": "MAA-LKO",
+      "origin": "MAA",
+      "destination": "LKO",
+      "origin_name": "Chennai",
+      "destination_name": "Lucknow",
+      "distance_km": 1532.6,
+      "base_fare": 7925.65,
+      "weight": 0.002086064703990756
+    },
+    {
+      "route_id": "MAA-NAG",
+      "origin": "MAA",
+      "destination": "NAG",
+      "origin_name": "Chennai",
+      "destination_name": "Nagpur",
+      "distance_km": 908.3,
+      "base_fare": 5680.42,
+      "weight": 0.002262668137720095
+    },
+    {
+      "route_id": "MAA-PAT",
+      "origin": "MAA",
+      "destination": "PAT",
+      "origin_name": "Chennai",
+      "destination_name": "Patna",
+      "distance_km": 1492.3,
+      "base_fare": 7720.25,
+      "weight": 0.001683327547207435
+    },
+    {
+      "route_id": "MAA-PNQ",
+      "origin": "MAA",
+      "destination": "PNQ",
+      "origin_name": "Chennai",
+      "destination_name": "Pune",
+      "distance_km": 912.7,
+      "base_fare": 5339.85,
+      "weight": 0.0070057768449470715
+    },
+    {
+      "route_id": "MAA-RPR",
+      "origin": "MAA",
+      "destination": "RPR",
+      "origin_name": "Chennai",
+      "destination_name": "Raipur",
+      "distance_km": 925.4,
+      "base_fare": 5427.51,
+      "weight": 0.0014806847496949837
+    },
+    {
+      "route_id": "MAA-SXR",
+      "origin": "MAA",
+      "destination": "SXR",
+      "origin_name": "Chennai",
+      "destination_name": "Srinagar",
+      "distance_km": 2397.2,
+      "base_fare": 10948.54,
+      "weight": 0.0006668403343218833
+    },
+    {
+      "route_id": "MAA-TRV",
+      "origin": "MAA",
+      "destination": "TRV",
+      "origin_name": "Chennai",
+      "destination_name": "Thiruvananthapuram",
+      "distance_km": 614.6,
+      "base_fare": 4561.02,
+      "weight": 0.003343897088291895
+    },
+    {
+      "route_id": "MAA-VNS",
+      "origin": "MAA",
+      "destination": "VNS",
+      "origin_name": "Chennai",
+      "destination_name": "Varanasi",
+      "distance_km": 1413.6,
+      "base_fare": 7528.0,
+      "weight": 0.0012923695525809526
+    },
+    {
+      "route_id": "MAA-VTZ",
+      "origin": "MAA",
+      "destination": "VTZ",
+      "origin_name": "Chennai",
+      "destination_name": "Visakhapatnam",
+      "distance_km": 619.2,
+      "base_fare": 4329.87,
+      "weight": 0.0025816522612338113
+    },
+    {
+      "route_id": "NAG-IDR",
+      "origin": "NAG",
+      "destination": "IDR",
+      "origin_name": "Nagpur",
+      "destination_name": "Indore",
+      "distance_km": 380.7,
+      "base_fare": 3612.63,
+      "weight": 0.0006470305283635433
+    },
+    {
+      "route_id": "NAG-IXB",
+      "origin": "NAG",
+      "destination": "IXB",
+      "origin_name": "Nagpur",
+      "destination_name": "Bagdogra",
+      "distance_km": 1129.3,
+      "base_fare": 6465.08,
+      "weight": 0.00020222233739280041
+    },
+    {
+      "route_id": "NAG-IXM",
+      "origin": "NAG",
+      "destination": "IXM",
+      "origin_name": "Nagpur",
+      "destination_name": "Madurai",
+      "distance_km": 1255.9,
+      "base_fare": 6622.79,
+      "weight": 0.00018182560525180342
+    },
+    {
+      "route_id": "NAG-IXR",
+      "origin": "NAG",
+      "destination": "IXR",
+      "origin_name": "Nagpur",
+      "destination_name": "Ranchi",
+      "distance_km": 691.5,
+      "base_fare": 4615.14,
+      "weight": 0.00039629148933908114
+    },
+    {
+      "route_id": "NAG-RPR",
+      "origin": "NAG",
+      "destination": "RPR",
+      "origin_name": "Nagpur",
+      "destination_name": "Raipur",
+      "distance_km": 279.3,
+      "base_fare": 3185.61,
+      "weight": 0.0004567274317860306
+    },
+    {
+      "route_id": "NAG-SXR",
+      "origin": "NAG",
+      "destination": "SXR",
+      "origin_name": "Nagpur",
+      "destination_name": "Srinagar",
+      "distance_km": 1494.0,
+      "base_fare": 7685.59,
+      "weight": 0.00021399574105405468
+    },
+    {
+      "route_id": "NAG-VNS",
+      "origin": "NAG",
+      "destination": "VNS",
+      "origin_name": "Nagpur",
+      "destination_name": "Varanasi",
+      "distance_km": 621.7,
+      "base_fare": 4337.77,
+      "weight": 0.0005876691362553418
+    },
+    {
+      "route_id": "NAG-VTZ",
+      "origin": "NAG",
+      "destination": "VTZ",
+      "origin_name": "Nagpur",
+      "destination_name": "Visakhapatnam",
+      "distance_km": 576.5,
+      "base_fare": 4178.94,
+      "weight": 0.0005328486704170356
+    },
+    {
+      "route_id": "PAT-BBI",
+      "origin": "PAT",
+      "destination": "BBI",
+      "origin_name": "Patna",
+      "destination_name": "Bhubaneswar",
+      "distance_km": 599.2,
+      "base_fare": 4263.61,
+      "weight": 0.0009303706943789511
+    },
+    {
+      "route_id": "PAT-IDR",
+      "origin": "PAT",
+      "destination": "IDR",
+      "origin_name": "Patna",
+      "destination_name": "Indore",
+      "distance_km": 994.5,
+      "base_fare": 5900.19,
+      "weight": 0.00047712618925343836
+    },
+    {
+      "route_id": "PAT-IXB",
+      "origin": "PAT",
+      "destination": "IXB",
+      "origin_name": "Patna",
+      "destination_name": "Bagdogra",
+      "distance_km": 345.4,
+      "base_fare": 3406.31,
+      "weight": 0.00046518534718947553
+    },
+    {
+      "route_id": "PAT-IXM",
+      "origin": "PAT",
+      "destination": "IXM",
+      "origin_name": "Patna",
+      "destination_name": "Madurai",
+      "distance_km": 1901.1,
+      "base_fare": 8688.64,
+      "weight": 0.0001468173094718475
+    },
+    {
+      "route_id": "PAT-IXR",
+      "origin": "PAT",
+      "destination": "IXR",
+      "origin_name": "Patna",
+      "destination_name": "Ranchi",
+      "distance_km": 254.3,
+      "base_fare": 3110.48,
+      "weight": 0.0005582224166273707
+    },
+    {
+      "route_id": "PAT-NAG",
+      "origin": "PAT",
+      "destination": "NAG",
+      "origin_name": "Patna",
+      "destination_name": "Nagpur",
+      "distance_km": 793.9,
+      "base_fare": 5144.45,
+      "weight": 0.0006328261354297217
+    },
+    {
+      "route_id": "PAT-RPR",
+      "origin": "PAT",
+      "destination": "RPR",
+      "origin_name": "Patna",
+      "destination_name": "Raipur",
+      "distance_km": 597.8,
+      "base_fare": 4185.71,
+      "weight": 0.0005582224166273707
+    },
+    {
+      "route_id": "PAT-SXR",
+      "origin": "PAT",
+      "destination": "SXR",
+      "origin_name": "Patna",
+      "destination_name": "Srinagar",
+      "distance_km": 1363.1,
+      "base_fare": 6928.68,
+      "weight": 0.0002866710530550865
+    },
+    {
+      "route_id": "PAT-TRV",
+      "origin": "PAT",
+      "destination": "TRV",
+      "origin_name": "Patna",
+      "destination_name": "Thiruvananthapuram",
+      "distance_km": 2089.5,
+      "base_fare": 9410.85,
+      "weight": 0.00024043747920250784
+    },
+    {
+      "route_id": "PAT-VNS",
+      "origin": "PAT",
+      "destination": "VNS",
+      "origin_name": "Patna",
+      "destination_name": "Varanasi",
+      "distance_km": 224.2,
+      "base_fare": 2982.83,
+      "weight": 0.0007442965555031609
+    },
+    {
+      "route_id": "PAT-VTZ",
+      "origin": "PAT",
+      "destination": "VTZ",
+      "origin_name": "Patna",
+      "destination_name": "Visakhapatnam",
+      "distance_km": 896.0,
+      "base_fare": 5523.85,
+      "weight": 0.00043610232632274786
+    },
+    {
+      "route_id": "PNQ-AMD",
+      "origin": "PNQ",
+      "destination": "AMD",
+      "origin_name": "Pune",
+      "destination_name": "Ahmedabad",
+      "distance_km": 517.3,
+      "base_fare": 3942.9,
+      "weight": 0.005920540782411508
+    },
+    {
+      "route_id": "PNQ-BBI",
+      "origin": "PNQ",
+      "destination": "BBI",
+      "origin_name": "Pune",
+      "destination_name": "Bhubaneswar",
+      "distance_km": 1261.1,
+      "base_fare": 6900.46,
+      "weight": 0.0011267397263344308
+    },
+    {
+      "route_id": "PNQ-COK",
+      "origin": "PNQ",
+      "destination": "COK",
+      "origin_name": "Pune",
+      "destination_name": "Kochi",
+      "distance_km": 974.7,
+      "base_fare": 5643.81,
+      "weight": 0.002624055461315744
+    },
+    {
+      "route_id": "PNQ-GAU",
+      "origin": "PNQ",
+      "destination": "GAU",
+      "origin_name": "Pune",
+      "destination_name": "Guwahati",
+      "distance_km": 1997.5,
+      "base_fare": 9246.41,
+      "weight": 0.0008536170785601695
+    },
+    {
+      "route_id": "PNQ-GOI",
+      "origin": "PNQ",
+      "destination": "GOI",
+      "origin_name": "Pune",
+      "destination_name": "Goa",
+      "distance_km": 356.1,
+      "base_fare": 3351.45,
+      "weight": 0.004736432625929206
+    },
+    {
+      "route_id": "PNQ-IDR",
+      "origin": "PNQ",
+      "destination": "IDR",
+      "origin_name": "Pune",
+      "destination_name": "Indore",
+      "distance_km": 500.2,
+      "base_fare": 4091.73,
+      "weight": 0.0020129838660199123
+    },
+    {
+      "route_id": "PNQ-IXB",
+      "origin": "PNQ",
+      "destination": "IXB",
+      "origin_name": "Pune",
+      "destination_name": "Bagdogra",
+      "distance_km": 1729.4,
+      "base_fare": 8367.13,
+      "weight": 0.00041082620095431367
+    },
+    {
+      "route_id": "PNQ-IXC",
+      "origin": "PNQ",
+      "destination": "IXC",
+      "origin_name": "Pune",
+      "destination_name": "Chandigarh",
+      "distance_km": 1375.2,
+      "base_fare": 7068.46,
+      "weight": 0.0013432092481273326
+    },
+    {
+      "route_id": "PNQ-IXM",
+      "origin": "PNQ",
+      "destination": "IXM",
+      "origin_name": "Pune",
+      "destination_name": "Madurai",
+      "distance_km": 1071.5,
+      "base_fare": 5831.88,
+      "weight": 0.0006630662032978547
+    },
+    {
+      "route_id": "PNQ-IXR",
+      "origin": "PNQ",
+      "destination": "IXR",
+      "origin_name": "Pune",
+      "destination_name": "Ranchi",
+      "distance_km": 1295.0,
+      "base_fare": 6958.18,
+      "weight": 0.0006583328473945333
+    },
+    {
+      "route_id": "PNQ-JAI",
+      "origin": "PNQ",
+      "destination": "JAI",
+      "origin_name": "Pune",
+      "destination_name": "Jaipur",
+      "distance_km": 936.8,
+      "base_fare": 5445.85,
+      "weight": 0.00227530626565684
+    },
+    {
+      "route_id": "PNQ-LKO",
+      "origin": "PNQ",
+      "destination": "LKO",
+      "origin_name": "Pune",
+      "destination_name": "Lucknow",
+      "distance_km": 1156.3,
+      "base_fare": 6564.3,
+      "weight": 0.001720451181609357
+    },
+    {
+      "route_id": "PNQ-NAG",
+      "origin": "PNQ",
+      "destination": "NAG",
+      "origin_name": "Pune",
+      "destination_name": "Nagpur",
+      "distance_km": 604.5,
+      "base_fare": 4402.08,
+      "weight": 0.0021154451690681914
+    },
+    {
+      "route_id": "PNQ-PAT",
+      "origin": "PNQ",
+      "destination": "PAT",
+      "origin_name": "Pune",
+      "destination_name": "Patna",
+      "distance_km": 1388.7,
+      "base_fare": 7349.94,
+      "weight": 0.0011255168179195518
+    },
+    {
+      "route_id": "PNQ-RPR",
+      "origin": "PNQ",
+      "destination": "RPR",
+      "origin_name": "Pune",
+      "destination_name": "Raipur",
+      "distance_km": 867.0,
+      "base_fare": 5235.61,
+      "weight": 0.0009833369379259507
+    },
+    {
+      "route_id": "PNQ-SXR",
+      "origin": "PNQ",
+      "destination": "SXR",
+      "origin_name": "Pune",
+      "destination_name": "Srinagar",
+      "distance_km": 1715.0,
+      "base_fare": 8618.77,
+      "weight": 0.0005799572285392677
+    },
+    {
+      "route_id": "PNQ-TRV",
+      "origin": "PNQ",
+      "destination": "TRV",
+      "origin_name": "Pune",
+      "destination_name": "Thiruvananthapuram",
+      "distance_km": 1168.8,
+      "base_fare": 6522.02,
+      "weight": 0.0010941047785073597
+    },
+    {
+      "route_id": "PNQ-VNS",
+      "origin": "PNQ",
+      "destination": "VNS",
+      "origin_name": "Pune",
+      "destination_name": "Varanasi",
+      "distance_km": 1196.3,
+      "base_fare": 6684.66,
+      "weight": 0.0009502365215890572
+    },
+    {
+      "route_id": "PNQ-VTZ",
+      "origin": "PNQ",
+      "destination": "VTZ",
+      "origin_name": "Pune",
+      "destination_name": "Visakhapatnam",
+      "distance_km": 987.7,
+      "base_fare": 5946.91,
+      "weight": 0.0010070451434084867
+    },
+    {
+      "route_id": "RPR-IXB",
+      "origin": "RPR",
+      "destination": "IXB",
+      "origin_name": "Raipur",
+      "destination_name": "Bagdogra",
+      "distance_km": 906.7,
+      "base_fare": 5467.46,
+      "weight": 0.0001679108169911713
+    },
+    {
+      "route_id": "RPR-IXM",
+      "origin": "RPR",
+      "destination": "IXM",
+      "origin_name": "Raipur",
+      "destination_name": "Madurai",
+      "distance_km": 1320.5,
+      "base_fare": 7126.07,
+      "weight": 0.00011529564122410189
+    },
+    {
+      "route_id": "RPR-IXR",
+      "origin": "RPR",
+      "destination": "IXR",
+      "origin_name": "Raipur",
+      "destination_name": "Ranchi",
+      "distance_km": 438.5,
+      "base_fare": 3737.65,
+      "weight": 0.00030448495452402037
+    },
+    {
+      "route_id": "SXR-IXB",
+      "origin": "SXR",
+      "destination": "IXB",
+      "origin_name": "Srinagar",
+      "destination_name": "Bagdogra",
+      "distance_km": 1531.5,
+      "base_fare": 8009.53,
+      "weight": 0.00011597596887507861
+    },
+    {
+      "route_id": "SXR-IXM",
+      "origin": "SXR",
+      "destination": "IXM",
+      "origin_name": "Srinagar",
+      "destination_name": "Madurai",
+      "distance_km": 2706.9,
+      "base_fare": 12053.16,
+      "weight": 6.561592789812581e-05
+    },
+    {
+      "route_id": "SXR-IXR",
+      "origin": "SXR",
+      "destination": "IXR",
+      "origin_name": "Srinagar",
+      "destination_name": "Ranchi",
+      "distance_km": 1568.8,
+      "base_fare": 7731.47,
+      "weight": 0.00013585962546333052
+    },
+    {
+      "route_id": "SXR-RPR",
+      "origin": "SXR",
+      "destination": "RPR",
+      "origin_name": "Srinagar",
+      "destination_name": "Raipur",
+      "distance_km": 1579.7,
+      "base_fare": 7696.1,
+      "weight": 0.00013492711921534427
+    },
+    {
+      "route_id": "TRV-IDR",
+      "origin": "TRV",
+      "destination": "IDR",
+      "origin_name": "Thiruvananthapuram",
+      "destination_name": "Indore",
+      "distance_km": 1587.9,
+      "base_fare": 7667.21,
+      "weight": 0.0002444881982403301
+    },
+    {
+      "route_id": "TRV-IXB",
+      "origin": "TRV",
+      "destination": "IXB",
+      "origin_name": "Thiruvananthapuram",
+      "destination_name": "Bagdogra",
+      "distance_km": 2354.0,
+      "base_fare": 10894.94,
+      "weight": 9.701284542414592e-05
+    },
+    {
+      "route_id": "TRV-IXM",
+      "origin": "TRV",
+      "destination": "IXM",
+      "origin_name": "Thiruvananthapuram",
+      "destination_name": "Madurai",
+      "distance_km": 198.0,
+      "base_fare": 2995.66,
+      "weight": 0.00038060619315502547
+    },
+    {
+      "route_id": "TRV-IXR",
+      "origin": "TRV",
+      "destination": "IXR",
+      "origin_name": "Thiruvananthapuram",
+      "destination_name": "Ranchi",
+      "distance_km": 1876.6,
+      "base_fare": 9152.96,
+      "weight": 0.00014602798235936932
+    },
+    {
+      "route_id": "TRV-NAG",
+      "origin": "TRV",
+      "destination": "NAG",
+      "origin_name": "Thiruvananthapuram",
+      "destination_name": "Nagpur",
+      "distance_km": 1420.6,
+      "base_fare": 7606.06,
+      "weight": 0.000289349309983006
+    },
+    {
+      "route_id": "TRV-RPR",
+      "origin": "TRV",
+      "destination": "RPR",
+      "origin_name": "Thiruvananthapuram",
+      "destination_name": "Raipur",
+      "distance_km": 1503.5,
+      "base_fare": 7444.2,
+      "weight": 0.00018225965209271995
+    },
+    {
+      "route_id": "TRV-SXR",
+      "origin": "TRV",
+      "destination": "SXR",
+      "origin_name": "Thiruvananthapuram",
+      "destination_name": "Srinagar",
+      "distance_km": 2844.5,
+      "base_fare": 12015.39,
+      "weight": 0.00011239464792437672
+    },
+    {
+      "route_id": "TRV-VNS",
+      "origin": "TRV",
+      "destination": "VNS",
+      "origin_name": "Thiruvananthapuram",
+      "destination_name": "Varanasi",
+      "distance_km": 1989.0,
+      "base_fare": 9232.42,
+      "weight": 0.00018370299810722263
+    },
+    {
+      "route_id": "TRV-VTZ",
+      "origin": "TRV",
+      "destination": "VTZ",
+      "origin_name": "Thiruvananthapuram",
+      "destination_name": "Visakhapatnam",
+      "distance_km": 1233.0,
+      "base_fare": 6831.54,
+      "weight": 0.0002592846101193118
+    },
+    {
+      "route_id": "VNS-IXB",
+      "origin": "VNS",
+      "destination": "IXB",
+      "origin_name": "Varanasi",
+      "destination_name": "Bagdogra",
+      "distance_km": 563.1,
+      "base_fare": 4379.17,
+      "weight": 0.0003383166161378004
+    },
+    {
+      "route_id": "VNS-IXM",
+      "origin": "VNS",
+      "destination": "IXM",
+      "origin_name": "Varanasi",
+      "destination_name": "Madurai",
+      "distance_km": 1808.0,
+      "base_fare": 8664.23,
+      "weight": 0.00011227341976296773
+    },
+    {
+      "route_id": "VNS-IXR",
+      "origin": "VNS",
+      "destination": "IXR",
+      "origin_name": "Varanasi",
+      "destination_name": "Ranchi",
+      "distance_km": 344.5,
+      "base_fare": 3562.92,
+      "weight": 0.0004059799393653605
+    },
+    {
+      "route_id": "VNS-RPR",
+      "origin": "VNS",
+      "destination": "RPR",
+      "origin_name": "Varanasi",
+      "destination_name": "Raipur",
+      "distance_km": 488.6,
+      "base_fare": 3980.04,
+      "weight": 0.0004059799393653605
+    },
+    {
+      "route_id": "VNS-SXR",
+      "origin": "VNS",
+      "destination": "SXR",
+      "origin_name": "Varanasi",
+      "destination_name": "Srinagar",
+      "distance_km": 1227.9,
+      "base_fare": 6567.34,
+      "weight": 0.00023144025477996535
+    },
+    {
+      "route_id": "VNS-VTZ",
+      "origin": "VNS",
+      "destination": "VTZ",
+      "origin_name": "Varanasi",
+      "destination_name": "Visakhapatnam",
+      "distance_km": 860.5,
+      "base_fare": 5171.08,
+      "weight": 0.00033025356707934504
+    },
+    {
+      "route_id": "VTZ-IXB",
+      "origin": "VTZ",
+      "destination": "IXB",
+      "origin_name": "Visakhapatnam",
+      "destination_name": "Bagdogra",
+      "distance_km": 1126.0,
+      "base_fare": 6363.61,
+      "weight": 0.00015773935523439718
+    },
+    {
+      "route_id": "VTZ-IXM",
+      "origin": "VTZ",
+      "destination": "IXM",
+      "origin_name": "Visakhapatnam",
+      "destination_name": "Madurai",
+      "distance_km": 1037.1,
+      "base_fare": 5922.9,
+      "weight": 0.00017126663626465934
+    },
+    {
+      "route_id": "VTZ-IXR",
+      "origin": "VTZ",
+      "destination": "IXR",
+      "origin_name": "Visakhapatnam",
+      "destination_name": "Ranchi",
+      "distance_km": 659.1,
+      "base_fare": 4484.62,
+      "weight": 0.0003233657469446603
+    },
+    {
+      "route_id": "VTZ-RPR",
+      "origin": "VTZ",
+      "destination": "RPR",
+      "origin_name": "Visakhapatnam",
+      "destination_name": "Raipur",
+      "distance_km": 415.0,
+      "base_fare": 3787.54,
+      "weight": 0.0003552324469446905
+    },
+    {
+      "route_id": "VTZ-SXR",
+      "origin": "VTZ",
+      "destination": "SXR",
+      "origin_name": "Visakhapatnam",
+      "destination_name": "Srinagar",
+      "distance_km": 1994.5,
+      "base_fare": 9207.05,
+      "weight": 0.00012467586128664965
+    }
+  ]
+}

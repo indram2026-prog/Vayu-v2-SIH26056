@@ -1,0 +1,45 @@
+{
+  "origin": "DEL",
+  "originCity": "Delhi",
+  "currency": "INR",
+  "travelDate": "2026-09-28",
+  "dateLabel": "Mon, 28 Sep",
+  "fares": [
+    {
+      "iata": "JAI",
+      "city": "Jaipur",
+      "fare": 3589,
+      "time": "15:50"
+    },
+    {
+      "iata": "BOM",
+      "city": "Mumbai",
+      "fare": 6147,
+      "time": "16:15"
+    },
+    {
+      "iata": "GOI",
+      "city": "Goa",
+      "fare": 7402,
+      "time": "19:30"
+    },
+    {
+      "iata": "HYD",
+      "city": "Hyderabad",
+      "fare": 8610,
+      "time": "23:15"
+    },
+    {
+      "iata": "BLR",
+      "city": "Bengaluru",
+      "fare": 8671,
+      "time": "23:30"
+    },
+    {
+      "iata": "MAA",
+      "city": "Chennai",
+      "fare": 9682,
+      "time": "22:55"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+ * Layout language for this page: a statistical bulletin, not a SaaS product.
+ * Sections are separated by a single hairline rule, not identical rounded
+ * cards with a soft shadow — the shadow/border/radius combo repeated on
+ * every block is one of the more obvious tells that a page was templated
+ * rather than composed, so it's deliberately absent here. Numbers are the
+ * content; the chrome around them stays quiet.
+ */
+
+:root {
+  box-sizing: border-box;
+  padding-top: env(safe-area-inset-top, 0px);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+* {
+  box-sizing: inherit;
+}
+
+html {
+  scroll-padding-top: env(safe-area-inset-top, 0px);
+}
+
+.section {
+  border-top: 1px solid theme("colors.line.DEFAULT");
+  padding-top: 1.25rem;
+}
+@media (prefers-color-scheme: dark) {
+  .section {
+    border-top-color: theme("colors.line.dark");
+  }
+}
+
+.btn {
+  @apply inline-flex items-center gap-1.5 rounded border border-line dark:border-line-dark
+         px-3 py-1.5 text-sm transition-colors duration-150;
+}
+.btn:hover {
+  @apply bg-ink/5 dark:bg-ink-dark/10;
+}
+.btn:active {
+  @apply bg-ink/10 dark:bg-ink-dark/15;
+}
+
+.nums {
+  font-variant-numeric: tabular-nums;
+}

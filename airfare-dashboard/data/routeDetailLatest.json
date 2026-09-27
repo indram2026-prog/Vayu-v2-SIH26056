@@ -1,0 +1,2927 @@
+[
+  {
+    "route_id": "BOM-BLR",
+    "origin_name": "Mumbai",
+    "destination_name": "Bengaluru",
+    "weight": 0.043805,
+    "base_price": 5317.29,
+    "latest_price": 5367.01,
+    "price_relative": 1.0094
+  },
+  {
+    "route_id": "BOM-HYD",
+    "origin_name": "Mumbai",
+    "destination_name": "Hyderabad",
+    "weight": 0.040357,
+    "base_price": 4448.82,
+    "latest_price": 4454.85,
+    "price_relative": 1.0014
+  },
+  {
+    "route_id": "DEL-BOM",
+    "origin_name": "Delhi",
+    "destination_name": "Mumbai",
+    "weight": 0.040167,
+    "base_price": 6400.0,
+    "latest_price": 6886.04,
+    "price_relative": 1.0759
+  },
+  {
+    "route_id": "BLR-HYD",
+    "origin_name": "Bengaluru",
+    "destination_name": "Hyderabad",
+    "weight": 0.037215,
+    "base_price": 3730.47,
+    "latest_price": 3950.39,
+    "price_relative": 1.059
+  },
+  {
+    "route_id": "BLR-MAA",
+    "origin_name": "Bengaluru",
+    "destination_name": "Chennai",
+    "weight": 0.030448,
+    "base_price": 3057.69,
+    "latest_price": 3018.87,
+    "price_relative": 0.9873
+  },
+  {
+    "route_id": "DEL-BLR",
+    "origin_name": "Delhi",
+    "destination_name": "Bengaluru",
+    "weight": 0.023758,
+    "base_price": 8552.03,
+    "latest_price": 8444.08,
+    "price_relative": 0.9874
+  },
+  {
+    "route_id": "DEL-HYD",
+    "origin_name": "Delhi",
+    "destination_name": "Hyderabad",
+    "weight": 0.022054,
+    "base_price": 6979.9,
+    "latest_price": 7050.75,
+    "price_relative": 1.0102
+  },
+  {
+    "route_id": "BOM-PNQ",
+    "origin_name": "Mumbai",
+    "destination_name": "Pune",
+    "weight": 0.021314,
+    "base_price": 2718.38,
+    "latest_price": 2697.47,
+    "price_relative": 0.9923
+  },
+  {
+    "route_id": "HYD-MAA",
+    "origin_name": "Hyderabad",
+    "destination_name": "Chennai",
+    "weight": 0.020933,
+    "base_price": 4189.17,
+    "latest_price": 4179.37,
+    "price_relative": 0.9977
+  },
+  {
+    "route_id": "BOM-MAA",
+    "origin_name": "Mumbai",
+    "destination_name": "Chennai",
+    "weight": 0.019892,
+    "base_price": 6136.91,
+    "latest_price": 6202.72,
+    "price_relative": 1.0107
+  },
+  {
+    "route_id": "BOM-AMD",
+    "origin_name": "Mumbai",
+    "destination_name": "Ahmedabad",
+    "weight": 0.01903,
+    "base_price": 3718.87,
+    "latest_price": 3693.16,
+    "price_relative": 0.9931
+  },
+  {
+    "route_id": "DEL-AMD",
+    "origin_name": "Delhi",
+    "destination_name": "Ahmedabad",
+    "weight": 0.016794,
+    "base_price": 4884.43,
+    "latest_price": 4867.35,
+    "price_relative": 0.9965
+  },
+  {
+    "route_id": "BLR-PNQ",
+    "origin_name": "Bengaluru",
+    "destination_name": "Pune",
+    "weight": 0.015731,
+    "base_price": 4807.06,
+    "latest_price": 4819.84,
+    "price_relative": 1.0027
+  },
+  {
+    "route_id": "DEL-CCU",
+    "origin_name": "Delhi",
+    "destination_name": "Kolkata",
+    "weight": 0.015467,
+    "base_price": 6740.78,
+    "latest_price": 6692.89,
+    "price_relative": 0.9929
+  },
+  {
+    "route_id": "BOM-GOI",
+    "origin_name": "Mumbai",
+    "destination_name": "Goa",
+    "weight": 0.015224,
+    "base_price": 3623.96,
+    "latest_price": 3641.43,
+    "price_relative": 1.0048
+  },
+  {
+    "route_id": "BLR-GOI",
+    "origin_name": "Bengaluru",
+    "destination_name": "Goa",
+    "weight": 0.013533,
+    "base_price": 4017.42,
+    "latest_price": 3812.07,
+    "price_relative": 0.9489
+  },
+  {
+    "route_id": "HYD-PNQ",
+    "origin_name": "Hyderabad",
+    "destination_name": "Pune",
+    "weight": 0.013025,
+    "base_price": 4029.06,
+    "latest_price": 3995.13,
+    "price_relative": 0.9916
+  },
+  {
+    "route_id": "DEL-MAA",
+    "origin_name": "Delhi",
+    "destination_name": "Chennai",
+    "weight": 0.01298,
+    "base_price": 8433.34,
+    "latest_price": 8529.49,
+    "price_relative": 1.0114
+  },
+  {
+    "route_id": "DEL-JAI",
+    "origin_name": "Delhi",
+    "destination_name": "Jaipur",
+    "weight": 0.012687,
+    "base_price": 3004.73,
+    "latest_price": 2978.6,
+    "price_relative": 0.9913
+  },
+  {
+    "route_id": "DEL-PNQ",
+    "origin_name": "Delhi",
+    "destination_name": "Pune",
+    "weight": 0.0123,
+    "base_price": 6517.38,
+    "latest_price": 6448.05,
+    "price_relative": 0.9894
+  },
+  {
+    "route_id": "BLR-COK",
+    "origin_name": "Bengaluru",
+    "destination_name": "Kochi",
+    "weight": 0.012179,
+    "base_price": 3566.51,
+    "latest_price": 3543.78,
+    "price_relative": 0.9936
+  },
+  {
+    "route_id": "DEL-LKO",
+    "origin_name": "Delhi",
+    "destination_name": "Lucknow",
+    "weight": 0.011841,
+    "base_price": 3622.24,
+    "latest_price": 3599.1,
+    "price_relative": 0.9936
+  },
+  {
+    "route_id": "DEL-IXC",
+    "origin_name": "Delhi",
+    "destination_name": "Chandigarh",
+    "weight": 0.010995,
+    "base_price": 2947.12,
+    "latest_price": 2914.65,
+    "price_relative": 0.989
+  },
+  {
+    "route_id": "BOM-CCU",
+    "origin_name": "Mumbai",
+    "destination_name": "Kolkata",
+    "weight": 0.010969,
+    "base_price": 8214.76,
+    "latest_price": 8324.93,
+    "price_relative": 1.0134
+  },
+  {
+    "route_id": "BLR-CCU",
+    "origin_name": "Bengaluru",
+    "destination_name": "Kolkata",
+    "weight": 0.010499,
+    "base_price": 7732.37,
+    "latest_price": 7709.82,
+    "price_relative": 0.9971
+  },
+  {
+    "route_id": "HYD-GOI",
+    "origin_name": "Hyderabad",
+    "destination_name": "Goa",
+    "weight": 0.009304,
+    "base_price": 4127.6,
+    "latest_price": 4098.42,
+    "price_relative": 0.9929
+  },
+  {
+    "route_id": "HYD-CCU",
+    "origin_name": "Hyderabad",
+    "destination_name": "Kolkata",
+    "weight": 0.009248,
+    "base_price": 6614.89,
+    "latest_price": 6651.95,
+    "price_relative": 1.0056
+  },
+  {
+    "route_id": "BLR-AMD",
+    "origin_name": "Bengaluru",
+    "destination_name": "Ahmedabad",
+    "weight": 0.008307,
+    "base_price": 6831.63,
+    "latest_price": 6732.48,
+    "price_relative": 0.9855
+  },
+  {
+    "route_id": "HYD-AMD",
+    "origin_name": "Hyderabad",
+    "destination_name": "Ahmedabad",
+    "weight": 0.007867,
+    "base_price": 5326.43,
+    "latest_price": 5395.47,
+    "price_relative": 1.013
+  },
+  {
+    "route_id": "BOM-COK",
+    "origin_name": "Mumbai",
+    "destination_name": "Kochi",
+    "weight": 0.007728,
+    "base_price": 5821.01,
+    "latest_price": 5790.1,
+    "price_relative": 0.9947
+  },
+  {
+    "route_id": "BOM-JAI",
+    "origin_name": "Mumbai",
+    "destination_name": "Jaipur",
+    "weight": 0.007518,
+    "base_price": 5468.72,
+    "latest_price": 5504.66,
+    "price_relative": 1.0066
+  },
+  {
+    "route_id": "MAA-PNQ",
+    "origin_name": "Chennai",
+    "destination_name": "Pune",
+    "weight": 0.007006,
+    "base_price": 5339.85,
+    "latest_price": 5351.52,
+    "price_relative": 1.0022
+  },
+  {
+    "route_id": "MAA-COK",
+    "origin_name": "Chennai",
+    "destination_name": "Kochi",
+    "weight": 0.006851,
+    "base_price": 3982.51,
+    "latest_price": 3969.92,
+    "price_relative": 0.9968
+  },
+  {
+    "route_id": "DEL-GOI",
+    "origin_name": "Delhi",
+    "destination_name": "Goa",
+    "weight": 0.006753,
+    "base_price": 7373.13,
+    "latest_price": 7282.36,
+    "price_relative": 0.9877
+  },
+  {
+    "route_id": "MAA-CCU",
+    "origin_name": "Chennai",
+    "destination_name": "Kolkata",
+    "weight": 0.006594,
+    "base_price": 6929.98,
+    "latest_price": 6921.53,
+    "price_relative": 0.9988
+  },
+  {
+    "route_id": "DEL-IDR",
+    "origin_name": "Delhi",
+    "destination_name": "Indore",
+    "weight": 0.006519,
+    "base_price": 4596.27,
+    "latest_price": 4647.09,
+    "price_relative": 1.0111
+  },
+  {
+    "route_id": "DEL-PAT",
+    "origin_name": "Delhi",
+    "destination_name": "Patna",
+    "weight": 0.006517,
+    "base_price": 5153.83,
+    "latest_price": 5103.62,
+    "price_relative": 0.9903
+  },
+  {
+    "route_id": "BOM-IDR",
+    "origin_name": "Mumbai",
+    "destination_name": "Indore",
+    "weight": 0.00647,
+    "base_price": 4140.54,
+    "latest_price": 3885.97,
+    "price_relative": 0.9385
+  },
+  {
+    "route_id": "MAA-GOI",
+    "origin_name": "Chennai",
+    "destination_name": "Goa",
+    "weight": 0.00623,
+    "base_price": 4777.16,
+    "latest_price": 4798.24,
+    "price_relative": 1.0044
+  },
+  {
+    "route_id": "HYD-COK",
+    "origin_name": "Hyderabad",
+    "destination_name": "Kochi",
+    "weight": 0.006142,
+    "base_price": 5009.43,
+    "latest_price": 5013.83,
+    "price_relative": 1.0009
+  },
+  {
+    "route_id": "BLR-TRV",
+    "origin_name": "Bengaluru",
+    "destination_name": "Thiruvananthapuram",
+    "weight": 0.00609,
+    "base_price": 4120.36,
+    "latest_price": 4059.33,
+    "price_relative": 0.9852
+  },
+  {
+    "route_id": "DEL-VNS",
+    "origin_name": "Delhi",
+    "destination_name": "Varanasi",
+    "weight": 0.006089,
+    "base_price": 4500.83,
+    "latest_price": 4481.56,
+    "price_relative": 0.9957
+  },
+  {
+    "route_id": "BOM-NAG",
+    "origin_name": "Mumbai",
+    "destination_name": "Nagpur",
+    "weight": 0.006022,
+    "base_price": 4706.73,
+    "latest_price": 4674.6,
+    "price_relative": 0.9932
+  },
+  {
+    "route_id": "PNQ-AMD",
+    "origin_name": "Pune",
+    "destination_name": "Ahmedabad",
+    "weight": 0.005921,
+    "base_price": 3942.9,
+    "latest_price": 3934.49,
+    "price_relative": 0.9979
+  },
+  {
+    "route_id": "DEL-SXR",
+    "origin_name": "Delhi",
+    "destination_name": "Srinagar",
+    "weight": 0.005525,
+    "base_price": 4489.56,
+    "latest_price": 4446.92,
+    "price_relative": 0.9905
+  },
+  {
+    "route_id": "BOM-LKO",
+    "origin_name": "Mumbai",
+    "destination_name": "Lucknow",
+    "weight": 0.005402,
+    "base_price": 6243.15,
+    "latest_price": 6298.33,
+    "price_relative": 1.0088
+  },
+  {
+    "route_id": "DEL-NAG",
+    "origin_name": "Delhi",
+    "destination_name": "Nagpur",
+    "weight": 0.005355,
+    "base_price": 5245.91,
+    "latest_price": 5175.58,
+    "price_relative": 0.9866
+  },
+  {
+    "route_id": "PNQ-GOI",
+    "origin_name": "Pune",
+    "destination_name": "Goa",
+    "weight": 0.004736,
+    "base_price": 3351.45,
+    "latest_price": 3301.57,
+    "price_relative": 0.9851
+  },
+  {
+    "route_id": "DEL-COK",
+    "origin_name": "Delhi",
+    "destination_name": "Kochi",
+    "weight": 0.004461,
+    "base_price": 9406.51,
+    "latest_price": 9324.35,
+    "price_relative": 0.9913
+  },
+  {
+    "route_id": "BOM-IXC",
+    "origin_name": "Mumbai",
+    "destination_name": "Chandigarh",
+    "weight": 0.004407,
+    "base_price": 6821.36,
+    "latest_price": 6841.58,
+    "price_relative": 1.003
+  },
+  {
+    "route_id": "HYD-NAG",
+    "origin_name": "Hyderabad",
+    "destination_name": "Nagpur",
+    "weight": 0.004187,
+    "base_price": 3837.24,
+    "latest_price": 3794.56,
+    "price_relative": 0.9889
+  },
+  {
+    "route_id": "DEL-GAU",
+    "origin_name": "Delhi",
+    "destination_name": "Guwahati",
+    "weight": 0.004183,
+    "base_price": 7216.32,
+    "latest_price": 7165.72,
+    "price_relative": 0.993
+  },
+  {
+    "route_id": "MAA-AMD",
+    "origin_name": "Chennai",
+    "destination_name": "Ahmedabad",
+    "weight": 0.004153,
+    "base_price": 7395.51,
+    "latest_price": 7493.58,
+    "price_relative": 1.0133
+  },
+  {
+    "route_id": "BLR-NAG",
+    "origin_name": "Bengaluru",
+    "destination_name": "Nagpur",
+    "weight": 0.004109,
+    "base_price": 5467.57,
+    "latest_price": 5440.04,
+    "price_relative": 0.995
+  },
+  {
+    "route_id": "CCU-GAU",
+    "origin_name": "Kolkata",
+    "destination_name": "Guwahati",
+    "weight": 0.00406,
+    "base_price": 3908.51,
+    "latest_price": 3931.18,
+    "price_relative": 1.0058
+  },
+  {
+    "route_id": "BLR-JAI",
+    "origin_name": "Bengaluru",
+    "destination_name": "Jaipur",
+    "weight": 0.003986,
+    "base_price": 7933.23,
+    "latest_price": 8011.4,
+    "price_relative": 1.0099
+  },
+  {
+    "route_id": "DEL-BBI",
+    "origin_name": "Delhi",
+    "destination_name": "Bhubaneswar",
+    "weight": 0.003974,
+    "base_price": 6639.47,
+    "latest_price": 6726.26,
+    "price_relative": 1.0131
+  },
+  {
+    "route_id": "HYD-JAI",
+    "origin_name": "Hyderabad",
+    "destination_name": "Jaipur",
+    "weight": 0.003809,
+    "base_price": 6344.29,
+    "latest_price": 6256.97,
+    "price_relative": 0.9862
+  },
+  {
+    "route_id": "CCU-PAT",
+    "origin_name": "Kolkata",
+    "destination_name": "Patna",
+    "weight": 0.003721,
+    "base_price": 3876.75,
+    "latest_price": 3791.2,
+    "price_relative": 0.9779
+  },
+  {
+    "route_id": "BLR-LKO",
+    "origin_name": "Bengaluru",
+    "destination_name": "Lucknow",
+    "weight": 0.003681,
+    "base_price": 7924.12,
+    "latest_price": 7994.26,
+    "price_relative": 1.0089
+  },
+  {
+    "route_id": "BLR-VTZ",
+    "origin_name": "Bengaluru",
+    "destination_name": "Visakhapatnam",
+    "weight": 0.003662,
+    "base_price": 5017.21,
+    "latest_price": 4827.59,
+    "price_relative": 0.9622
+  },
+  {
+    "route_id": "CCU-PNQ",
+    "origin_name": "Kolkata",
+    "destination_name": "Pune",
+    "weight": 0.003603,
+    "base_price": 8162.76,
+    "latest_price": 8224.85,
+    "price_relative": 1.0076
+  },
+  {
+    "route_id": "HYD-LKO",
+    "origin_name": "Hyderabad",
+    "destination_name": "Lucknow",
+    "weight": 0.00359,
+    "base_price": 6272.03,
+    "latest_price": 6195.99,
+    "price_relative": 0.9879
+  },
+  {
+    "route_id": "HYD-IDR",
+    "origin_name": "Hyderabad",
+    "destination_name": "Indore",
+    "weight": 0.003549,
+    "base_price": 4555.86,
+    "latest_price": 4619.94,
+    "price_relative": 1.0141
+  },
+  {
+    "route_id": "BLR-BBI",
+    "origin_name": "Bengaluru",
+    "destination_name": "Bhubaneswar",
+    "weight": 0.003483,
+    "base_price": 6208.91,
+    "latest_price": 6240.01,
+    "price_relative": 1.005
+  },
+  {
+    "route_id": "BOM-PAT",
+    "origin_name": "Mumbai",
+    "destination_name": "Patna",
+    "weight": 0.003468,
+    "base_price": 7193.23,
+    "latest_price": 7100.23,
+    "price_relative": 0.9871
+  },
+  {
+    "route_id": "BLR-IXM",
+    "origin_name": "Bengaluru",
+    "destination_name": "Madurai",
+    "weight": 0.003383,
+    "base_price": 3520.34,
+    "latest_price": 3540.53,
+    "price_relative": 1.0057
+  },
+  {
+    "route_id": "CCU-BBI",
+    "origin_name": "Kolkata",
+    "destination_name": "Bhubaneswar",
+    "weight": 0.003383,
+    "base_price": 3715.9,
+    "latest_price": 3764.89,
+    "price_relative": 1.0132
+  },
+  {
+    "route_id": "BOM-BBI",
+    "origin_name": "Mumbai",
+    "destination_name": "Bhubaneswar",
+    "weight": 0.003354,
+    "base_price": 6862.54,
+    "latest_price": 6775.1,
+    "price_relative": 0.9873
+  },
+  {
+    "route_id": "MAA-TRV",
+    "origin_name": "Chennai",
+    "destination_name": "Thiruvananthapuram",
+    "weight": 0.003344,
+    "base_price": 4561.02,
+    "latest_price": 4587.74,
+    "price_relative": 1.0059
+  },
+  {
+    "route_id": "HYD-BBI",
+    "origin_name": "Hyderabad",
+    "destination_name": "Bhubaneswar",
+    "weight": 0.003297,
+    "base_price": 5389.41,
+    "latest_price": 5451.55,
+    "price_relative": 1.0115
+  },
+  {
+    "route_id": "BOM-TRV",
+    "origin_name": "Mumbai",
+    "destination_name": "Thiruvananthapuram",
+    "weight": 0.003268,
+    "base_price": 6669.02,
+    "latest_price": 6582.78,
+    "price_relative": 0.9871
+  },
+  {
+    "route_id": "HYD-VTZ",
+    "origin_name": "Hyderabad",
+    "destination_name": "Visakhapatnam",
+    "weight": 0.003256,
+    "base_price": 4177.77,
+    "latest_price": 4217.75,
+    "price_relative": 1.0096
+  },
+  {
+    "route_id": "DEL-RPR",
+    "origin_name": "Delhi",
+    "destination_name": "Raipur",
+    "weight": 0.003225,
+    "base_price": 5643.39,
+    "latest_price": 5595.49,
+    "price_relative": 0.9915
+  },
+  {
+    "route_id": "BLR-IDR",
+    "origin_name": "Bengaluru",
+    "destination_name": "Indore",
+    "weight": 0.003202,
+    "base_price": 6016.03,
+    "latest_price": 5927.99,
+    "price_relative": 0.9854
+  },
+  {
+    "route_id": "CCU-LKO",
+    "origin_name": "Kolkata",
+    "destination_name": "Lucknow",
+    "weight": 0.003196,
+    "base_price": 5452.02,
+    "latest_price": 5408.96,
+    "price_relative": 0.9921
+  },
+  {
+    "route_id": "AMD-JAI",
+    "origin_name": "Ahmedabad",
+    "destination_name": "Jaipur",
+    "weight": 0.003172,
+    "base_price": 4247.37,
+    "latest_price": 3975.53,
+    "price_relative": 0.936
+  },
+  {
+    "route_id": "CCU-AMD",
+    "origin_name": "Kolkata",
+    "destination_name": "Ahmedabad",
+    "weight": 0.003133,
+    "base_price": 8299.78,
+    "latest_price": 8301.27,
+    "price_relative": 1.0002
+  },
+  {
+    "route_id": "DEL-IXR",
+    "origin_name": "Delhi",
+    "destination_name": "Ranchi",
+    "weight": 0.003023,
+    "base_price": 5959.12,
+    "latest_price": 5961.64,
+    "price_relative": 1.0004
+  },
+  {
+    "route_id": "AMD-GOI",
+    "origin_name": "Ahmedabad",
+    "destination_name": "Goa",
+    "weight": 0.002934,
+    "base_price": 5378.29,
+    "latest_price": 5328.27,
+    "price_relative": 0.9907
+  },
+  {
+    "route_id": "BOM-VNS",
+    "origin_name": "Mumbai",
+    "destination_name": "Varanasi",
+    "weight": 0.002929,
+    "base_price": 6481.3,
+    "latest_price": 6461.7,
+    "price_relative": 0.997
+  },
+  {
+    "route_id": "BOM-VTZ",
+    "origin_name": "Mumbai",
+    "destination_name": "Visakhapatnam",
+    "weight": 0.002898,
+    "base_price": 6135.11,
+    "latest_price": 6206.44,
+    "price_relative": 1.0116
+  },
+  {
+    "route_id": "BOM-RPR",
+    "origin_name": "Mumbai",
+    "destination_name": "Raipur",
+    "weight": 0.00287,
+    "base_price": 5812.49,
+    "latest_price": 6437.98,
+    "price_relative": 1.1076
+  },
+  {
+    "route_id": "GOI-COK",
+    "origin_name": "Goa",
+    "destination_name": "Kochi",
+    "weight": 0.002834,
+    "base_price": 4598.74,
+    "latest_price": 4875.61,
+    "price_relative": 1.0602
+  },
+  {
+    "route_id": "BLR-PAT",
+    "origin_name": "Bengaluru",
+    "destination_name": "Patna",
+    "weight": 0.002827,
+    "base_price": 8198.72,
+    "latest_price": 8120.18,
+    "price_relative": 0.9904
+  },
+  {
+    "route_id": "HYD-RPR",
+    "origin_name": "Hyderabad",
+    "destination_name": "Raipur",
+    "weight": 0.002791,
+    "base_price": 4134.48,
+    "latest_price": 4164.56,
+    "price_relative": 1.0073
+  },
+  {
+    "route_id": "BLR-IXC",
+    "origin_name": "Bengaluru",
+    "destination_name": "Chandigarh",
+    "weight": 0.002713,
+    "base_price": 9440.68,
+    "latest_price": 9364.14,
+    "price_relative": 0.9919
+  },
+  {
+    "route_id": "HYD-PAT",
+    "origin_name": "Hyderabad",
+    "destination_name": "Patna",
+    "weight": 0.002656,
+    "base_price": 6582.96,
+    "latest_price": 6643.75,
+    "price_relative": 1.0092
+  },
+  {
+    "route_id": "BOM-GAU",
+    "origin_name": "Mumbai",
+    "destination_name": "Guwahati",
+    "weight": 0.002646,
+    "base_price": 9437.01,
+    "latest_price": 9574.9,
+    "price_relative": 1.0146
+  },
+  {
+    "route_id": "PNQ-COK",
+    "origin_name": "Pune",
+    "destination_name": "Kochi",
+    "weight": 0.002624,
+    "base_price": 5643.81,
+    "latest_price": 5627.27,
+    "price_relative": 0.9971
+  },
+  {
+    "route_id": "DEL-VTZ",
+    "origin_name": "Delhi",
+    "destination_name": "Visakhapatnam",
+    "weight": 0.002617,
+    "base_price": 7349.88,
+    "latest_price": 8073.15,
+    "price_relative": 1.0984
+  },
+  {
+    "route_id": "MAA-VTZ",
+    "origin_name": "Chennai",
+    "destination_name": "Visakhapatnam",
+    "weight": 0.002582,
+    "base_price": 4329.87,
+    "latest_price": 4278.68,
+    "price_relative": 0.9882
+  },
+  {
+    "route_id": "HYD-TRV",
+    "origin_name": "Hyderabad",
+    "destination_name": "Thiruvananthapuram",
+    "weight": 0.002544,
+    "base_price": 5712.65,
+    "latest_price": 5638.48,
+    "price_relative": 0.987
+  },
+  {
+    "route_id": "CCU-VNS",
+    "origin_name": "Kolkata",
+    "destination_name": "Varanasi",
+    "weight": 0.00251,
+    "base_price": 4475.85,
+    "latest_price": 4455.95,
+    "price_relative": 0.9956
+  },
+  {
+    "route_id": "BLR-RPR",
+    "origin_name": "Bengaluru",
+    "destination_name": "Raipur",
+    "weight": 0.002472,
+    "base_price": 5754.71,
+    "latest_price": 5806.75,
+    "price_relative": 1.009
+  },
+  {
+    "route_id": "HYD-IXC",
+    "origin_name": "Hyderabad",
+    "destination_name": "Chandigarh",
+    "weight": 0.002414,
+    "base_price": 7416.09,
+    "latest_price": 8029.04,
+    "price_relative": 1.0827
+  },
+  {
+    "route_id": "BLR-GAU",
+    "origin_name": "Bengaluru",
+    "destination_name": "Guwahati",
+    "weight": 0.002389,
+    "base_price": 9643.41,
+    "latest_price": 9533.29,
+    "price_relative": 0.9886
+  },
+  {
+    "route_id": "CCU-GOI",
+    "origin_name": "Kolkata",
+    "destination_name": "Goa",
+    "weight": 0.00234,
+    "base_price": 8402.84,
+    "latest_price": 8512.81,
+    "price_relative": 1.0131
+  },
+  {
+    "route_id": "PNQ-JAI",
+    "origin_name": "Pune",
+    "destination_name": "Jaipur",
+    "weight": 0.002275,
+    "base_price": 5445.85,
+    "latest_price": 5464.4,
+    "price_relative": 1.0034
+  },
+  {
+    "route_id": "MAA-BBI",
+    "origin_name": "Chennai",
+    "destination_name": "Bhubaneswar",
+    "weight": 0.002271,
+    "base_price": 5704.33,
+    "latest_price": 5664.91,
+    "price_relative": 0.9931
+  },
+  {
+    "route_id": "MAA-NAG",
+    "origin_name": "Chennai",
+    "destination_name": "Nagpur",
+    "weight": 0.002263,
+    "base_price": 5680.42,
+    "latest_price": 5641.67,
+    "price_relative": 0.9932
+  },
+  {
+    "route_id": "DEL-IXB",
+    "origin_name": "Delhi",
+    "destination_name": "Bagdogra",
+    "weight": 0.002255,
+    "base_price": 6367.19,
+    "latest_price": 6449.2,
+    "price_relative": 1.0129
+  },
+  {
+    "route_id": "CCU-JAI",
+    "origin_name": "Kolkata",
+    "destination_name": "Jaipur",
+    "weight": 0.002244,
+    "base_price": 6911.95,
+    "latest_price": 6944.13,
+    "price_relative": 1.0047
+  },
+  {
+    "route_id": "BLR-VNS",
+    "origin_name": "Bengaluru",
+    "destination_name": "Varanasi",
+    "weight": 0.002216,
+    "base_price": 7182.54,
+    "latest_price": 6734.63,
+    "price_relative": 0.9376
+  },
+  {
+    "route_id": "HYD-VNS",
+    "origin_name": "Hyderabad",
+    "destination_name": "Varanasi",
+    "weight": 0.002186,
+    "base_price": 6063.85,
+    "latest_price": 6039.55,
+    "price_relative": 0.996
+  },
+  {
+    "route_id": "MAA-JAI",
+    "origin_name": "Chennai",
+    "destination_name": "Jaipur",
+    "weight": 0.002136,
+    "base_price": 7717.98,
+    "latest_price": 7814.29,
+    "price_relative": 1.0125
+  },
+  {
+    "route_id": "PNQ-NAG",
+    "origin_name": "Pune",
+    "destination_name": "Nagpur",
+    "weight": 0.002115,
+    "base_price": 4402.08,
+    "latest_price": 4339.54,
+    "price_relative": 0.9858
+  },
+  {
+    "route_id": "MAA-LKO",
+    "origin_name": "Chennai",
+    "destination_name": "Lucknow",
+    "weight": 0.002086,
+    "base_price": 7925.65,
+    "latest_price": 8001.83,
+    "price_relative": 1.0096
+  },
+  {
+    "route_id": "DEL-TRV",
+    "origin_name": "Delhi",
+    "destination_name": "Thiruvananthapuram",
+    "weight": 0.002046,
+    "base_price": 10632.32,
+    "latest_price": 10497.23,
+    "price_relative": 0.9873
+  },
+  {
+    "route_id": "CCU-IXR",
+    "origin_name": "Kolkata",
+    "destination_name": "Ranchi",
+    "weight": 0.00203,
+    "base_price": 3380.46,
+    "latest_price": 3344.36,
+    "price_relative": 0.9893
+  },
+  {
+    "route_id": "PNQ-IDR",
+    "origin_name": "Pune",
+    "destination_name": "Indore",
+    "weight": 0.002013,
+    "base_price": 4091.73,
+    "latest_price": 3929.15,
+    "price_relative": 0.9603
+  },
+  {
+    "route_id": "HYD-GAU",
+    "origin_name": "Hyderabad",
+    "destination_name": "Guwahati",
+    "weight": 0.001997,
+    "base_price": 8020.1,
+    "latest_price": 8066.47,
+    "price_relative": 1.0058
+  },
+  {
+    "route_id": "BOM-IXR",
+    "origin_name": "Mumbai",
+    "destination_name": "Ranchi",
+    "weight": 0.001996,
+    "base_price": 6971.09,
+    "latest_price": 6927.96,
+    "price_relative": 0.9938
+  },
+  {
+    "route_id": "BOM-IXM",
+    "origin_name": "Mumbai",
+    "destination_name": "Madurai",
+    "weight": 0.001948,
+    "base_price": 6607.15,
+    "latest_price": 6639.65,
+    "price_relative": 1.0049
+  },
+  {
+    "route_id": "CCU-COK",
+    "origin_name": "Kolkata",
+    "destination_name": "Kochi",
+    "weight": 0.001933,
+    "base_price": 8744.07,
+    "latest_price": 8856.83,
+    "price_relative": 1.0129
+  },
+  {
+    "route_id": "BOM-SXR",
+    "origin_name": "Mumbai",
+    "destination_name": "Srinagar",
+    "weight": 0.001917,
+    "base_price": 8242.33,
+    "latest_price": 8177.35,
+    "price_relative": 0.9921
+  },
+  {
+    "route_id": "AMD-LKO",
+    "origin_name": "Ahmedabad",
+    "destination_name": "Lucknow",
+    "weight": 0.001915,
+    "base_price": 5421.88,
+    "latest_price": 5351.92,
+    "price_relative": 0.9871
+  },
+  {
+    "route_id": "MAA-IXM",
+    "origin_name": "Chennai",
+    "destination_name": "Madurai",
+    "weight": 0.001903,
+    "base_price": 3830.25,
+    "latest_price": 3878.07,
+    "price_relative": 1.0125
+  },
+  {
+    "route_id": "CCU-NAG",
+    "origin_name": "Kolkata",
+    "destination_name": "Nagpur",
+    "weight": 0.001854,
+    "base_price": 5755.23,
+    "latest_price": 5725.09,
+    "price_relative": 0.9948
+  },
+  {
+    "route_id": "CCU-VTZ",
+    "origin_name": "Kolkata",
+    "destination_name": "Visakhapatnam",
+    "weight": 0.001838,
+    "base_price": 5088.44,
+    "latest_price": 5076.9,
+    "price_relative": 0.9977
+  },
+  {
+    "route_id": "CCU-IXC",
+    "origin_name": "Kolkata",
+    "destination_name": "Chandigarh",
+    "weight": 0.001807,
+    "base_price": 7580.81,
+    "latest_price": 7578.09,
+    "price_relative": 0.9996
+  },
+  {
+    "route_id": "AMD-IDR",
+    "origin_name": "Ahmedabad",
+    "destination_name": "Indore",
+    "weight": 0.001797,
+    "base_price": 3421.07,
+    "latest_price": 3384.66,
+    "price_relative": 0.9894
+  },
+  {
+    "route_id": "JAI-LKO",
+    "origin_name": "Jaipur",
+    "destination_name": "Lucknow",
+    "weight": 0.001776,
+    "base_price": 4006.34,
+    "latest_price": 3907.37,
+    "price_relative": 0.9753
+  },
+  {
+    "route_id": "BLR-IXR",
+    "origin_name": "Bengaluru",
+    "destination_name": "Ranchi",
+    "weight": 0.001763,
+    "base_price": 7330.52,
+    "latest_price": 7968.85,
+    "price_relative": 1.0871
+  },
+  {
+    "route_id": "AMD-IXC",
+    "origin_name": "Ahmedabad",
+    "destination_name": "Chandigarh",
+    "weight": 0.001755,
+    "base_price": 5433.23,
+    "latest_price": 5496.81,
+    "price_relative": 1.0117
+  },
+  {
+    "route_id": "PNQ-LKO",
+    "origin_name": "Pune",
+    "destination_name": "Lucknow",
+    "weight": 0.00172,
+    "base_price": 6564.3,
+    "latest_price": 6260.08,
+    "price_relative": 0.9537
+  },
+  {
+    "route_id": "CCU-RPR",
+    "origin_name": "Kolkata",
+    "destination_name": "Raipur",
+    "weight": 0.001713,
+    "base_price": 4850.88,
+    "latest_price": 4877.78,
+    "price_relative": 1.0055
+  },
+  {
+    "route_id": "HYD-IXR",
+    "origin_name": "Hyderabad",
+    "destination_name": "Ranchi",
+    "weight": 0.001698,
+    "base_price": 5700.6,
+    "latest_price": 5751.96,
+    "price_relative": 1.009
+  },
+  {
+    "route_id": "HYD-IXM",
+    "origin_name": "Hyderabad",
+    "destination_name": "Madurai",
+    "weight": 0.001693,
+    "base_price": 5066.82,
+    "latest_price": 5078.11,
+    "price_relative": 1.0022
+  },
+  {
+    "route_id": "CCU-IXB",
+    "origin_name": "Kolkata",
+    "destination_name": "Bagdogra",
+    "weight": 0.001692,
+    "base_price": 3678.06,
+    "latest_price": 3712.88,
+    "price_relative": 1.0095
+  },
+  {
+    "route_id": "MAA-PAT",
+    "origin_name": "Chennai",
+    "destination_name": "Patna",
+    "weight": 0.001683,
+    "base_price": 7720.25,
+    "latest_price": 7650.02,
+    "price_relative": 0.9909
+  },
+  {
+    "route_id": "MAA-IDR",
+    "origin_name": "Chennai",
+    "destination_name": "Indore",
+    "weight": 0.00165,
+    "base_price": 6416.33,
+    "latest_price": 6323.0,
+    "price_relative": 0.9855
+  },
+  {
+    "route_id": "JAI-IXC",
+    "origin_name": "Jaipur",
+    "destination_name": "Chandigarh",
+    "weight": 0.001649,
+    "base_price": 3700.81,
+    "latest_price": 3750.37,
+    "price_relative": 1.0134
+  },
+  {
+    "route_id": "AMD-NAG",
+    "origin_name": "Ahmedabad",
+    "destination_name": "Nagpur",
+    "weight": 0.001639,
+    "base_price": 4590.27,
+    "latest_price": 4582.88,
+    "price_relative": 0.9984
+  },
+  {
+    "route_id": "LKO-IXC",
+    "origin_name": "Lucknow",
+    "destination_name": "Chandigarh",
+    "weight": 0.001539,
+    "base_price": 4470.21,
+    "latest_price": 4424.45,
+    "price_relative": 0.9898
+  },
+  {
+    "route_id": "AMD-COK",
+    "origin_name": "Ahmedabad",
+    "destination_name": "Kochi",
+    "weight": 0.001531,
+    "base_price": 7379.25,
+    "latest_price": 7052.59,
+    "price_relative": 0.9557
+  },
+  {
+    "route_id": "MAA-IXC",
+    "origin_name": "Chennai",
+    "destination_name": "Chandigarh",
+    "weight": 0.001487,
+    "base_price": 9161.17,
+    "latest_price": 9676.9,
+    "price_relative": 1.0563
+  },
+  {
+    "route_id": "MAA-RPR",
+    "origin_name": "Chennai",
+    "destination_name": "Raipur",
+    "weight": 0.001481,
+    "base_price": 5427.51,
+    "latest_price": 5371.6,
+    "price_relative": 0.9897
+  },
+  {
+    "route_id": "MAA-GAU",
+    "origin_name": "Chennai",
+    "destination_name": "Guwahati",
+    "weight": 0.001455,
+    "base_price": 8654.03,
+    "latest_price": 8548.45,
+    "price_relative": 0.9878
+  },
+  {
+    "route_id": "COK-TRV",
+    "origin_name": "Kochi",
+    "destination_name": "Thiruvananthapuram",
+    "weight": 0.00137,
+    "base_price": 2999.96,
+    "latest_price": 2985.08,
+    "price_relative": 0.995
+  },
+  {
+    "route_id": "PNQ-IXC",
+    "origin_name": "Pune",
+    "destination_name": "Chandigarh",
+    "weight": 0.001343,
+    "base_price": 7068.46,
+    "latest_price": 7047.58,
+    "price_relative": 0.997
+  },
+  {
+    "route_id": "CCU-IDR",
+    "origin_name": "Kolkata",
+    "destination_name": "Indore",
+    "weight": 0.00133,
+    "base_price": 6726.17,
+    "latest_price": 6715.71,
+    "price_relative": 0.9984
+  },
+  {
+    "route_id": "LKO-PAT",
+    "origin_name": "Lucknow",
+    "destination_name": "Patna",
+    "weight": 0.001303,
+    "base_price": 3928.9,
+    "latest_price": 3944.4,
+    "price_relative": 1.0039
+  },
+  {
+    "route_id": "MAA-VNS",
+    "origin_name": "Chennai",
+    "destination_name": "Varanasi",
+    "weight": 0.001292,
+    "base_price": 7528.0,
+    "latest_price": 7486.38,
+    "price_relative": 0.9945
+  },
+  {
+    "route_id": "BOM-IXB",
+    "origin_name": "Mumbai",
+    "destination_name": "Bagdogra",
+    "weight": 0.001274,
+    "base_price": 8604.69,
+    "latest_price": 8484.25,
+    "price_relative": 0.986
+  },
+  {
+    "route_id": "BLR-SXR",
+    "origin_name": "Bengaluru",
+    "destination_name": "Srinagar",
+    "weight": 0.001219,
+    "base_price": 10504.02,
+    "latest_price": 10484.86,
+    "price_relative": 0.9982
+  },
+  {
+    "route_id": "DEL-IXM",
+    "origin_name": "Delhi",
+    "destination_name": "Madurai",
+    "weight": 0.001217,
+    "base_price": 9754.29,
+    "latest_price": 9773.08,
+    "price_relative": 1.0019
+  },
+  {
+    "route_id": "GOI-JAI",
+    "origin_name": "Goa",
+    "destination_name": "Jaipur",
+    "weight": 0.001181,
+    "base_price": 6977.83,
+    "latest_price": 6961.88,
+    "price_relative": 0.9977
+  },
+  {
+    "route_id": "PNQ-BBI",
+    "origin_name": "Pune",
+    "destination_name": "Bhubaneswar",
+    "weight": 0.001127,
+    "base_price": 6900.46,
+    "latest_price": 6953.02,
+    "price_relative": 1.0076
+  },
+  {
+    "route_id": "PNQ-PAT",
+    "origin_name": "Pune",
+    "destination_name": "Patna",
+    "weight": 0.001126,
+    "base_price": 7349.94,
+    "latest_price": 7367.12,
+    "price_relative": 1.0023
+  },
+  {
+    "route_id": "PNQ-TRV",
+    "origin_name": "Pune",
+    "destination_name": "Thiruvananthapuram",
+    "weight": 0.001094,
+    "base_price": 6522.02,
+    "latest_price": 6613.79,
+    "price_relative": 1.0141
+  },
+  {
+    "route_id": "GOI-TRV",
+    "origin_name": "Goa",
+    "destination_name": "Thiruvananthapuram",
+    "weight": 0.001091,
+    "base_price": 5354.66,
+    "latest_price": 5325.91,
+    "price_relative": 0.9946
+  },
+  {
+    "route_id": "BLR-IXB",
+    "origin_name": "Bengaluru",
+    "destination_name": "Bagdogra",
+    "weight": 0.001089,
+    "base_price": 9067.44,
+    "latest_price": 9119.95,
+    "price_relative": 1.0058
+  },
+  {
+    "route_id": "GOI-NAG",
+    "origin_name": "Goa",
+    "destination_name": "Nagpur",
+    "weight": 0.001087,
+    "base_price": 5293.88,
+    "latest_price": 5335.48,
+    "price_relative": 1.0079
+  },
+  {
+    "route_id": "AMD-PAT",
+    "origin_name": "Ahmedabad",
+    "destination_name": "Patna",
+    "weight": 0.00108,
+    "base_price": 6889.44,
+    "latest_price": 7527.92,
+    "price_relative": 1.0927
+  },
+  {
+    "route_id": "MAA-IXR",
+    "origin_name": "Chennai",
+    "destination_name": "Ranchi",
+    "weight": 0.001079,
+    "base_price": 6894.03,
+    "latest_price": 6674.69,
+    "price_relative": 0.9682
+  },
+  {
+    "route_id": "JAI-IDR",
+    "origin_name": "Jaipur",
+    "destination_name": "Indore",
+    "weight": 0.001078,
+    "base_price": 3970.44,
+    "latest_price": 3998.81,
+    "price_relative": 1.0071
+  },
+  {
+    "route_id": "HYD-SXR",
+    "origin_name": "Hyderabad",
+    "destination_name": "Srinagar",
+    "weight": 0.00103,
+    "base_price": 8842.61,
+    "latest_price": 8710.72,
+    "price_relative": 0.9851
+  },
+  {
+    "route_id": "GAU-PAT",
+    "origin_name": "Guwahati",
+    "destination_name": "Patna",
+    "weight": 0.001026,
+    "base_price": 4498.93,
+    "latest_price": 4445.45,
+    "price_relative": 0.9881
+  },
+  {
+    "route_id": "GOI-IDR",
+    "origin_name": "Goa",
+    "destination_name": "Indore",
+    "weight": 0.001024,
+    "base_price": 5296.22,
+    "latest_price": 5262.37,
+    "price_relative": 0.9936
+  },
+  {
+    "route_id": "PNQ-VTZ",
+    "origin_name": "Pune",
+    "destination_name": "Visakhapatnam",
+    "weight": 0.001007,
+    "base_price": 5946.91,
+    "latest_price": 6000.04,
+    "price_relative": 1.0089
+  },
+  {
+    "route_id": "PNQ-RPR",
+    "origin_name": "Pune",
+    "destination_name": "Raipur",
+    "weight": 0.000983,
+    "base_price": 5235.61,
+    "latest_price": 5196.38,
+    "price_relative": 0.9925
+  },
+  {
+    "route_id": "GOI-LKO",
+    "origin_name": "Goa",
+    "destination_name": "Lucknow",
+    "weight": 0.000973,
+    "base_price": 7510.82,
+    "latest_price": 7577.89,
+    "price_relative": 1.0089
+  },
+  {
+    "route_id": "LKO-NAG",
+    "origin_name": "Lucknow",
+    "destination_name": "Nagpur",
+    "weight": 0.000973,
+    "base_price": 4642.03,
+    "latest_price": 4674.75,
+    "price_relative": 1.007
+  },
+  {
+    "route_id": "JAI-NAG",
+    "origin_name": "Jaipur",
+    "destination_name": "Nagpur",
+    "weight": 0.000955,
+    "base_price": 4795.73,
+    "latest_price": 4754.74,
+    "price_relative": 0.9915
+  },
+  {
+    "route_id": "HYD-IXB",
+    "origin_name": "Hyderabad",
+    "destination_name": "Bagdogra",
+    "weight": 0.000954,
+    "base_price": 7687.82,
+    "latest_price": 7593.11,
+    "price_relative": 0.9877
+  },
+  {
+    "route_id": "PNQ-VNS",
+    "origin_name": "Pune",
+    "destination_name": "Varanasi",
+    "weight": 0.00095,
+    "base_price": 6684.66,
+    "latest_price": 6591.95,
+    "price_relative": 0.9861
+  },
+  {
+    "route_id": "AMD-VNS",
+    "origin_name": "Ahmedabad",
+    "destination_name": "Varanasi",
+    "weight": 0.000949,
+    "base_price": 6002.31,
+    "latest_price": 5913.2,
+    "price_relative": 0.9852
+  },
+  {
+    "route_id": "LKO-VNS",
+    "origin_name": "Lucknow",
+    "destination_name": "Varanasi",
+    "weight": 0.000947,
+    "base_price": 3008.33,
+    "latest_price": 2990.0,
+    "price_relative": 0.9939
+  },
+  {
+    "route_id": "PAT-BBI",
+    "origin_name": "Patna",
+    "destination_name": "Bhubaneswar",
+    "weight": 0.00093,
+    "base_price": 4263.61,
+    "latest_price": 4322.49,
+    "price_relative": 1.0138
+  },
+  {
+    "route_id": "CCU-TRV",
+    "origin_name": "Kolkata",
+    "destination_name": "Thiruvananthapuram",
+    "weight": 0.000914,
+    "base_price": 9117.73,
+    "latest_price": 9236.93,
+    "price_relative": 1.0131
+  },
+  {
+    "route_id": "AMD-BBI",
+    "origin_name": "Ahmedabad",
+    "destination_name": "Bhubaneswar",
+    "weight": 0.000908,
+    "base_price": 7054.97,
+    "latest_price": 7153.84,
+    "price_relative": 1.014
+  },
+  {
+    "route_id": "JAI-PAT",
+    "origin_name": "Jaipur",
+    "destination_name": "Patna",
+    "weight": 0.000895,
+    "base_price": 5541.47,
+    "latest_price": 5546.65,
+    "price_relative": 1.0009
+  },
+  {
+    "route_id": "LKO-IDR",
+    "origin_name": "Lucknow",
+    "destination_name": "Indore",
+    "weight": 0.000885,
+    "base_price": 4759.55,
+    "latest_price": 4691.5,
+    "price_relative": 0.9857
+  },
+  {
+    "route_id": "PNQ-GAU",
+    "origin_name": "Pune",
+    "destination_name": "Guwahati",
+    "weight": 0.000854,
+    "base_price": 9246.41,
+    "latest_price": 9222.54,
+    "price_relative": 0.9974
+  },
+  {
+    "route_id": "JAI-VNS",
+    "origin_name": "Jaipur",
+    "destination_name": "Varanasi",
+    "weight": 0.000846,
+    "base_price": 4680.06,
+    "latest_price": 4668.47,
+    "price_relative": 0.9975
+  },
+  {
+    "route_id": "LKO-BBI",
+    "origin_name": "Lucknow",
+    "destination_name": "Bhubaneswar",
+    "weight": 0.000806,
+    "base_price": 5351.14,
+    "latest_price": 5768.29,
+    "price_relative": 1.078
+  },
+  {
+    "route_id": "LKO-GAU",
+    "origin_name": "Lucknow",
+    "destination_name": "Guwahati",
+    "weight": 0.000799,
+    "base_price": 5917.32,
+    "latest_price": 5984.31,
+    "price_relative": 1.0113
+  },
+  {
+    "route_id": "AMD-RPR",
+    "origin_name": "Ahmedabad",
+    "destination_name": "Raipur",
+    "weight": 0.000792,
+    "base_price": 5494.16,
+    "latest_price": 5420.37,
+    "price_relative": 0.9866
+  },
+  {
+    "route_id": "AMD-GAU",
+    "origin_name": "Ahmedabad",
+    "destination_name": "Guwahati",
+    "weight": 0.000783,
+    "base_price": 9489.64,
+    "latest_price": 9009.76,
+    "price_relative": 0.9494
+  },
+  {
+    "route_id": "CCU-SXR",
+    "origin_name": "Kolkata",
+    "destination_name": "Srinagar",
+    "weight": 0.000774,
+    "base_price": 8846.52,
+    "latest_price": 8606.34,
+    "price_relative": 0.9729
+  },
+  {
+    "route_id": "IXC-SXR",
+    "origin_name": "Chandigarh",
+    "destination_name": "Srinagar",
+    "weight": 0.00077,
+    "base_price": 3660.94,
+    "latest_price": 3655.37,
+    "price_relative": 0.9985
+  },
+  {
+    "route_id": "GOI-IXC",
+    "origin_name": "Goa",
+    "destination_name": "Chandigarh",
+    "weight": 0.000764,
+    "base_price": 8217.24,
+    "latest_price": 8167.61,
+    "price_relative": 0.994
+  },
+  {
+    "route_id": "COK-IXM",
+    "origin_name": "Kochi",
+    "destination_name": "Madurai",
+    "weight": 0.000761,
+    "base_price": 2952.91,
+    "latest_price": 2919.76,
+    "price_relative": 0.9888
+  },
+  {
+    "route_id": "PAT-VNS",
+    "origin_name": "Patna",
+    "destination_name": "Varanasi",
+    "weight": 0.000744,
+    "base_price": 2982.83,
+    "latest_price": 3181.54,
+    "price_relative": 1.0666
+  },
+  {
+    "route_id": "COK-JAI",
+    "origin_name": "Kochi",
+    "destination_name": "Jaipur",
+    "weight": 0.000739,
+    "base_price": 8680.23,
+    "latest_price": 8770.8,
+    "price_relative": 1.0104
+  },
+  {
+    "route_id": "GOI-BBI",
+    "origin_name": "Goa",
+    "destination_name": "Bhubaneswar",
+    "weight": 0.000736,
+    "base_price": 7417.83,
+    "latest_price": 7451.39,
+    "price_relative": 1.0045
+  },
+  {
+    "route_id": "IXC-PAT",
+    "origin_name": "Chandigarh",
+    "destination_name": "Patna",
+    "weight": 0.000733,
+    "base_price": 5775.46,
+    "latest_price": 6365.23,
+    "price_relative": 1.1021
+  },
+  {
+    "route_id": "AMD-SXR",
+    "origin_name": "Ahmedabad",
+    "destination_name": "Srinagar",
+    "weight": 0.000721,
+    "base_price": 6554.82,
+    "latest_price": 6581.46,
+    "price_relative": 1.0041
+  },
+  {
+    "route_id": "LKO-IXR",
+    "origin_name": "Lucknow",
+    "destination_name": "Ranchi",
+    "weight": 0.00071,
+    "base_price": 4203.1,
+    "latest_price": 4212.87,
+    "price_relative": 1.0023
+  },
+  {
+    "route_id": "AMD-VTZ",
+    "origin_name": "Ahmedabad",
+    "destination_name": "Visakhapatnam",
+    "weight": 0.000709,
+    "base_price": 6906.57,
+    "latest_price": 6924.23,
+    "price_relative": 1.0026
+  },
+  {
+    "route_id": "GAU-BBI",
+    "origin_name": "Guwahati",
+    "destination_name": "Bhubaneswar",
+    "weight": 0.000693,
+    "base_price": 5479.11,
+    "latest_price": 5490.2,
+    "price_relative": 1.002
+  },
+  {
+    "route_id": "GOI-VTZ",
+    "origin_name": "Goa",
+    "destination_name": "Visakhapatnam",
+    "weight": 0.000687,
+    "base_price": 5816.26,
+    "latest_price": 5745.37,
+    "price_relative": 0.9878
+  },
+  {
+    "route_id": "GOI-PAT",
+    "origin_name": "Goa",
+    "destination_name": "Patna",
+    "weight": 0.000685,
+    "base_price": 8365.52,
+    "latest_price": 7896.6,
+    "price_relative": 0.9439
+  },
+  {
+    "route_id": "LKO-RPR",
+    "origin_name": "Lucknow",
+    "destination_name": "Raipur",
+    "weight": 0.00068,
+    "base_price": 4585.31,
+    "latest_price": 4549.56,
+    "price_relative": 0.9922
+  },
+  {
+    "route_id": "AMD-TRV",
+    "origin_name": "Ahmedabad",
+    "destination_name": "Thiruvananthapuram",
+    "weight": 0.000677,
+    "base_price": 8411.58,
+    "latest_price": 8445.83,
+    "price_relative": 1.0041
+  },
+  {
+    "route_id": "COK-LKO",
+    "origin_name": "Kochi",
+    "destination_name": "Lucknow",
+    "weight": 0.000671,
+    "base_price": 9273.93,
+    "latest_price": 9288.47,
+    "price_relative": 1.0016
+  },
+  {
+    "route_id": "MAA-SXR",
+    "origin_name": "Chennai",
+    "destination_name": "Srinagar",
+    "weight": 0.000667,
+    "base_price": 10948.54,
+    "latest_price": 11038.17,
+    "price_relative": 1.0082
+  },
+  {
+    "route_id": "JAI-SXR",
+    "origin_name": "Jaipur",
+    "destination_name": "Srinagar",
+    "weight": 0.000664,
+    "base_price": 5087.78,
+    "latest_price": 5027.57,
+    "price_relative": 0.9882
+  },
+  {
+    "route_id": "PNQ-IXM",
+    "origin_name": "Pune",
+    "destination_name": "Madurai",
+    "weight": 0.000663,
+    "base_price": 5831.88,
+    "latest_price": 5817.64,
+    "price_relative": 0.9976
+  },
+  {
+    "route_id": "COK-NAG",
+    "origin_name": "Kochi",
+    "destination_name": "Nagpur",
+    "weight": 0.000658,
+    "base_price": 6433.17,
+    "latest_price": 7015.36,
+    "price_relative": 1.0905
+  },
+  {
+    "route_id": "GOI-IXM",
+    "origin_name": "Goa",
+    "destination_name": "Madurai",
+    "weight": 0.000658,
+    "base_price": 4903.18,
+    "latest_price": 4901.06,
+    "price_relative": 0.9996
+  },
+  {
+    "route_id": "PNQ-IXR",
+    "origin_name": "Pune",
+    "destination_name": "Ranchi",
+    "weight": 0.000658,
+    "base_price": 6958.18,
+    "latest_price": 6412.49,
+    "price_relative": 0.9216
+  },
+  {
+    "route_id": "MAA-IXB",
+    "origin_name": "Chennai",
+    "destination_name": "Bagdogra",
+    "weight": 0.000655,
+    "base_price": 8162.17,
+    "latest_price": 8093.47,
+    "price_relative": 0.9916
+  },
+  {
+    "route_id": "NAG-IDR",
+    "origin_name": "Nagpur",
+    "destination_name": "Indore",
+    "weight": 0.000647,
+    "base_price": 3612.63,
+    "latest_price": 3642.2,
+    "price_relative": 1.0082
+  },
+  {
+    "route_id": "BBI-NAG",
+    "origin_name": "Bhubaneswar",
+    "destination_name": "Nagpur",
+    "weight": 0.000643,
+    "base_price": 4759.11,
+    "latest_price": 4691.87,
+    "price_relative": 0.9859
+  },
+  {
+    "route_id": "IXC-VNS",
+    "origin_name": "Chandigarh",
+    "destination_name": "Varanasi",
+    "weight": 0.000635,
+    "base_price": 5026.04,
+    "latest_price": 5029.08,
+    "price_relative": 1.0006
+  },
+  {
+    "route_id": "PAT-NAG",
+    "origin_name": "Patna",
+    "destination_name": "Nagpur",
+    "weight": 0.000633,
+    "base_price": 5144.45,
+    "latest_price": 5204.44,
+    "price_relative": 1.0117
+  },
+  {
+    "route_id": "IXC-IDR",
+    "origin_name": "Chandigarh",
+    "destination_name": "Indore",
+    "weight": 0.00063,
+    "base_price": 5561.15,
+    "latest_price": 5573.83,
+    "price_relative": 1.0023
+  },
+  {
+    "route_id": "BBI-VNS",
+    "origin_name": "Bhubaneswar",
+    "destination_name": "Varanasi",
+    "weight": 0.000621,
+    "base_price": 4450.89,
+    "latest_price": 4394.32,
+    "price_relative": 0.9873
+  },
+  {
+    "route_id": "JAI-BBI",
+    "origin_name": "Jaipur",
+    "destination_name": "Bhubaneswar",
+    "weight": 0.000607,
+    "base_price": 6528.56,
+    "latest_price": 6533.13,
+    "price_relative": 1.0007
+  },
+  {
+    "route_id": "COK-BBI",
+    "origin_name": "Kochi",
+    "destination_name": "Bhubaneswar",
+    "weight": 0.000605,
+    "base_price": 7781.74,
+    "latest_price": 7841.05,
+    "price_relative": 1.0076
+  },
+  {
+    "route_id": "BBI-VTZ",
+    "origin_name": "Bhubaneswar",
+    "destination_name": "Visakhapatnam",
+    "weight": 0.000592,
+    "base_price": 3525.39,
+    "latest_price": 3562.12,
+    "price_relative": 1.0104
+  },
+  {
+    "route_id": "NAG-VNS",
+    "origin_name": "Nagpur",
+    "destination_name": "Varanasi",
+    "weight": 0.000588,
+    "base_price": 4337.77,
+    "latest_price": 4304.19,
+    "price_relative": 0.9923
+  },
+  {
+    "route_id": "AMD-IXR",
+    "origin_name": "Ahmedabad",
+    "destination_name": "Ranchi",
+    "weight": 0.000587,
+    "base_price": 6646.28,
+    "latest_price": 6741.39,
+    "price_relative": 1.0143
+  },
+  {
+    "route_id": "JAI-GAU",
+    "origin_name": "Jaipur",
+    "destination_name": "Guwahati",
+    "weight": 0.000581,
+    "base_price": 8084.54,
+    "latest_price": 8053.75,
+    "price_relative": 0.9962
+  },
+  {
+    "route_id": "PNQ-SXR",
+    "origin_name": "Pune",
+    "destination_name": "Srinagar",
+    "weight": 0.00058,
+    "base_price": 8618.77,
+    "latest_price": 8523.42,
+    "price_relative": 0.9889
+  },
+  {
+    "route_id": "GOI-RPR",
+    "origin_name": "Goa",
+    "destination_name": "Raipur",
+    "weight": 0.000577,
+    "base_price": 6159.97,
+    "latest_price": 6108.43,
+    "price_relative": 0.9916
+  },
+  {
+    "route_id": "COK-VTZ",
+    "origin_name": "Kochi",
+    "destination_name": "Visakhapatnam",
+    "weight": 0.000572,
+    "base_price": 6347.75,
+    "latest_price": 6431.24,
+    "price_relative": 1.0132
+  },
+  {
+    "route_id": "CCU-IXM",
+    "origin_name": "Kolkata",
+    "destination_name": "Madurai",
+    "weight": 0.000563,
+    "base_price": 8991.56,
+    "latest_price": 8916.66,
+    "price_relative": 0.9917
+  },
+  {
+    "route_id": "PAT-IXR",
+    "origin_name": "Patna",
+    "destination_name": "Ranchi",
+    "weight": 0.000558,
+    "base_price": 3110.48,
+    "latest_price": 3066.77,
+    "price_relative": 0.9859
+  },
+  {
+    "route_id": "PAT-RPR",
+    "origin_name": "Patna",
+    "destination_name": "Raipur",
+    "weight": 0.000558,
+    "base_price": 4185.71,
+    "latest_price": 4141.9,
+    "price_relative": 0.9895
+  },
+  {
+    "route_id": "GAU-VNS",
+    "origin_name": "Guwahati",
+    "destination_name": "Varanasi",
+    "weight": 0.000556,
+    "base_price": 5547.65,
+    "latest_price": 5617.57,
+    "price_relative": 1.0126
+  },
+  {
+    "route_id": "GOI-VNS",
+    "origin_name": "Goa",
+    "destination_name": "Varanasi",
+    "weight": 0.000556,
+    "base_price": 7378.83,
+    "latest_price": 7341.93,
+    "price_relative": 0.995
+  },
+  {
+    "route_id": "COK-IDR",
+    "origin_name": "Kochi",
+    "destination_name": "Indore",
+    "weight": 0.000555,
+    "base_price": 7426.15,
+    "latest_price": 7512.79,
+    "price_relative": 1.0117
+  },
+  {
+    "route_id": "GOI-GAU",
+    "origin_name": "Goa",
+    "destination_name": "Guwahati",
+    "weight": 0.000555,
+    "base_price": 9941.96,
+    "latest_price": 9847.4,
+    "price_relative": 0.9905
+  },
+  {
+    "route_id": "IXC-NAG",
+    "origin_name": "Chandigarh",
+    "destination_name": "Nagpur",
+    "weight": 0.000545,
+    "base_price": 5920.97,
+    "latest_price": 5925.68,
+    "price_relative": 1.0008
+  },
+  {
+    "route_id": "NAG-VTZ",
+    "origin_name": "Nagpur",
+    "destination_name": "Visakhapatnam",
+    "weight": 0.000533,
+    "base_price": 4178.94,
+    "latest_price": 4143.25,
+    "price_relative": 0.9915
+  },
+  {
+    "route_id": "JAI-RPR",
+    "origin_name": "Jaipur",
+    "destination_name": "Raipur",
+    "weight": 0.000525,
+    "base_price": 5343.55,
+    "latest_price": 5321.46,
+    "price_relative": 0.9959
+  },
+  {
+    "route_id": "COK-IXC",
+    "origin_name": "Kochi",
+    "destination_name": "Chandigarh",
+    "weight": 0.00052,
+    "base_price": 10551.53,
+    "latest_price": 10407.66,
+    "price_relative": 0.9864
+  },
+  {
+    "route_id": "GAU-IXR",
+    "origin_name": "Guwahati",
+    "destination_name": "Ranchi",
+    "weight": 0.000519,
+    "base_price": 4764.99,
+    "latest_price": 4718.21,
+    "price_relative": 0.9902
+  },
+  {
+    "route_id": "IXC-GAU",
+    "origin_name": "Chandigarh",
+    "destination_name": "Guwahati",
+    "weight": 0.000517,
+    "base_price": 7824.59,
+    "latest_price": 7735.23,
+    "price_relative": 0.9886
+  },
+  {
+    "route_id": "COK-PAT",
+    "origin_name": "Kochi",
+    "destination_name": "Patna",
+    "weight": 0.000516,
+    "base_price": 8878.38,
+    "latest_price": 8996.77,
+    "price_relative": 1.0133
+  },
+  {
+    "route_id": "BBI-IXR",
+    "origin_name": "Bhubaneswar",
+    "destination_name": "Ranchi",
+    "weight": 0.000507,
+    "base_price": 3375.78,
+    "latest_price": 3386.42,
+    "price_relative": 1.0032
+  },
+  {
+    "route_id": "BBI-RPR",
+    "origin_name": "Bhubaneswar",
+    "destination_name": "Raipur",
+    "weight": 0.000507,
+    "base_price": 3682.57,
+    "latest_price": 3656.16,
+    "price_relative": 0.9928
+  },
+  {
+    "route_id": "GAU-IXB",
+    "origin_name": "Guwahati",
+    "destination_name": "Bagdogra",
+    "weight": 0.000507,
+    "base_price": 3363.5,
+    "latest_price": 3340.27,
+    "price_relative": 0.9931
+  },
+  {
+    "route_id": "LKO-SXR",
+    "origin_name": "Lucknow",
+    "destination_name": "Srinagar",
+    "weight": 0.0005,
+    "base_price": 5757.79,
+    "latest_price": 5442.66,
+    "price_relative": 0.9453
+  },
+  {
+    "route_id": "LKO-IXB",
+    "origin_name": "Lucknow",
+    "destination_name": "Bagdogra",
+    "weight": 0.000481,
+    "base_price": 4970.2,
+    "latest_price": 5347.45,
+    "price_relative": 1.0759
+  },
+  {
+    "route_id": "LKO-VTZ",
+    "origin_name": "Lucknow",
+    "destination_name": "Visakhapatnam",
+    "weight": 0.000481,
+    "base_price": 6032.19,
+    "latest_price": 6058.27,
+    "price_relative": 1.0043
+  },
+  {
+    "route_id": "PAT-IDR",
+    "origin_name": "Patna",
+    "destination_name": "Indore",
+    "weight": 0.000477,
+    "base_price": 5900.19,
+    "latest_price": 5858.28,
+    "price_relative": 0.9929
+  },
+  {
+    "route_id": "PAT-IXB",
+    "origin_name": "Patna",
+    "destination_name": "Bagdogra",
+    "weight": 0.000465,
+    "base_price": 3406.31,
+    "latest_price": 3590.78,
+    "price_relative": 1.0542
+  },
+  {
+    "route_id": "COK-GAU",
+    "origin_name": "Kochi",
+    "destination_name": "Guwahati",
+    "weight": 0.000459,
+    "base_price": 11087.79,
+    "latest_price": 10969.38,
+    "price_relative": 0.9893
+  },
+  {
+    "route_id": "NAG-RPR",
+    "origin_name": "Nagpur",
+    "destination_name": "Raipur",
+    "weight": 0.000457,
+    "base_price": 3185.61,
+    "latest_price": 3176.86,
+    "price_relative": 0.9973
+  },
+  {
+    "route_id": "IXC-BBI",
+    "origin_name": "Chandigarh",
+    "destination_name": "Bhubaneswar",
+    "weight": 0.000449,
+    "base_price": 7646.38,
+    "latest_price": 7715.6,
+    "price_relative": 1.0091
+  },
+  {
+    "route_id": "IDR-VNS",
+    "origin_name": "Indore",
+    "destination_name": "Varanasi",
+    "weight": 0.000444,
+    "base_price": 4974.12,
+    "latest_price": 5319.39,
+    "price_relative": 1.0694
+  },
+  {
+    "route_id": "JAI-IXR",
+    "origin_name": "Jaipur",
+    "destination_name": "Ranchi",
+    "weight": 0.000442,
+    "base_price": 5821.56,
+    "latest_price": 5855.39,
+    "price_relative": 1.0058
+  },
+  {
+    "route_id": "PAT-VTZ",
+    "origin_name": "Patna",
+    "destination_name": "Visakhapatnam",
+    "weight": 0.000436,
+    "base_price": 5523.85,
+    "latest_price": 5482.38,
+    "price_relative": 0.9925
+  },
+  {
+    "route_id": "JAI-VTZ",
+    "origin_name": "Jaipur",
+    "destination_name": "Visakhapatnam",
+    "weight": 0.000421,
+    "base_price": 6622.74,
+    "latest_price": 6623.34,
+    "price_relative": 1.0001
+  },
+  {
+    "route_id": "PNQ-IXB",
+    "origin_name": "Pune",
+    "destination_name": "Bagdogra",
+    "weight": 0.000411,
+    "base_price": 8367.13,
+    "latest_price": 8274.86,
+    "price_relative": 0.989
+  },
+  {
+    "route_id": "GOI-IXR",
+    "origin_name": "Goa",
+    "destination_name": "Ranchi",
+    "weight": 0.000408,
+    "base_price": 7483.01,
+    "latest_price": 7381.67,
+    "price_relative": 0.9865
+  },
+  {
+    "route_id": "IDR-RPR",
+    "origin_name": "Indore",
+    "destination_name": "Raipur",
+    "weight": 0.000407,
+    "base_price": 4536.13,
+    "latest_price": 4554.94,
+    "price_relative": 1.0041
+  },
+  {
+    "route_id": "VNS-IXR",
+    "origin_name": "Varanasi",
+    "destination_name": "Ranchi",
+    "weight": 0.000406,
+    "base_price": 3562.92,
+    "latest_price": 3587.45,
+    "price_relative": 1.0069
+  },
+  {
+    "route_id": "VNS-RPR",
+    "origin_name": "Varanasi",
+    "destination_name": "Raipur",
+    "weight": 0.000406,
+    "base_price": 3980.04,
+    "latest_price": 3951.31,
+    "price_relative": 0.9928
+  },
+  {
+    "route_id": "COK-RPR",
+    "origin_name": "Kochi",
+    "destination_name": "Raipur",
+    "weight": 0.000405,
+    "base_price": 6897.49,
+    "latest_price": 6997.2,
+    "price_relative": 1.0145
+  },
+  {
+    "route_id": "BBI-IDR",
+    "origin_name": "Bhubaneswar",
+    "destination_name": "Indore",
+    "weight": 0.000402,
+    "base_price": 6146.48,
+    "latest_price": 5841.11,
+    "price_relative": 0.9503
+  },
+  {
+    "route_id": "AMD-IXM",
+    "origin_name": "Ahmedabad",
+    "destination_name": "Madurai",
+    "weight": 0.000401,
+    "base_price": 8136.01,
+    "latest_price": 8760.73,
+    "price_relative": 1.0768
+  },
+  {
+    "route_id": "COK-VNS",
+    "origin_name": "Kochi",
+    "destination_name": "Varanasi",
+    "weight": 0.000399,
+    "base_price": 8527.08,
+    "latest_price": 8535.32,
+    "price_relative": 1.001
+  },
+  {
+    "route_id": "NAG-IXR",
+    "origin_name": "Nagpur",
+    "destination_name": "Ranchi",
+    "weight": 0.000396,
+    "base_price": 4615.14,
+    "latest_price": 4588.26,
+    "price_relative": 0.9942
+  },
+  {
+    "route_id": "GAU-NAG",
+    "origin_name": "Guwahati",
+    "destination_name": "Nagpur",
+    "weight": 0.000393,
+    "base_price": 7369.55,
+    "latest_price": 7313.43,
+    "price_relative": 0.9924
+  },
+  {
+    "route_id": "AMD-IXB",
+    "origin_name": "Ahmedabad",
+    "destination_name": "Bagdogra",
+    "weight": 0.000389,
+    "base_price": 7949.34,
+    "latest_price": 7962.22,
+    "price_relative": 1.0016
+  },
+  {
+    "route_id": "TRV-IXM",
+    "origin_name": "Thiruvananthapuram",
+    "destination_name": "Madurai",
+    "weight": 0.000381,
+    "base_price": 2995.66,
+    "latest_price": 2917.53,
+    "price_relative": 0.9739
+  },
+  {
+    "route_id": "VTZ-RPR",
+    "origin_name": "Visakhapatnam",
+    "destination_name": "Raipur",
+    "weight": 0.000355,
+    "base_price": 3787.54,
+    "latest_price": 3829.11,
+    "price_relative": 1.011
+  },
+  {
+    "route_id": "GOI-SXR",
+    "origin_name": "Goa",
+    "destination_name": "Srinagar",
+    "weight": 0.000343,
+    "base_price": 9955.18,
+    "latest_price": 10094.17,
+    "price_relative": 1.014
+  },
+  {
+    "route_id": "IXC-RPR",
+    "origin_name": "Chandigarh",
+    "destination_name": "Raipur",
+    "weight": 0.00034,
+    "base_price": 6494.62,
+    "latest_price": 6903.78,
+    "price_relative": 1.063
+  },
+  {
+    "route_id": "VNS-IXB",
+    "origin_name": "Varanasi",
+    "destination_name": "Bagdogra",
+    "weight": 0.000338,
+    "base_price": 4379.17,
+    "latest_price": 4443.65,
+    "price_relative": 1.0147
+  },
+  {
+    "route_id": "IXC-IXR",
+    "origin_name": "Chandigarh",
+    "destination_name": "Ranchi",
+    "weight": 0.000337,
+    "base_price": 6531.93,
+    "latest_price": 6457.73,
+    "price_relative": 0.9886
+  },
+  {
+    "route_id": "GAU-VTZ",
+    "origin_name": "Guwahati",
+    "destination_name": "Visakhapatnam",
+    "weight": 0.000336,
+    "base_price": 6969.21,
+    "latest_price": 6984.16,
+    "price_relative": 1.0021
+  },
+  {
+    "route_id": "JAI-TRV",
+    "origin_name": "Jaipur",
+    "destination_name": "Thiruvananthapuram",
+    "weight": 0.000335,
+    "base_price": 9726.28,
+    "latest_price": 9665.27,
+    "price_relative": 0.9937
+  },
+  {
+    "route_id": "BBI-IXB",
+    "origin_name": "Bhubaneswar",
+    "destination_name": "Bagdogra",
+    "weight": 0.000334,
+    "base_price": 5074.81,
+    "latest_price": 5122.96,
+    "price_relative": 1.0095
+  },
+  {
+    "route_id": "VNS-VTZ",
+    "origin_name": "Varanasi",
+    "destination_name": "Visakhapatnam",
+    "weight": 0.00033,
+    "base_price": 5171.08,
+    "latest_price": 5222.73,
+    "price_relative": 1.01
+  },
+  {
+    "route_id": "VTZ-IXR",
+    "origin_name": "Visakhapatnam",
+    "destination_name": "Ranchi",
+    "weight": 0.000323,
+    "base_price": 4484.62,
+    "latest_price": 4536.48,
+    "price_relative": 1.0116
+  },
+  {
+    "route_id": "GAU-RPR",
+    "origin_name": "Guwahati",
+    "destination_name": "Raipur",
+    "weight": 0.00032,
+    "base_price": 6161.42,
+    "latest_price": 6092.18,
+    "price_relative": 0.9888
+  },
+  {
+    "route_id": "IDR-VTZ",
+    "origin_name": "Indore",
+    "destination_name": "Visakhapatnam",
+    "weight": 0.000317,
+    "base_price": 5753.44,
+    "latest_price": 5764.22,
+    "price_relative": 1.0019
+  },
+  {
+    "route_id": "GAU-IDR",
+    "origin_name": "Guwahati",
+    "destination_name": "Indore",
+    "weight": 0.000315,
+    "base_price": 8226.77,
+    "latest_price": 7789.67,
+    "price_relative": 0.9469
+  },
+  {
+    "route_id": "COK-IXR",
+    "origin_name": "Kochi",
+    "destination_name": "Ranchi",
+    "weight": 0.000314,
+    "base_price": 8808.3,
+    "latest_price": 9424.9,
+    "price_relative": 1.07
+  },
+  {
+    "route_id": "LKO-TRV",
+    "origin_name": "Lucknow",
+    "destination_name": "Thiruvananthapuram",
+    "weight": 0.000308,
+    "base_price": 9462.17,
+    "latest_price": 9484.02,
+    "price_relative": 1.0023
+  },
+  {
+    "route_id": "JAI-IXB",
+    "origin_name": "Jaipur",
+    "destination_name": "Bagdogra",
+    "weight": 0.000306,
+    "base_price": 6428.6,
+    "latest_price": 6404.53,
+    "price_relative": 0.9963
+  },
+  {
+    "route_id": "RPR-IXR",
+    "origin_name": "Raipur",
+    "destination_name": "Ranchi",
+    "weight": 0.000304,
+    "base_price": 3737.65,
+    "latest_price": 3695.52,
+    "price_relative": 0.9887
+  },
+  {
+    "route_id": "IXC-VTZ",
+    "origin_name": "Chandigarh",
+    "destination_name": "Visakhapatnam",
+    "weight": 0.000292,
+    "base_price": 7631.39,
+    "latest_price": 7537.3,
+    "price_relative": 0.9877
+  },
+  {
+    "route_id": "TRV-NAG",
+    "origin_name": "Thiruvananthapuram",
+    "destination_name": "Nagpur",
+    "weight": 0.000289,
+    "base_price": 7606.06,
+    "latest_price": 7544.25,
+    "price_relative": 0.9919
+  },
+  {
+    "route_id": "PAT-SXR",
+    "origin_name": "Patna",
+    "destination_name": "Srinagar",
+    "weight": 0.000287,
+    "base_price": 6928.68,
+    "latest_price": 6860.0,
+    "price_relative": 0.9901
+  },
+  {
+    "route_id": "BBI-TRV",
+    "origin_name": "Bhubaneswar",
+    "destination_name": "Thiruvananthapuram",
+    "weight": 0.000282,
+    "base_price": 7989.3,
+    "latest_price": 7878.6,
+    "price_relative": 0.9861
+  },
+  {
+    "route_id": "IXC-IXB",
+    "origin_name": "Chandigarh",
+    "destination_name": "Bagdogra",
+    "weight": 0.000273,
+    "base_price": 6498.14,
+    "latest_price": 6572.99,
+    "price_relative": 1.0115
+  },
+  {
+    "route_id": "IDR-IXR",
+    "origin_name": "Indore",
+    "destination_name": "Ranchi",
+    "weight": 0.000265,
+    "base_price": 5655.19,
+    "latest_price": 5649.0,
+    "price_relative": 0.9989
+  },
+  {
+    "route_id": "GOI-IXB",
+    "origin_name": "Goa",
+    "destination_name": "Bagdogra",
+    "weight": 0.000259,
+    "base_price": 8901.61,
+    "latest_price": 8807.02,
+    "price_relative": 0.9894
+  },
+  {
+    "route_id": "TRV-VTZ",
+    "origin_name": "Thiruvananthapuram",
+    "destination_name": "Visakhapatnam",
+    "weight": 0.000259,
+    "base_price": 6831.54,
+    "latest_price": 6891.94,
+    "price_relative": 1.0088
+  },
+  {
+    "route_id": "IXR-IXB",
+    "origin_name": "Ranchi",
+    "destination_name": "Bagdogra",
+    "weight": 0.000254,
+    "base_price": 4001.09,
+    "latest_price": 4031.48,
+    "price_relative": 1.0076
+  },
+  {
+    "route_id": "TRV-IDR",
+    "origin_name": "Thiruvananthapuram",
+    "destination_name": "Indore",
+    "weight": 0.000244,
+    "base_price": 7667.21,
+    "latest_price": 7659.26,
+    "price_relative": 0.999
+  },
+  {
+    "route_id": "COK-SXR",
+    "origin_name": "Kochi",
+    "destination_name": "Srinagar",
+    "weight": 0.000241,
+    "base_price": 11840.43,
+    "latest_price": 11903.24,
+    "price_relative": 1.0053
+  },
+  {
+    "route_id": "IXC-TRV",
+    "origin_name": "Chandigarh",
+    "destination_name": "Thiruvananthapuram",
+    "weight": 0.000241,
+    "base_price": 10928.27,
+    "latest_price": 11009.7,
+    "price_relative": 1.0075
+  },
+  {
+    "route_id": "IDR-SXR",
+    "origin_name": "Indore",
+    "destination_name": "Srinagar",
+    "weight": 0.00024,
+    "base_price": 6928.5,
+    "latest_price": 6649.96,
+    "price_relative": 0.9598
+  },
+  {
+    "route_id": "PAT-TRV",
+    "origin_name": "Patna",
+    "destination_name": "Thiruvananthapuram",
+    "weight": 0.00024,
+    "base_price": 9410.85,
+    "latest_price": 9301.84,
+    "price_relative": 0.9884
+  },
+  {
+    "route_id": "GAU-SXR",
+    "origin_name": "Guwahati",
+    "destination_name": "Srinagar",
+    "weight": 0.000232,
+    "base_price": 8699.24,
+    "latest_price": 8589.99,
+    "price_relative": 0.9874
+  },
+  {
+    "route_id": "VNS-SXR",
+    "origin_name": "Varanasi",
+    "destination_name": "Srinagar",
+    "weight": 0.000231,
+    "base_price": 6567.34,
+    "latest_price": 7248.5,
+    "price_relative": 1.1037
+  },
+  {
+    "route_id": "GAU-TRV",
+    "origin_name": "Guwahati",
+    "destination_name": "Thiruvananthapuram",
+    "weight": 0.000219,
+    "base_price": 11137.1,
+    "latest_price": 11222.86,
+    "price_relative": 1.0077
+  },
+  {
+    "route_id": "NAG-SXR",
+    "origin_name": "Nagpur",
+    "destination_name": "Srinagar",
+    "weight": 0.000214,
+    "base_price": 7685.59,
+    "latest_price": 7601.52,
+    "price_relative": 0.9891
+  },
+  {
+    "route_id": "COK-IXB",
+    "origin_name": "Kochi",
+    "destination_name": "Bagdogra",
+    "weight": 0.000205,
+    "base_price": 10497.75,
+    "latest_price": 10427.8,
+    "price_relative": 0.9933
+  },
+  {
+    "route_id": "NAG-IXB",
+    "origin_name": "Nagpur",
+    "destination_name": "Bagdogra",
+    "weight": 0.000202,
+    "base_price": 6465.08,
+    "latest_price": 6512.56,
+    "price_relative": 1.0073
+  },
+  {
+    "route_id": "JAI-IXM",
+    "origin_name": "Jaipur",
+    "destination_name": "Madurai",
+    "weight": 0.0002,
+    "base_price": 8800.5,
+    "latest_price": 8889.77,
+    "price_relative": 1.0101
+  },
+  {
+    "route_id": "BBI-SXR",
+    "origin_name": "Bhubaneswar",
+    "destination_name": "Srinagar",
+    "weight": 0.000189,
+    "base_price": 8612.62,
+    "latest_price": 8632.47,
+    "price_relative": 1.0023
+  },
+  {
+    "route_id": "LKO-IXM",
+    "origin_name": "Lucknow",
+    "destination_name": "Madurai",
+    "weight": 0.000186,
+    "base_price": 8846.67,
+    "latest_price": 8961.84,
+    "price_relative": 1.013
+  },
+  {
+    "route_id": "TRV-VNS",
+    "origin_name": "Thiruvananthapuram",
+    "destination_name": "Varanasi",
+    "weight": 0.000184,
+    "base_price": 9232.42,
+    "latest_price": 9322.99,
+    "price_relative": 1.0098
+  },
+  {
+    "route_id": "NAG-IXM",
+    "origin_name": "Nagpur",
+    "destination_name": "Madurai",
+    "weight": 0.000182,
+    "base_price": 6622.79,
+    "latest_price": 6671.38,
+    "price_relative": 1.0073
+  },
+  {
+    "route_id": "TRV-RPR",
+    "origin_name": "Thiruvananthapuram",
+    "destination_name": "Raipur",
+    "weight": 0.000182,
+    "base_price": 7444.2,
+    "latest_price": 6863.71,
+    "price_relative": 0.922
+  },
+  {
+    "route_id": "BBI-IXM",
+    "origin_name": "Bhubaneswar",
+    "destination_name": "Madurai",
+    "weight": 0.000178,
+    "base_price": 7614.25,
+    "latest_price": 7605.28,
+    "price_relative": 0.9988
+  },
+  {
+    "route_id": "VTZ-IXM",
+    "origin_name": "Visakhapatnam",
+    "destination_name": "Madurai",
+    "weight": 0.000171,
+    "base_price": 5922.9,
+    "latest_price": 6010.63,
+    "price_relative": 1.0148
+  },
+  {
+    "route_id": "RPR-IXB",
+    "origin_name": "Raipur",
+    "destination_name": "Bagdogra",
+    "weight": 0.000168,
+    "base_price": 5467.46,
+    "latest_price": 5465.6,
+    "price_relative": 0.9997
+  },
+  {
+    "route_id": "IDR-IXB",
+    "origin_name": "Indore",
+    "destination_name": "Bagdogra",
+    "weight": 0.000161,
+    "base_price": 6989.89,
+    "latest_price": 6891.53,
+    "price_relative": 0.9859
+  },
+  {
+    "route_id": "VTZ-IXB",
+    "origin_name": "Visakhapatnam",
+    "destination_name": "Bagdogra",
+    "weight": 0.000158,
+    "base_price": 6363.61,
+    "latest_price": 6272.02,
+    "price_relative": 0.9856
+  },
+  {
+    "route_id": "IDR-IXM",
+    "origin_name": "Indore",
+    "destination_name": "Madurai",
+    "weight": 0.000148,
+    "base_price": 7414.63,
+    "latest_price": 7434.76,
+    "price_relative": 1.0027
+  },
+  {
+    "route_id": "PAT-IXM",
+    "origin_name": "Patna",
+    "destination_name": "Madurai",
+    "weight": 0.000147,
+    "base_price": 8688.64,
+    "latest_price": 8589.46,
+    "price_relative": 0.9886
+  },
+  {
+    "route_id": "TRV-IXR",
+    "origin_name": "Thiruvananthapuram",
+    "destination_name": "Ranchi",
+    "weight": 0.000146,
+    "base_price": 9152.96,
+    "latest_price": 9198.28,
+    "price_relative": 1.005
+  },
+  {
+    "route_id": "IXC-IXM",
+    "origin_name": "Chandigarh",
+    "destination_name": "Madurai",
+    "weight": 0.000142,
+    "base_price": 10494.25,
+    "latest_price": 10606.35,
+    "price_relative": 1.0107
+  },
+  {
+    "route_id": "SXR-IXR",
+    "origin_name": "Srinagar",
+    "destination_name": "Ranchi",
+    "weight": 0.000136,
+    "base_price": 7731.47,
+    "latest_price": 7829.11,
+    "price_relative": 1.0126
+  },
+  {
+    "route_id": "SXR-RPR",
+    "origin_name": "Srinagar",
+    "destination_name": "Raipur",
+    "weight": 0.000135,
+    "base_price": 7696.1,
+    "latest_price": 7805.99,
+    "price_relative": 1.0143
+  },
+  {
+    "route_id": "GAU-IXM",
+    "origin_name": "Guwahati",
+    "destination_name": "Madurai",
+    "weight": 0.000132,
+    "base_price": 10878.01,
+    "latest_price": 10948.71,
+    "price_relative": 1.0065
+  },
+  {
+    "route_id": "VTZ-SXR",
+    "origin_name": "Visakhapatnam",
+    "destination_name": "Srinagar",
+    "weight": 0.000125,
+    "base_price": 9207.05,
+    "latest_price": 9225.92,
+    "price_relative": 1.002
+  },
+  {
+    "route_id": "SXR-IXB",
+    "origin_name": "Srinagar",
+    "destination_name": "Bagdogra",
+    "weight": 0.000116,
+    "base_price": 8009.53,
+    "latest_price": 8028.52,
+    "price_relative": 1.0024
+  },
+  {
+    "route_id": "RPR-IXM",
+    "origin_name": "Raipur",
+    "destination_name": "Madurai",
+    "weight": 0.000115,
+    "base_price": 7126.07,
+    "latest_price": 6713.69,
+    "price_relative": 0.9421
+  },
+  {
+    "route_id": "TRV-SXR",
+    "origin_name": "Thiruvananthapuram",
+    "destination_name": "Srinagar",
+    "weight": 0.000112,
+    "base_price": 12015.39,
+    "latest_price": 13195.71,
+    "price_relative": 1.0982
+  },
+  {
+    "route_id": "VNS-IXM",
+    "origin_name": "Varanasi",
+    "destination_name": "Madurai",
+    "weight": 0.000112,
+    "base_price": 8664.23,
+    "latest_price": 8787.63,
+    "price_relative": 1.0142
+  },
+  {
+    "route_id": "TRV-IXB",
+    "origin_name": "Thiruvananthapuram",
+    "destination_name": "Bagdogra",
+    "weight": 9.7e-05,
+    "base_price": 10894.94,
+    "latest_price": 11021.03,
+    "price_relative": 1.0116
+  },
+  {
+    "route_id": "IXR-IXM",
+    "origin_name": "Ranchi",
+    "destination_name": "Madurai",
+    "weight": 9e-05,
+    "base_price": 8339.63,
+    "latest_price": 8435.6,
+    "price_relative": 1.0115
+  },
+  {
+    "route_id": "SXR-IXM",
+    "origin_name": "Srinagar",
+    "destination_name": "Madurai",
+    "weight": 6.6e-05,
+    "base_price": 12053.16,
+    "latest_price": 11947.06,
+    "price_relative": 0.9912
+  },
+  {
+    "route_id": "IXM-IXB",
+    "origin_name": "Madurai",
+    "destination_name": "Bagdogra",
+    "weight": 5.9e-05,
+    "base_price": 9987.32,
+    "latest_price": 9892.0,
+    "price_relative": 0.9905
+  }
+]

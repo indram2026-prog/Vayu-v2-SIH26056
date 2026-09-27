@@ -1,0 +1,51 @@
+{
+  "searchId": "abc123",
+  "results": {
+    "flights": [
+      {
+        "flightNumber": "6E-2341",
+        "marketingCarrier": "IndiGo",
+        "fareDetails": {
+          "totalFare": 6289,
+          "currency": "INR"
+        }
+      },
+      {
+        "flightNumber": "AI-887",
+        "airlineName": "Air India",
+        "fareDetails": {
+          "totalFare": "₹7,540",
+          "currency": "INR"
+        }
+      },
+      {
+        "flightNumber": "6E-2341",
+        "marketingCarrier": "IndiGo",
+        "fareDetails": {
+          "totalFare": 6289,
+          "currency": "INR"
+        }
+      },
+      {
+        "flightNumber": "UK-955",
+        "marketingCarrier": "Vistara",
+        "baggageInfo": {
+          "amount": 15,
+          "unit": "kg"
+        }
+      },
+      {
+        "flightNumber": "SG-101",
+        "marketingCarrier": "SpiceJet",
+        "fareDetails": {
+          "totalFare": 45,
+          "currency": "INR"
+        }
+      }
+    ],
+    "meta": {
+      "amount": 5,
+      "note": "unrelated numeric field named 'amount', not a fare"
+    }
+  }
+}

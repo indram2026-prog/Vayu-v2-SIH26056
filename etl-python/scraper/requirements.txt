@@ -1,0 +1,8 @@
+# Install with: pip install -r requirements.txt
+# Then (one-time, downloads a real Chromium build): scrapling install
+
+scrapling>=0.3
+
+# scrapling's browser fetchers (StealthyFetcher, DynamicFetcher) run on
+# Playwright under the hood. `scrapling install` handles the browser
+# download; you do not need to separately `pip install playwright`.
