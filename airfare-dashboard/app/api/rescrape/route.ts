@@ -1,12 +1,14 @@
 import { NextResponse } from "next/server";
 
-// Triggers the etl-python pipeline's "quick" mode (top-20 routes, ~a few
-// minutes) as a REAL live re-scrape — via GitHub Actions' workflow_dispatch
-// API, because that's the one place in this whole architecture that CAN
-// actually run Scrapling's real headless browser: Vercel's serverless
-// functions can't (no browser binary, ~60s execution ceiling, no
-// persistent process). See DEPLOY_GUIDE.md, "Why GitHub Actions" for the
-// full reasoning.
+// Triggers the etl-python pipeline via GitHub Actions' workflow_dispatch API,
+// because that's the one place in this architecture that can actually run
+// Scrapling's real headless browser: Vercel's serverless functions can't (no
+// browser binary, ~60s execution ceiling, no persistent process). See
+// DEPLOY_GUIDE.md, "Why GitHub Actions" for the full reasoning.
+//
+// Accepts an optional { mode: "quick" | "full" } JSON body from the caller.
+// "quick" (default) scrapes the top 20 routes (a few minutes). "full"
+// scrapes all 325 routes (can take a couple of hours).
 //
 // Needs three env vars set in Vercel (Project Settings -> Environment
 // Variables), none of which are ever sent to the browser:
@@ -14,11 +16,15 @@ import { NextResponse } from "next/server";
 //                         "Actions: write" permission
 //   GITHUB_REPO           "your-username/your-repo"
 //   GITHUB_WORKFLOW_FILE  defaults to "scrape.yml" if unset
-export async function POST() {
+export async function POST(request: Request) {
   const token = process.env.GITHUB_TOKEN;
   const repo = process.env.GITHUB_REPO;
   const workflowFile = process.env.GITHUB_WORKFLOW_FILE || "scrape.yml";
   const ref = process.env.GITHUB_REF || "main";
+
+  const body = await request.json().catch(() => ({}));
+  const mode = body?.mode === "full" ? "full" : "quick";
+  const top = mode === "full" ? "325" : "20";
 
   if (!token || !repo) {
     return NextResponse.json(
@@ -42,7 +48,7 @@ export async function POST() {
       },
       body: JSON.stringify({
         ref,
-        inputs: { mode: "quick", top: "20" },
+        inputs: { mode, top },
       }),
     }
   );
@@ -55,5 +61,5 @@ export async function POST() {
     );
   }
 
-  return NextResponse.json({ queued: true });
+  return NextResponse.json({ queued: true, mode });
 }
