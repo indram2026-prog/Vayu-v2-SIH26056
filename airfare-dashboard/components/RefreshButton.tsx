@@ -5,7 +5,8 @@ import { useSWRConfig } from "swr";
 import { IndexPayload, ScrapeRunStatus } from "@/lib/types";
 
 const POLL_INTERVAL_MS = 5000;
-const POLL_TIMEOUT_MS = 6 * 60 * 1000; // a "quick" (top-20) pipeline run is a few minutes; give it 6 before giving up
+const POLL_TIMEOUT_MS_QUICK = 6 * 60 * 1000; // a "quick" (top-20) pipeline run is a few minutes; give it 6 before giving up
+const POLL_TIMEOUT_MS_FULL = 3 * 60 * 60 * 1000; // a "full" (325-route) run can take a couple of hours; give it 3 before giving up
 
 type ScrapeState = "idle" | "queuing" | "running" | "completed" | "failed" | "unconfigured";
 
@@ -23,11 +24,6 @@ export function RefreshButton() {
     };
   }, []);
 
-  // The "instant" refresh: re-fetch the latest committed numbers from
-  // Supabase right now, bypassing the 5-minute HTTP cache (?fresh=1 — see
-  // app/api/index-data/route.ts). This does NOT scrape anything new; it
-  // just guarantees you're looking at the most recent number the pipeline
-  // has already computed, which is instant and fully Vercel-native.
   async function refreshFromSupabase() {
     setIsRefreshing(true);
     try {
@@ -80,10 +76,14 @@ export function RefreshButton() {
     }
   }
 
-  async function runLiveScrape() {
+  async function runLiveScrape(mode: "quick" | "full") {
     setScrapeState("queuing");
-    setMessage("Queuing a live scrape…");
-    const res = await fetch("/api/rescrape", { method: "POST" });
+    setMessage(mode === "full" ? "Queuing a full 325-route scrape…" : "Queuing a live scrape…");
+    const res = await fetch("/api/rescrape", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ mode }),
+    });
     const body = await res.json();
 
     if (!body.queued) {
@@ -93,8 +93,8 @@ export function RefreshButton() {
     }
 
     setScrapeState("running");
-    setMessage("Scrape queued — this can take a few minutes.");
-    pollDeadline.current = Date.now() + POLL_TIMEOUT_MS;
+    setMessage(mode === "full" ? "Full scrape queued — this can take a couple of hours." : "Scrape queued — this can take a few minutes.");
+    pollDeadline.current = Date.now() + (mode === "full" ? POLL_TIMEOUT_MS_FULL : POLL_TIMEOUT_MS_QUICK);
     pollTimer.current = setInterval(pollOnce, POLL_INTERVAL_MS);
   }
 
@@ -111,12 +111,20 @@ export function RefreshButton() {
           {isRefreshing ? "Refreshing…" : "Refresh"}
         </button>
         <button
-          onClick={runLiveScrape}
+          onClick={() => runLiveScrape("quick")}
           disabled={isBusy}
           title="Kicks off a real scrape of the top 20 routes right now (takes a few minutes)"
           className="rounded-md border border-line px-2.5 py-1 text-xs font-medium hover:border-accent disabled:opacity-50 dark:border-line-dark dark:hover:border-accent-dark"
         >
           {isBusy ? "Scraping…" : "Run live scrape"}
+        </button>
+        <button
+          onClick={() => runLiveScrape("full")}
+          disabled={isBusy}
+          title="Scrapes all 325 routes — takes a couple of hours"
+          className="rounded-md border border-line px-2.5 py-1 text-xs font-medium hover:border-accent disabled:opacity-50 dark:border-line-dark dark:hover:border-accent-dark"
+        >
+          {isBusy ? "Scraping…" : "Run full scrape"}
         </button>
       </div>
       {message && (
