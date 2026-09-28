@@ -17,7 +17,7 @@ const publicSans = Public_Sans({
 
 export const metadata: Metadata = {
   title: "India Real-Time Airfare Price Index",
-  description: "MoSPI SIH26056: real-time airfare price index feeding the CPI Transport and Communication sub-index.",
+  description: "Real-time route-level airfare price index for India's domestic routes.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
