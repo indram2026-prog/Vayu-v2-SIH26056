@@ -16,7 +16,7 @@ name: Scrape airfares and update index
 
 on:
   schedule:
-    # 03:00 UTC = 08:30 IST — off-peak for both this job and the sites it
+    # 03:17 UTC = 08:47 IST — off-peak for both this job and the sites it
     # scrapes. Cron minute deliberately not :00 (avoids the exact top of
     # the hour, when a large fraction of ALL scheduled GitHub Actions across
     # every repo fire at once and queueing gets slower).
