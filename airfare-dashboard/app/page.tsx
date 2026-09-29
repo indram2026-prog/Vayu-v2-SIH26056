@@ -42,13 +42,13 @@ export default function Page() {
   const dayDelta = latest.index_value - prev.index_value;
   const isReviewed = data.reviewed_dates.includes(latest.observation_date);
 
-  return (
+    return (
     <main className="mx-auto max-w-2xl px-5 py-10">
       <header className="mb-8">
         <h1 className="text-2xl font-semibold leading-snug">India Real-Time Airfare Price Index</h1>
         <p className="mt-2 text-sm leading-relaxed text-muted dark:text-muted-dark">
           A weighted composite of {data.route_detail_latest.length} domestic sectors across India&apos;s
-          major airports, economy cabin, drawn from four advance-purchase windows and four sources.
+          major airports, economy cabin, drawn from one live source, one advance-purchase window.
           {data.served_from === "sample" && " Running on sample data — connect Supabase for live figures."}
         </p>
       </header>
