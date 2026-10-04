@@ -1,16 +1,21 @@
-# Ethical scraping and compliance policy
+# Responsible data collection policy
 
-SIH26056 requires that collection from airline sites and OTAs stays compliant with each source's robots.txt and terms of service. This is how Vayu applies that.
+Vayu collects public airfare data from airline and travel sites. This is a prototype, and this note states plainly what we do and what we do not claim.
 
-## Rules
+## Our position
 
-1. **Check before you fetch.** `etl-python/scraper/robots_guard.py` implements the RFC 9309 matching rules (user-agent groups, `*` and `$` wildcards, longest-match, Allow wins ties). A URL that robots.txt disallows for our user agent is not fetched.
-2. **Fail closed.** If a site's robots.txt cannot be read (5xx, 429, network error) access is treated as not confirmed. A missing robots.txt (404) means no restriction was published.
-3. **A source is added only after review.** Candidate OTAs are tracked in `ota_candidates.py` with their status. None can be promoted to a runnable target while blocked or unchecked.
-4. **Be gentle.** One request at a time, a delay between requests, bounded retries, a modest daily volume. Honour any `Crawl-delay`.
-5. **Identify ourselves.** Use a stable, descriptive user agent for sources that permit access.
-6. **Prefer allowed channels.** Airline pages and endpoints that robots.txt allows, official APIs, and published statistics (for example DGCA) over anything restricted.
-7. **Record decisions.** Each source's outcome and the date checked are kept in the repo, so the choices are auditable.
+- **robots.txt is respected.** It is a published, machine-readable instruction from the site owner, and the problem statement names it explicitly. A URL that robots.txt disallows for our user agent is not fetched.
+- **Terms of service are acknowledged as a limitation.** Most large travel sites restrict automated access in their terms. A scraper cannot be fully ToS-clean, and we do not claim it is. Production use would move to licensed data, official APIs or data-sharing agreements with the airlines and OTAs.
+- **No circumvention of access controls.** We do not solve or defeat CAPTCHAs, use logins or accounts, or use proxy networks to evade blocks. If a site blocks automated access, we drop that source rather than escalate.
+
+## Practices
+
+1. **Check before you fetch.** `etl-python/scraper/robots_guard.py` implements the RFC 9309 matching rules (user-agent groups, `*` and `$` wildcards, longest match, Allow wins ties).
+2. **Fail closed.** If robots.txt cannot be read (5xx, 429, network error), access is treated as not confirmed. A missing robots.txt (404) means no restriction was published.
+3. **Review before adding a source.** Candidate sources are tracked in `ota_candidates.py` with their status. A blocked or unchecked source cannot be promoted to a runnable target.
+4. **Low volume.** One request at a time, a delay between requests, bounded retries, a modest number of routes per day. Honour any `Crawl-delay`.
+5. **Prefer allowed channels.** Airline pages and endpoints that robots.txt allows, then official APIs and published statistics (for example DGCA data), over anything restricted.
+6. **Record decisions.** Each source's status and the date it was checked are kept in the repo.
 
 ## Source status
 
@@ -19,8 +24,8 @@ SIH26056 requires that collection from airline sites and OTAs stays compliant wi
 | Ixigo | Not scraped | robots.txt disallows `/flights/search`, `/search/result/`, `/flights/review`, `/api/` for all bots (checked 2026-10-04 from a search-result excerpt; re-verify directly). |
 | EaseMyTrip | Pending | robots.txt not yet read for fare paths. |
 | Cleartrip | Pending | robots.txt not yet read for fare paths. |
-| MakeMyTrip | Not pursued | Actively blocks automated browsers. |
-| Google Flights | Needs review | Google's Terms of Service prohibit automated access in violation of machine-readable instructions such as robots.txt. Review before relying on it as a primary source. |
+| MakeMyTrip | Not pursued | Blocks automated browsers. |
+| Google Flights | Used in the scheduled run | Its terms restrict automated access; this is a known prototype limitation. Its robots.txt rules for the Flights paths should be verified, and the source replaced for production. |
 
 ## Check a source
 
