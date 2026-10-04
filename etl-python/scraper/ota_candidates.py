@@ -42,11 +42,29 @@ OTA_CANDIDATES: dict[str, dict] = {
         ),
     },
     "cleartrip": {
+        "status": "blocked_by_robots",
+        "checked": "2026-10-04",
+        "source": "https://www.cleartrip.com/robots.txt (read directly, HTTP 200)",
+        "evidence": [
+            "Disallow: /flights/search*",
+            "Disallow: /api/",
+            "Disallow: /flights/results/itinerary/loading*",
+        ],
+        "decision": "Not scraped. Flight search and API paths are disallowed for User-agent: *.",
+    },
+    "easemytrip_note": {
+        "status": "dropped_by_team",
+        "checked": "2026-10-04",
+        "source": "team decision",
+        "evidence": ["Date-calendar UI needs browser automation; same obstacle as Air India."],
+        "decision": "Not pursued for now. robots.txt itself does not block the expected paths.",
+    },
+    "yatra": {
         "status": "pending_robots_check",
         "checked": None,
-        "source": "https://www.cleartrip.com/robots.txt",
-        "evidence": [],
-        "decision": "Same as easemytrip: check first.",
+        "source": "https://www.yatra.com/robots.txt",
+        "evidence": ["Could not be fetched from the test environment; check from a normal connection."],
+        "decision": "No scraping until robots.txt is read.",
     },
 }
 
