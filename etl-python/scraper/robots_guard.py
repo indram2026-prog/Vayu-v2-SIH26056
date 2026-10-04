@@ -207,9 +207,12 @@ def main(argv: "Optional[list[str]]" = None) -> int:
     status, body = _default_fetcher(origin + "/robots.txt")
     host = urllib.parse.urlsplit(origin).netloc.replace(":", "_")
     if body:
-        with open(f"robots_{host}.txt", "w", encoding="utf-8") as fh:
-            fh.write(body)
-        print(f"saved robots_{host}.txt (HTTP {status})")
+        try:
+            with open(f"robots_{host}.txt", "w", encoding="utf-8") as fh:
+                fh.write(body)
+            print(f"saved robots_{host}.txt (HTTP {status})")
+        except OSError as exc:  # unwritable folder must not stop the check itself
+            print(f"fetched robots.txt (HTTP {status}) but could not save it: {exc}")
     else:
         print(f"could not read robots.txt (HTTP {status})")
     for item in args[1:]:

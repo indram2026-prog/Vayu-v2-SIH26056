@@ -27,11 +27,19 @@ OTA_CANDIDATES: dict[str, dict] = {
         "decision": "Not scraped. The fare search pages and API paths are disallowed for User-agent: *.",
     },
     "easemytrip": {
-        "status": "pending_robots_check",
-        "checked": None,
-        "source": "https://www.easemytrip.com/robots.txt",
-        "evidence": [],
-        "decision": "No scraping until robots.txt and terms are read and the fare paths are confirmed allowed.",
+        "status": "robots_checked_fare_path_unconfirmed",
+        "checked": "2026-10-04",
+        "source": "https://www.easemytrip.com/robots.txt and https://flight.easemytrip.com/robots.txt (both read directly, HTTP 200)",
+        "evidence": [
+            "www host: Disallow: /flight-search/listing*, /cheap_flights/, /cheap-flights/, /international_airlines/",
+            "flight host: Disallow: /cheap_flights/, /cheap-flights/, /international_airlines/ (no rule on the search/listing paths)",
+        ],
+        "decision": (
+            "Not blocked for the paths we expect, but the real search-results and fare "
+            "request paths have not been captured yet. Capture them with a manual search "
+            "(browser DevTools Network tab), re-run robots_guard on those exact paths, "
+            "then build the target."
+        ),
     },
     "cleartrip": {
         "status": "pending_robots_check",

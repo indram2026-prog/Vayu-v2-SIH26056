@@ -22,7 +22,7 @@ Vayu collects public airfare data from airline and travel sites. This is a proto
 | Source | Status | Notes |
 |---|---|---|
 | Ixigo | Not scraped | robots.txt disallows `/flights/search`, `/search/result/`, `/flights/review`, `/api/` for all bots (checked 2026-10-04 from a search-result excerpt; re-verify directly). |
-| EaseMyTrip | Pending | robots.txt not yet read for fare paths. |
+| EaseMyTrip | robots.txt checked | Read directly on 2026-10-04 (evidence in `docs/evidence/`). Disallows `/flight-search/listing*`, `/cheap_flights/`, `/cheap-flights/` on the main host; the `flight.` host has no rule on search paths. The real fare request paths still need to be captured and re-checked before building. |
 | Cleartrip | Pending | robots.txt not yet read for fare paths. |
 | MakeMyTrip | Not pursued | Blocks automated browsers. |
 | Google Flights | Used in the scheduled run | Its terms restrict automated access; this is a known prototype limitation. Its robots.txt rules for the Flights paths should be verified, and the source replaced for production. |
