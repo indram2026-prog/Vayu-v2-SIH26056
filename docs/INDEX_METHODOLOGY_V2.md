@@ -35,6 +35,17 @@ Reads a CSV you supply (`origin,destination,passengers`), combines both directio
 
 Inputs: `date,index_value` and `month,avg_fare` (YYYY-MM). Both are rebased to the first shared month. The report gives mean absolute error of the rebased levels, correlation (3+ months), month-over-month direction agreement, and whether 30 days of index data exist. With one shared month it says so and reports no statistic. No DGCA numbers are included.
 
+## 6. Running it in the pipeline (`scraper/chained_runner.py`)
+
+After the normal push, `run_pipeline.py` makes one guarded call that computes the chained index for the day and upserts it into `daily_index_chained`. It never raises: if the table is missing or Supabase fails, it prints a warning and the main index is unaffected.
+
+To enable it, run `etl-python/migrations/001_fare_components.sql` once in the Supabase SQL editor. The chained series starts the first day there is a previous scraped day to compare with (base 100) and then chains forward. Only freshly scraped routes count; carried-forward "sample" prices are not observations.
+
+Export a series for the back-test:
+
+    python -m scraper.chained_runner export index.csv
+    python -m scraper.backtest index.csv dgca_monthly.csv
+
 ## Honest limits
 
 - Needs data you supply: DGCA traffic and DGCA monthly average fares.

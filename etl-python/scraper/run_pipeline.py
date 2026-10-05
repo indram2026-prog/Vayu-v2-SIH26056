@@ -176,6 +176,9 @@ def main() -> None:
                 coverage_weight_pct=result.coverage_weight_pct,
             )
             print("Pushed to Supabase: daily_index + route_daily_detail updated, scrape_runs marked completed.")
+            # Best-effort side index (never raises): matched-model chained index.
+            from .chained_runner import try_update_chained
+            try_update_chained(supabase_url, supabase_key, result)
 
     except Exception as exc:  # noqa: BLE001 — make sure a failed run is visible in scrape_runs, not just a dead CI job
         if push and run_id is not None:
